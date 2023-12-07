@@ -32,14 +32,10 @@ ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=0
-ConstraintManagerFlow=0
 IsVirtualBomDocumentRemoved=0
 OutputPath=
 LogFolderPath=
-ManagedProjectGUID=DA67DDF4-B34F-4CCF-8C5F-D5E0B9A2C54E
-VaultGUID=ACB1FAED-4C43-4E35-BAA2-3BF07840D972
-ReleaseVaultName=NewAE Technology
-ItemGUID=DA67DDF4-B34F-4CCF-8C5F-D5E0B9A2C54E
+ManagedProjectGUID=
 IncludeDesignInRelease=0
 CrossRefSheetStyle=1
 CrossRefLocationStyle=1
@@ -488,28 +484,112 @@ Variation1=Designator=J4|UniqueId=\XWTBMGKN|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [GeneratedDocument1]
+DocumentPath=Project Outputs for sonata-board\NC Drill\cheriot-test-RoundHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for sonata-board\NC Drill\cheriot-test-SlotHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for sonata-board\NC Drill\cheriot-test.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for sonata-board\Gerber\cheriot-test.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for sonata-board\Gerber\cheriot-test.G1
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for sonata-board\Gerber\cheriot-test.G2
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for sonata-board\Gerber\cheriot-test.G3
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for sonata-board\Gerber\cheriot-test.G4
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for sonata-board\Gerber\cheriot-test.G5
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for sonata-board\Gerber\cheriot-test.G6
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for sonata-board\Gerber\cheriot-test.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for sonata-board\Gerber\cheriot-test.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for sonata-board\Gerber\cheriot-test.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for sonata-board\Gerber\cheriot-test.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for sonata-board\Gerber\cheriot-test.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for sonata-board\Gerber\cheriot-test.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for sonata-board\Gerber\cheriot-test.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for sonata-board\Gerber\cheriot-test.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for sonata-board\Gerber\cheriot-test.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for sonata-board\NC Drill\cheriot-test.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for sonata-board\Gerber\cheriot-test.REP
+DItemRevisionGUID=
+
+[GeneratedDocument22]
 DocumentPath=Project Outputs for sonata-board\Design Rule Check - cheriot-test.html
 DItemRevisionGUID=
 
 [Parameter1]
-Name=documentnumber
-Value= 
+Name=revision
+Value=
 
 [Parameter2]
-Name=revision
-Value= 
+Name=PrjRev
+Value=02
 
 [Parameter3]
-Name=PrjRev
-Value=01
-
-[Parameter4]
 Name=PrjName
 Value=Sonata
 
-[Parameter5]
+[Parameter4]
 Name=PrjLicense
 Value=CC-SA
+
+[Parameter5]
+Name=documentnumber
+Value=
 
 [Configuration1]
 Name=Sources
@@ -631,16 +711,6 @@ OutputName21=Mixed Sim Netlist
 OutputDocumentPath21=
 OutputVariantName21=
 OutputDefault21=0
-OutputType22=SIMetrixNetlist
-OutputName22=SIMetrix
-OutputDocumentPath22=
-OutputVariantName22=
-OutputDefault22=0
-OutputType23=SIMPLISNetlist
-OutputName23=SIMPLIS
-OutputDocumentPath23=
-OutputVariantName23=
-OutputDefault23=0
 
 [OutputGroup2]
 Name=Simulator Outputs
@@ -652,16 +722,6 @@ OutputName1=Mixed Sim
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
-OutputType2=SIMetrixSimulation
-OutputName2=SIMetrix
-OutputDocumentPath2=
-OutputVariantName2=
-OutputDefault2=0
-OutputType3=SIMPLISSimulation
-OutputName3=SIMPLIS
-OutputDocumentPath3=
-OutputVariantName3=
-OutputDefault3=0
 
 [OutputGroup3]
 Name=Documentation Outputs
