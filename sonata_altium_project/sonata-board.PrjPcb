@@ -572,23 +572,23 @@ DocumentPath=Project Outputs for sonata-board\Design Rule Check - cheriot-test.h
 DItemRevisionGUID=
 
 [Parameter1]
-Name=revision
+Name=documentnumber
 Value=
 
 [Parameter2]
-Name=PrjRev
-Value=02
+Name=PrjLicense
+Value=CC-SA
 
 [Parameter3]
 Name=PrjName
 Value=Sonata
 
 [Parameter4]
-Name=PrjLicense
-Value=CC-SA
+Name=PrjRev
+Value=02
 
 [Parameter5]
-Name=documentnumber
+Name=revision
 Value=
 
 [Configuration1]
