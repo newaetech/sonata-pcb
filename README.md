@@ -21,4 +21,4 @@ Unless otherwise noted, everything in the repository is covered by the [Apache L
 
 ## PCB Status
 
-The board is currently UNTESTED. Gerbers are available but not recommended until some smoke tests are done! Expect this to be updated early 2024 with stauts & potentially updated design files once this is done!
+Rev0.2 Gerbers are available but not recommended until more tests are done! See the issues tab for known problems with the PCB, of which there are a few.
