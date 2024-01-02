@@ -9,6 +9,12 @@ Sonata is part of the [Sunburst Project](https://www.sunburst-project.org) funde
 
 ![](doc/sonata-render.png)
 
+## Associated Repos for Testing
+
+See the [https://github.com/newaetech/sonata-rp2040](https://github.com/newaetech/sonata-rp2040) repo for the RP2040 firmware.
+
+See the [https://github.com/newaetech/sonata-fpga-test](https://github.com/newaetech/sonata-fpga-test) repo for the FPGA test bitstream project.
+
 ## License
 
 Unless otherwise noted, everything in the repository is covered by the [Apache License](https://www.apache.org/licenses/LICENSE-2.0.html), Version 2.0. Where reference is made to the CC-SA license (particular for the PCB files), the license is the [Creative Commons Share Alike 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/).
