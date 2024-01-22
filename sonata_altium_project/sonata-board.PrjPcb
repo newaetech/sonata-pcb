@@ -578,7 +578,7 @@ Value=
 
 [Parameter2]
 Name=PrjRev
-Value=04
+Value=05RC
 
 [Parameter3]
 Name=PrjName
