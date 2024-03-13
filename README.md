@@ -7,7 +7,7 @@ This repository contains the source files for the PCB and related information ab
 
 Sonata is part of the [Sunburst Project](https://www.sunburst-project.org) funded by [UKRI](https://www.ukri.org/) / [DSbD](https://www.dsbd.tech/).
 
-![](doc/sonata-render.png)
+![](doc/sonata-photo.jpeg)
 
 ## Associated Repos for Testing
 
