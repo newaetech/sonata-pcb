@@ -13,7 +13,7 @@ Sonata is part of the [Sunburst Project](https://www.sunburst-project.org) funde
 
 See the [https://github.com/newaetech/sonata-rp2040](https://github.com/newaetech/sonata-rp2040) repo for the RP2040 firmware.
 
-See the [https://github.com/newaetech/sonata-fpga-test](https://github.com/newaetech/sonata-fpga-test) repo for the FPGA test bitstream project.
+See the [https://github.com/newaetech/sonata-fpga-test](https://github.com/newaetech/sonata-fpga-test) repo for the FPGA test bitstream project, which is used only for testing certain features, or can be used as the base for your own FPGA project. Most users should see the [Sonata System](https://github.com/lowRISC/sonata-system) repository instead to build the reference Sonata FPGA.
 
 ## License
 
@@ -21,4 +21,4 @@ Unless otherwise noted, everything in the repository is covered by the [Apache L
 
 ## PCB Status
 
-Rev0.2 Gerbers are available but not recommended until more tests are done! See the issues tab for known problems with the PCB, of which there are a few.
+Rev0.8 Gerbers are available & is the first production version. There will be some minor tweaks for the final version, but boards made from 0.8 gerbers will be fully functional.
