@@ -1,1 +1,0 @@
-These gerbers had critical errors and have been removed to avoid accidents.

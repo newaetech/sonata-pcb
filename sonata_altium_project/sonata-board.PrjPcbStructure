@@ -1,6 +1,7 @@
 Record=TopLevelDocument|FileName=sb-sonata-analoginput.SchDoc|SheetNumber=17
 Record=NoMainPathDocument|SourceDocument=sb-sonata-analoginput.SchDoc|FileName=sb-sonata-debug.SchDoc|SheetNumber=7
 Record=NoMainPathDocument|SourceDocument=sb-sonata-analoginput.SchDoc|FileName=sb-sonata-ethmac.SchDoc|SheetNumber=10
+Record=NoMainPathDocument|SourceDocument=sb-sonata-analoginput.SchDoc|FileName=sb-sonata-expandheader2.SchDoc|SheetNumber=22
 Record=NoMainPathDocument|SourceDocument=sb-sonata-analoginput.SchDoc|FileName=sb-sonata-expandheader.SchDoc|SheetNumber=21
 Record=NoMainPathDocument|SourceDocument=sb-sonata-analoginput.SchDoc|FileName=sb-sonata-fpga.SchDoc|SheetNumber=11
 Record=NoMainPathDocument|SourceDocument=sb-sonata-analoginput.SchDoc|FileName=sb-sonata-fpgaio1.SchDoc|SheetNumber=12
@@ -9,7 +10,6 @@ Record=NoMainPathDocument|SourceDocument=sb-sonata-analoginput.SchDoc|FileName=s
 Record=NoMainPathDocument|SourceDocument=sb-sonata-analoginput.SchDoc|FileName=sb-sonata-fpgapwr2.SchDoc|SheetNumber=15
 Record=NoMainPathDocument|SourceDocument=sb-sonata-analoginput.SchDoc|FileName=sb-sonata-fpgapwr.SchDoc|SheetNumber=14
 Record=NoMainPathDocument|SourceDocument=sb-sonata-analoginput.SchDoc|FileName=sb-sonata-headers1.SchDoc|SheetNumber=4
-Record=NoMainPathDocument|SourceDocument=sb-sonata-analoginput.SchDoc|FileName=sb-sonata-hyperram.SchDoc|SheetNumber=22
 Record=NoMainPathDocument|SourceDocument=sb-sonata-analoginput.SchDoc|FileName=sb-sonata-industriaal.SchDoc|SheetNumber=6
 Record=NoMainPathDocument|SourceDocument=sb-sonata-analoginput.SchDoc|FileName=sb-sonata-lcd.SchDoc|SheetNumber=20
 Record=NoMainPathDocument|SourceDocument=sb-sonata-analoginput.SchDoc|FileName=sb-sonata-led.SchDoc|SheetNumber=8
