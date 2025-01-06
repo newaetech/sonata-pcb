@@ -628,23 +628,23 @@ DocumentPath=Project Outputs for sonata-board\Pick Place\Pick Place for cheriot-
 DItemRevisionGUID=
 
 [Parameter1]
-Name=documentnumber
+Name=revision
 Value=
 
 [Parameter2]
-Name=PrjLicense
-Value=CC-SA
+Name=PrjRev
+Value=02
 
 [Parameter3]
 Name=PrjName
 Value=Sonata-XL
 
 [Parameter4]
-Name=PrjRev
-Value=01
+Name=PrjLicense
+Value=CC-SA
 
 [Parameter5]
-Name=revision
+Name=documentnumber
 Value=
 
 [Configuration1]
