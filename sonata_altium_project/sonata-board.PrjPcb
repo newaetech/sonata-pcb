@@ -526,6 +526,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document29]
+DocumentPath=sonata-xl-panel.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=XXWGDHSY
+
 [ProjectVariant1]
 UniqueId=59F83C53-1E89-4118-B125-4D358556FA4C
 Description=Variant of cheriot-test
@@ -536,95 +553,195 @@ Variation1=Designator=J4|UniqueId=\XWTBMGKN|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for sonata-board\NC Drill\cheriot-test-RoundHoles.TXT
+DocumentPath=Project Outputs for sonata-board\BOM\Bill of Materials-cheriot-test.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for sonata-board\NC Drill\cheriot-test-SlotHoles.TXT
+DocumentPath=Project Outputs for sonata-board\NC Drill\cheriot-test-RoundHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for sonata-board\NC Drill\cheriot-test.DRR
+DocumentPath=Project Outputs for sonata-board\NC Drill\cheriot-test-SlotHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for sonata-board\Gerber\cheriot-test.EXTREP
+DocumentPath=Project Outputs for sonata-board\NC Drill\cheriot-test.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for sonata-board\Gerber\cheriot-test.G1
+DocumentPath=Project Outputs for sonata-board\Gerber\cheriot-test.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for sonata-board\Gerber\cheriot-test.G2
+DocumentPath=Project Outputs for sonata-board\Gerber\cheriot-test.G1
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for sonata-board\Gerber\cheriot-test.G3
+DocumentPath=Project Outputs for sonata-board\Gerber\cheriot-test.G2
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for sonata-board\Gerber\cheriot-test.G4
+DocumentPath=Project Outputs for sonata-board\Gerber\cheriot-test.G3
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for sonata-board\Gerber\cheriot-test.G5
+DocumentPath=Project Outputs for sonata-board\Gerber\cheriot-test.G4
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for sonata-board\Gerber\cheriot-test.G6
+DocumentPath=Project Outputs for sonata-board\Gerber\cheriot-test.G5
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for sonata-board\Gerber\cheriot-test.GBL
+DocumentPath=Project Outputs for sonata-board\Gerber\cheriot-test.G6
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for sonata-board\Gerber\cheriot-test.GBO
+DocumentPath=Project Outputs for sonata-board\Gerber\cheriot-test.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for sonata-board\Gerber\cheriot-test.GBP
+DocumentPath=Project Outputs for sonata-board\Gerber\cheriot-test.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for sonata-board\Gerber\cheriot-test.GBS
+DocumentPath=Project Outputs for sonata-board\Gerber\cheriot-test.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for sonata-board\Gerber\cheriot-test.GM1
+DocumentPath=Project Outputs for sonata-board\Gerber\cheriot-test.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for sonata-board\Gerber\cheriot-test.GTL
+DocumentPath=Project Outputs for sonata-board\Gerber\cheriot-test.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for sonata-board\Gerber\cheriot-test.GTO
+DocumentPath=Project Outputs for sonata-board\Gerber\cheriot-test.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for sonata-board\Gerber\cheriot-test.GTP
+DocumentPath=Project Outputs for sonata-board\Gerber\cheriot-test.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Project Outputs for sonata-board\Gerber\cheriot-test.GTS
+DocumentPath=Project Outputs for sonata-board\Gerber\cheriot-test.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Project Outputs for sonata-board\NC Drill\cheriot-test.LDP
+DocumentPath=Project Outputs for sonata-board\Gerber\cheriot-test.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=Project Outputs for sonata-board\Gerber\cheriot-test.REP
+DocumentPath=Project Outputs for sonata-board\NC Drill\cheriot-test.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=Project Outputs for sonata-board\Design Rule Check - cheriot-test.html
+DocumentPath=Project Outputs for sonata-board\Gerber\cheriot-test.REP
 DItemRevisionGUID=
 
 [GeneratedDocument23]
+DocumentPath=Project Outputs for sonata-board\Design Rule Check - cheriot-test.html
+DItemRevisionGUID=
+
+[GeneratedDocument24]
 DocumentPath=Project Outputs for sonata-board\Pick Place\Pick Place for cheriot-test.csv
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Project Outputs for sonata-board\NC Drill\sonata-xl-panel-RoundHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Project Outputs for sonata-board\NC Drill\sonata-xl-panel-SlotHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Project Outputs for sonata-board\NC Drill\sonata-xl-panel.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=Project Outputs for sonata-board\Gerber\sonata-xl-panel.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=Project Outputs for sonata-board\Gerber\sonata-xl-panel.G1
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=Project Outputs for sonata-board\Gerber\sonata-xl-panel.G2
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=Project Outputs for sonata-board\Gerber\sonata-xl-panel.G3
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=Project Outputs for sonata-board\Gerber\sonata-xl-panel.G4
+DItemRevisionGUID=
+
+[GeneratedDocument33]
+DocumentPath=Project Outputs for sonata-board\Gerber\sonata-xl-panel.G5
+DItemRevisionGUID=
+
+[GeneratedDocument34]
+DocumentPath=Project Outputs for sonata-board\Gerber\sonata-xl-panel.G6
+DItemRevisionGUID=
+
+[GeneratedDocument35]
+DocumentPath=Project Outputs for sonata-board\Gerber\sonata-xl-panel.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument36]
+DocumentPath=Project Outputs for sonata-board\Gerber\sonata-xl-panel.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument37]
+DocumentPath=Project Outputs for sonata-board\Gerber\sonata-xl-panel.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument38]
+DocumentPath=Project Outputs for sonata-board\Gerber\sonata-xl-panel.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument39]
+DocumentPath=Project Outputs for sonata-board\Gerber\sonata-xl-panel.GM
+DItemRevisionGUID=
+
+[GeneratedDocument40]
+DocumentPath=Project Outputs for sonata-board\Gerber\sonata-xl-panel.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument41]
+DocumentPath=Project Outputs for sonata-board\Gerber\sonata-xl-panel.GM18
+DItemRevisionGUID=
+
+[GeneratedDocument42]
+DocumentPath=Project Outputs for sonata-board\Gerber\sonata-xl-panel.GM25
+DItemRevisionGUID=
+
+[GeneratedDocument43]
+DocumentPath=Project Outputs for sonata-board\Gerber\sonata-xl-panel.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument44]
+DocumentPath=Project Outputs for sonata-board\Gerber\sonata-xl-panel.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument45]
+DocumentPath=Project Outputs for sonata-board\Gerber\sonata-xl-panel.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument46]
+DocumentPath=Project Outputs for sonata-board\Gerber\sonata-xl-panel.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument47]
+DocumentPath=Project Outputs for sonata-board\NC Drill\sonata-xl-panel.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument48]
+DocumentPath=Project Outputs for sonata-board\Gerber\sonata-xl-panel.REP
 DItemRevisionGUID=
 
 [Parameter1]
