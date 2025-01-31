@@ -1,0 +1,6602 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "95abe87b-cc3a-4f1f-8c71-c8ab84250bf6")
+	(paper "A3")
+	(title_block
+		(title "NAE-SONATA-ONE")
+		(date "2024-08-16")
+		(rev "10")
+		(company "NewAE Technology")
+		(comment 2 "Apache-2")
+	)
+	(lib_symbols
+		(symbol "SONATA-ONE-symbols:GND_POWER_GROUND"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name 'GND'"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_POWER_GROUND_0_0"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -3.302) (xy 1.778 -3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.064) (xy 1.016 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -4.826) (xy 0.254 -4.826)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SONATA-ONE-symbols:VCC1V8_BAR"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VCC1V8"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name 'VCC1V8'"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC1V8_BAR_0_0"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0) hide
+					(name "VCC1V8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SONATA-ONE-symbols:VCCINT_BAR"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VCCINT"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name 'VCCINT'"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCCINT_BAR_0_0"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0) hide
+					(name "VCCINT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SONATA-ONE-symbols:VCCIO_BAR"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VCCIO"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name 'VCCIO'"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCCIO_BAR_0_0"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0) hide
+					(name "VCCIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SONATA-ONE-symbols:VCCUSB3V3_BAR"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VCCUSB3V3"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name 'VCCUSB3V3'"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCCUSB3V3_BAR_0_0"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0) hide
+					(name "VCCUSB3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SONATA-ONE-symbols:root_0_CAP"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "100n, 0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*CAPC0402_M*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_CAP_1_0"
+				(polyline
+					(pts
+						(xy -2.032 1.778) (xy 2.032 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0.762) (xy -2.032 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SONATA-ONE-symbols:root_0_IND"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "fixed ind, ferrite, shielded"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*NR6028*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_IND_1_0"
+				(arc
+					(start -2.54 0)
+					(mid -3.81 1.27)
+					(end -5.08 0)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid -1.27 1.27)
+					(end -2.54 0)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 0)
+					(mid 1.27 1.27)
+					(end 0 0)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SONATA-ONE-symbols:root_0_LD1117S33"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "IC REG LIN POS 3.3V 800MA SOT223"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*SOT-223*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_LD1117S33_1_0"
+				(rectangle
+					(start 7.62 2.54)
+					(end -7.62 -7.62)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "Vout"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 0 0)
+					(length 5.08)
+					(name "Vin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -2.54 180)
+					(length 5.08)
+					(name "P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SONATA-ONE-symbols:root_0_RES-EU"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "10k res, 0402, 1%, 1/16W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*RESC1005X40N*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_RES-EU_1_0"
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SONATA-ONE-symbols:root_0_RT8058"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switching supply controller, 2A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*QFN16_50P300X300X100_HS-17M*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_RT8058_1_0"
+				(rectangle
+					(start 17.78 0)
+					(end 0 -30.48)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 10.16 -35.56 90)
+					(length 5.08)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 5.08)
+					(name "PVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 5.08)
+					(name "PVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 5.08)
+					(name "PVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -2.54 180)
+					(length 5.08)
+					(name "LX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -5.08 180)
+					(length 5.08)
+					(name "LX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -7.62 180)
+					(length 5.08)
+					(name "LX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -20.32 180)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -35.56 90)
+					(length 5.08)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -35.56 90)
+					(length 5.08)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -35.56 90)
+					(length 5.08)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -12.7 180)
+					(length 5.08)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -35.56 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -20.32 0)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -12.7 0)
+					(length 5.08)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -17.78 180)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -17.78 0)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SONATA-ONE-symbols:root_0_a78650ae27aee94b64e9c93150c7d5d"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SWITCH SLIDE DIP SPST 25MA 24V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*FP-218-4LPSTR-MFG*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_a78650ae27aee94b64e9c93150c7d5d_1_0"
+				(polyline
+					(pts
+						(xy 4.826 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -15.24) (xy 7.874 -15.24)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -10.16) (xy 7.62 -10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -5.08) (xy 7.874 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -14.986) (xy 11.938 -13.462)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -9.906) (xy 11.684 -8.382)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -4.826) (xy 11.43 -3.556)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 0.254) (xy 11.43 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 -5.08) (xy 12.954 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.494 -15.24) (xy 12.954 -15.24)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.494 -10.16) (xy 12.954 -10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.748 0) (xy 12.446 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 8.382 -15.24)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 8.382 -10.16)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 8.382 -5.08)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 8.382 0)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 11.938 0)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 12.192 -10.16)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 12.192 -5.08)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 12.446 -15.24)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 15.24 5.08)
+					(end 5.08 -20.32)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -15.24 180)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -10.16 180)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -5.08 180)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "8"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SONATA-ONE-symbols:root_2_RES-EU"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Do Not Mount Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*RESC1608X55N*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_2_RES-EU_1_0"
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 171.45 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0774c64e-fbc7-4244-bfac-91fe4e6980a3")
+	)
+	(junction
+		(at 163.83 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0784b157-c504-4867-a3cb-71e3664461de")
+	)
+	(junction
+		(at 118.11 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a5679a8-ec8c-4345-9f69-b1b539867f11")
+	)
+	(junction
+		(at 270.51 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b0c11fc-387f-4705-ade3-45d464aa66cc")
+	)
+	(junction
+		(at 158.75 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10b4285e-02e8-4311-930e-2eb1220eef08")
+	)
+	(junction
+		(at 123.19 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13712bf8-56ea-4f28-b434-575c2dbb6bff")
+	)
+	(junction
+		(at 173.99 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13b3b2fc-9241-4799-9dee-60be016022c0")
+	)
+	(junction
+		(at 153.67 205.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b2cbf62-37a6-47db-a2af-ce54bab1bfb7")
+	)
+	(junction
+		(at 184.15 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2418b8c7-96b6-4910-a0f1-8ec59b012959")
+	)
+	(junction
+		(at 110.49 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26ebe4bb-e415-40fc-b018-95c342eacaaf")
+	)
+	(junction
+		(at 173.99 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d35babf-8bd0-47fd-aeaa-d3e0bffbfc61")
+	)
+	(junction
+		(at 110.49 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e9f1d54-3dc6-4184-b60f-f29890c0f8df")
+	)
+	(junction
+		(at 128.27 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30bd0e53-5f1c-46ac-987d-bdb8c8ab71ac")
+	)
+	(junction
+		(at 166.37 205.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42d05fa8-e92b-4905-b89c-b3bc3f19d451")
+	)
+	(junction
+		(at 123.19 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e43a048-72ab-464a-bf2d-5eb5b54c0daf")
+	)
+	(junction
+		(at 227.33 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52e88f3d-9a63-4bf5-b428-2c896d7ed2a0")
+	)
+	(junction
+		(at 148.59 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53e1e0c3-9300-4d7c-bff0-0f0d6c31c4fc")
+	)
+	(junction
+		(at 148.59 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d7ce6ba-7a57-4443-ac7d-1729686e9eba")
+	)
+	(junction
+		(at 138.43 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e071a94-0c5b-454f-ba09-1abcc24b14d1")
+	)
+	(junction
+		(at 130.81 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63737f8d-c014-4dc9-91d2-153cb2eb2490")
+	)
+	(junction
+		(at 158.75 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64ed3a63-aea3-4548-bc95-928e4a611e5d")
+	)
+	(junction
+		(at 270.51 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ce1d0af-d346-4469-bee8-032de47a6afc")
+	)
+	(junction
+		(at 168.91 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7289b9fc-4d51-45bd-b4df-7b6c47fca415")
+	)
+	(junction
+		(at 110.49 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78a27ef6-7163-47fd-aa45-24d258bde5c8")
+	)
+	(junction
+		(at 87.63 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "796f19e4-ae96-48cd-b79c-2b7ed414b21b")
+	)
+	(junction
+		(at 133.35 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a4c704f-f0cd-4c7d-8c39-d1cb9909a2a4")
+	)
+	(junction
+		(at 138.43 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d2b5468-5cc3-4b41-a41a-a0bfeff84907")
+	)
+	(junction
+		(at 128.27 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ca1ba77-8190-48ff-b34a-e15824865d23")
+	)
+	(junction
+		(at 153.67 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9cf376ab-249d-46e9-9bc5-543ec4897ad9")
+	)
+	(junction
+		(at 283.21 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a196bb0e-1607-42af-a308-2822dddc86f4")
+	)
+	(junction
+		(at 125.73 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6d6a5bb-c00f-4864-9f71-513734bd4f01")
+	)
+	(junction
+		(at 97.79 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab7e0e59-8c19-495a-aa57-b43f81cabde5")
+	)
+	(junction
+		(at 110.49 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2acef54-31cc-4435-9c5b-b825e1e33be6")
+	)
+	(junction
+		(at 163.83 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b33b6bbd-b66b-4ae2-b34b-edfbe2ae94f0")
+	)
+	(junction
+		(at 158.75 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b36cdea4-d06f-4353-8da9-350837967842")
+	)
+	(junction
+		(at 110.49 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b728e22f-6994-4306-a4e7-5d48672d1740")
+	)
+	(junction
+		(at 125.73 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc8d3a02-c496-4f7f-a64e-3ad2b8f76bd1")
+	)
+	(junction
+		(at 95.25 205.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "befd040d-141a-4379-966b-6062437a31d3")
+	)
+	(junction
+		(at 173.99 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c18ed22c-83f9-4c30-8d55-fb8ebd84cf7d")
+	)
+	(junction
+		(at 204.47 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c22e4012-6518-43eb-bf19-d4f8dbb912fe")
+	)
+	(junction
+		(at 138.43 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c25ab7f5-dfa0-46fb-b9d0-79b18ea55f89")
+	)
+	(junction
+		(at 153.67 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3a5ceb4-7a55-4670-ac29-165da5dae1b8")
+	)
+	(junction
+		(at 130.81 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4e259e2-94fc-4a49-8c4e-2af01e4b2795")
+	)
+	(junction
+		(at 265.43 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c695a60c-5fa5-4bb5-8a35-dcf7ab2d1d22")
+	)
+	(junction
+		(at 153.67 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca21ed4f-7e6d-4eb2-9f86-3466876d3451")
+	)
+	(junction
+		(at 110.49 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "debda989-0d83-40ad-b83e-d320f89398cb")
+	)
+	(junction
+		(at 166.37 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e102d511-9851-498b-bf3d-0a67a4f17db1")
+	)
+	(junction
+		(at 87.63 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec559d3c-cb67-413a-a7b1-f86a5da39efc")
+	)
+	(junction
+		(at 138.43 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7a25248-5119-4415-85de-e30f4e6329d3")
+	)
+	(junction
+		(at 247.65 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc1a78d5-a976-431d-b756-ab76886e94b9")
+	)
+	(wire
+		(pts
+			(xy 110.49 63.5) (xy 87.63 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0455b9dd-3f10-4c2d-b13c-388d61ceb2de")
+	)
+	(wire
+		(pts
+			(xy 158.75 68.58) (xy 158.75 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04a9be4c-de12-40f4-a7db-7cd07bbefeba")
+	)
+	(wire
+		(pts
+			(xy 217.17 162.56) (xy 217.17 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07cf13b7-25e1-49a7-b53c-12134e1656b9")
+	)
+	(wire
+		(pts
+			(xy 247.65 76.2) (xy 227.33 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "106a1872-d8a2-4845-ad37-d9e67bd2ae51")
+	)
+	(wire
+		(pts
+			(xy 110.49 68.58) (xy 110.49 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1072d251-9578-478b-aec2-3fccc5d5d9cb")
+	)
+	(wire
+		(pts
+			(xy 270.51 63.5) (xy 283.21 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "110a5a4a-c11b-4d9b-ac2f-169d3939ef0a")
+	)
+	(wire
+		(pts
+			(xy 107.95 121.92) (xy 110.49 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "127fe898-0e80-4de7-9757-85fd483e9d89")
+	)
+	(wire
+		(pts
+			(xy 168.91 96.52) (xy 168.91 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12b253de-925f-4321-a110-eec9b0f266ab")
+	)
+	(wire
+		(pts
+			(xy 143.51 83.82) (xy 148.59 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13b8b1f0-40da-4f33-bdc3-599cf079f9f0")
+	)
+	(wire
+		(pts
+			(xy 265.43 63.5) (xy 270.51 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1504c393-bf19-4450-9ead-ce39552ee47a")
+	)
+	(wire
+		(pts
+			(xy 199.39 175.26) (xy 204.47 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "178df00b-580e-43c7-9cd3-9f790df6b92e")
+	)
+	(wire
+		(pts
+			(xy 260.35 66.04) (xy 265.43 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "192f5d64-1577-48f2-b0d0-bc1d78b449eb")
+	)
+	(wire
+		(pts
+			(xy 64.77 205.74) (xy 95.25 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a5024f2-60af-44ca-9f67-9f7b5ade1d45")
+	)
+	(wire
+		(pts
+			(xy 130.81 96.52) (xy 148.59 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "227bdc0a-c02e-4fcb-bb40-cce9bbea4996")
+	)
+	(wire
+		(pts
+			(xy 130.81 149.86) (xy 133.35 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26eb0cc7-1cd6-4455-bbe3-64c724873319")
+	)
+	(wire
+		(pts
+			(xy 148.59 96.52) (xy 158.75 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2706dbd6-0876-4ff2-b325-f8662085d424")
+	)
+	(wire
+		(pts
+			(xy 148.59 127) (xy 138.43 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28bcda93-8672-495e-b10c-8a210be9ab6f")
+	)
+	(wire
+		(pts
+			(xy 166.37 208.28) (xy 166.37 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29071271-af61-4758-884a-e49428d5220d")
+	)
+	(wire
+		(pts
+			(xy 163.83 142.24) (xy 163.83 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29b95901-4a6c-4b68-b210-55d94c81f17d")
+	)
+	(wire
+		(pts
+			(xy 156.21 63.5) (xy 158.75 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c39864a-c239-4b06-8416-100d0b34e80b")
+	)
+	(wire
+		(pts
+			(xy 110.49 73.66) (xy 97.79 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2deb34f1-16e4-42b3-af48-403d828ee56f")
+	)
+	(wire
+		(pts
+			(xy 153.67 132.08) (xy 148.59 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e049c66-53f0-479e-a08a-176e83de8b04")
+	)
+	(wire
+		(pts
+			(xy 163.83 119.38) (xy 173.99 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34943536-b631-430b-83cf-ee622f159ffa")
+	)
+	(wire
+		(pts
+			(xy 153.67 170.18) (xy 153.67 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "370544bb-4ae0-4f27-ad35-3aeb67e24b97")
+	)
+	(wire
+		(pts
+			(xy 173.99 119.38) (xy 173.99 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37535e00-5aef-4154-8b70-9eb1a388fa4a")
+	)
+	(wire
+		(pts
+			(xy 110.49 119.38) (xy 110.49 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3987608a-56c5-427e-9afb-f70b4e037081")
+	)
+	(wire
+		(pts
+			(xy 184.15 149.86) (xy 184.15 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c570145-aadf-4eec-bfbd-5e85b7d5182d")
+	)
+	(wire
+		(pts
+			(xy 283.21 76.2) (xy 270.51 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "427b4498-f8a0-4465-9a78-d614560b4a4d")
+	)
+	(wire
+		(pts
+			(xy 236.22 180.34) (xy 199.39 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42f8a64d-7d25-4f7b-a672-a5f04f1bf421")
+	)
+	(wire
+		(pts
+			(xy 143.51 73.66) (xy 143.51 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45791a0c-50fe-4151-a7c3-c666532e63fc")
+	)
+	(wire
+		(pts
+			(xy 87.63 66.04) (xy 87.63 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a01a9b2-1091-495a-841b-0a25613404f6")
+	)
+	(wire
+		(pts
+			(xy 148.59 132.08) (xy 148.59 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ac09d9d-29e5-4f2d-ae8e-92bd8fe6f70d")
+	)
+	(wire
+		(pts
+			(xy 270.51 76.2) (xy 247.65 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b9eadcc-45f4-4918-b09c-c1f1073f81dd")
+	)
+	(wire
+		(pts
+			(xy 87.63 116.84) (xy 64.77 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4be87496-f8ee-44f9-a280-7af90b543a1c")
+	)
+	(wire
+		(pts
+			(xy 72.39 63.5) (xy 87.63 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c2cb00e-eaa6-4863-8dbc-c38b83d31868")
+	)
+	(wire
+		(pts
+			(xy 270.51 71.12) (xy 270.51 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c8918b2-28da-43aa-ab83-10d124d94cf9")
+	)
+	(wire
+		(pts
+			(xy 110.49 78.74) (xy 107.95 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "503c6007-cbce-46ef-a74e-c893d1a3234b")
+	)
+	(wire
+		(pts
+			(xy 283.21 63.5) (xy 288.29 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55033e05-e0ef-4e74-8ca7-275807212563")
+	)
+	(wire
+		(pts
+			(xy 204.47 170.18) (xy 199.39 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5732d869-cf01-472b-8dad-c1c25ee02e99")
+	)
+	(wire
+		(pts
+			(xy 107.95 132.08) (xy 107.95 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59139f59-ca69-433b-a30d-123d9a971f42")
+	)
+	(wire
+		(pts
+			(xy 153.67 182.88) (xy 153.67 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a35525d-f399-4f9d-95cc-8ff62e63107b")
+	)
+	(wire
+		(pts
+			(xy 209.55 160.02) (xy 209.55 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ac6c430-99ed-4472-a9db-a9848e4a4edd")
+	)
+	(wire
+		(pts
+			(xy 138.43 66.04) (xy 138.43 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b96be79-5f18-489e-8111-b2d81f5aafb9")
+	)
+	(wire
+		(pts
+			(xy 265.43 66.04) (xy 265.43 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61532900-f74d-4579-bcac-479d1730469d")
+	)
+	(wire
+		(pts
+			(xy 118.11 96.52) (xy 123.19 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62185296-c4a6-4c10-9f00-0b05e27fadab")
+	)
+	(wire
+		(pts
+			(xy 138.43 63.5) (xy 143.51 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "648d5e40-5893-4a63-b881-80623fb972e3")
+	)
+	(wire
+		(pts
+			(xy 163.83 149.86) (xy 173.99 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "657959df-6295-4f84-85b0-50739ca6f497")
+	)
+	(wire
+		(pts
+			(xy 138.43 116.84) (xy 148.59 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67662c2a-73dd-49f1-a47b-0b71afc0c35c")
+	)
+	(wire
+		(pts
+			(xy 97.79 180.34) (xy 153.67 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69d4b97c-0015-4e16-b7d6-78c47dde4e63")
+	)
+	(wire
+		(pts
+			(xy 140.97 208.28) (xy 153.67 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70e69920-ef0c-49d1-9e70-f52fd71af191")
+	)
+	(wire
+		(pts
+			(xy 168.91 63.5) (xy 171.45 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7150f68e-03e3-4515-b88b-5af74436326b")
+	)
+	(wire
+		(pts
+			(xy 153.67 205.74) (xy 153.67 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7258dda3-9286-42d2-ac82-29f6d34b8650")
+	)
+	(wire
+		(pts
+			(xy 133.35 149.86) (xy 163.83 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72f91bc6-02d1-4f0e-8e90-5e998bb6c7fd")
+	)
+	(wire
+		(pts
+			(xy 184.15 119.38) (xy 184.15 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74ed6977-2ca6-4dd3-a061-40d688176025")
+	)
+	(wire
+		(pts
+			(xy 179.07 175.26) (xy 152.4 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7693bd22-30b2-4516-aec7-feeda1cba3c3")
+	)
+	(wire
+		(pts
+			(xy 107.95 68.58) (xy 110.49 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79966fad-c8bf-48d2-a64d-f6568cfe2ab1")
+	)
+	(wire
+		(pts
+			(xy 260.35 63.5) (xy 265.43 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79e90d3f-1fc9-401e-89eb-6c6e2df390b9")
+	)
+	(wire
+		(pts
+			(xy 184.15 116.84) (xy 186.69 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a512476-035f-45ff-9561-bbeb5d6b8b53")
+	)
+	(wire
+		(pts
+			(xy 173.99 149.86) (xy 184.15 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bed6a0c-898d-4229-b825-105ad5316466")
+	)
+	(wire
+		(pts
+			(xy 283.21 71.12) (xy 283.21 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d73bcb6-c500-42e4-a4dd-69830123b635")
+	)
+	(wire
+		(pts
+			(xy 110.49 121.92) (xy 110.49 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7df74628-16ec-4dbd-a928-3438c6e8d009")
+	)
+	(wire
+		(pts
+			(xy 161.29 116.84) (xy 173.99 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80bb706e-4bdd-4576-b3cf-76b2716d118f")
+	)
+	(wire
+		(pts
+			(xy 118.11 149.86) (xy 123.19 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8112d449-430b-4946-b482-4893c9dc8f8a")
+	)
+	(wire
+		(pts
+			(xy 163.83 132.08) (xy 153.67 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dc969f9-8d54-427b-aa22-9eddae6e3819")
+	)
+	(wire
+		(pts
+			(xy 204.47 175.26) (xy 204.47 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f0365bb-dfb6-4657-a2cc-585d2b984161")
+	)
+	(wire
+		(pts
+			(xy 227.33 63.5) (xy 234.95 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92eeedb5-cd2b-4c67-8591-00dff3402dc9")
+	)
+	(wire
+		(pts
+			(xy 153.67 208.28) (xy 166.37 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "946ec6ef-9f4e-43e9-8733-11edad17c54a")
+	)
+	(wire
+		(pts
+			(xy 110.49 132.08) (xy 107.95 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fc5ee1c-e098-4957-93e5-0b24615a647c")
+	)
+	(wire
+		(pts
+			(xy 209.55 170.18) (xy 204.47 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a074ded2-619d-41dd-a56a-4d5de467cfe3")
+	)
+	(wire
+		(pts
+			(xy 95.25 218.44) (xy 95.25 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2ab90c8-634f-45f4-8bf1-5fa3b7d65e5a")
+	)
+	(wire
+		(pts
+			(xy 173.99 127) (xy 173.99 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5a4e7e8-a4a0-448d-ba09-1af0406c9fbb")
+	)
+	(wire
+		(pts
+			(xy 125.73 96.52) (xy 128.27 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b23df453-d6df-476a-afa9-5894ba77df1d")
+	)
+	(wire
+		(pts
+			(xy 168.91 63.5) (xy 168.91 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b24f6e99-1b49-47c7-8678-2f1bde2ddd91")
+	)
+	(wire
+		(pts
+			(xy 110.49 116.84) (xy 87.63 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b34d8387-74cf-4ecf-a70e-4412a1d2d805")
+	)
+	(wire
+		(pts
+			(xy 97.79 127) (xy 97.79 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b62f8bb3-7334-4ca4-8e16-2908c1fbf66e")
+	)
+	(wire
+		(pts
+			(xy 171.45 63.5) (xy 227.33 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6ec14b7-9253-4143-bd4e-32d5c54bf1b8")
+	)
+	(wire
+		(pts
+			(xy 217.17 160.02) (xy 209.55 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba0ede23-8cdf-4a8a-a0e8-f8c71419abb3")
+	)
+	(wire
+		(pts
+			(xy 138.43 68.58) (xy 138.43 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdf84ac8-b3d9-4fe3-accd-82ae078d93a7")
+	)
+	(wire
+		(pts
+			(xy 153.67 180.34) (xy 179.07 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be4cffbc-5f14-4c1e-9649-cd22fa2d4440")
+	)
+	(wire
+		(pts
+			(xy 158.75 63.5) (xy 168.91 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0d8dca0-2f99-4472-8c2f-72436766e3bd")
+	)
+	(wire
+		(pts
+			(xy 138.43 73.66) (xy 143.51 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4ecbdfe-bd4c-4209-bc04-8c0737fba334")
+	)
+	(wire
+		(pts
+			(xy 153.67 218.44) (xy 153.67 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5ce20ae-f2e2-4f01-aba3-bf47c49ea0cb")
+	)
+	(wire
+		(pts
+			(xy 153.67 205.74) (xy 166.37 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc5fce3d-dfd8-49d7-8cbc-9bea8549d775")
+	)
+	(wire
+		(pts
+			(xy 110.49 66.04) (xy 110.49 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd004a8b-d1e3-48f2-b5c3-6fffff3e6f47")
+	)
+	(wire
+		(pts
+			(xy 138.43 121.92) (xy 138.43 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd06a76e-9975-4643-b25b-37ab0a8a7a79")
+	)
+	(wire
+		(pts
+			(xy 97.79 73.66) (xy 97.79 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd6d1996-9985-4ff0-93f5-c40f6fc537d1")
+	)
+	(wire
+		(pts
+			(xy 128.27 96.52) (xy 130.81 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdf2a44f-7a7a-4b57-a895-228bb6d7564a")
+	)
+	(wire
+		(pts
+			(xy 179.07 170.18) (xy 153.67 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdf48d00-8437-4da7-acf9-e9f69c7793f4")
+	)
+	(wire
+		(pts
+			(xy 123.19 96.52) (xy 125.73 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d779a011-0132-4705-aade-d6440b48752c")
+	)
+	(wire
+		(pts
+			(xy 173.99 116.84) (xy 184.15 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da15a80a-14cc-4b2e-9e02-d96001d2ca67")
+	)
+	(wire
+		(pts
+			(xy 148.59 83.82) (xy 148.59 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db40766d-ef58-4dec-9103-c5121b17d2ee")
+	)
+	(wire
+		(pts
+			(xy 227.33 76.2) (xy 227.33 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db872324-83b3-4d67-a03a-2debe84808f0")
+	)
+	(wire
+		(pts
+			(xy 140.97 205.74) (xy 153.67 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbfac95e-a4a9-46da-b522-2b190b476e3d")
+	)
+	(wire
+		(pts
+			(xy 107.95 78.74) (xy 107.95 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2079b60-d59a-4b97-9fbf-c1702adb96dd")
+	)
+	(wire
+		(pts
+			(xy 166.37 205.74) (xy 166.37 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3bd4896-716a-4cdd-8e4d-0ab11029a5b0")
+	)
+	(wire
+		(pts
+			(xy 123.19 149.86) (xy 125.73 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4aac629-46dd-455a-b485-5a75534dd4af")
+	)
+	(wire
+		(pts
+			(xy 125.73 149.86) (xy 128.27 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4ed057e-015d-4ae4-b833-0ad23036402f")
+	)
+	(wire
+		(pts
+			(xy 158.75 76.2) (xy 158.75 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4f72f71-a251-42e9-b1ca-e9c25aba7b61")
+	)
+	(wire
+		(pts
+			(xy 110.49 127) (xy 97.79 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e63d76c2-2910-4262-b56c-519cbb84f5a5")
+	)
+	(wire
+		(pts
+			(xy 148.59 86.36) (xy 148.59 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebb67d17-5783-48a2-88db-7ac8603856c8")
+	)
+	(wire
+		(pts
+			(xy 138.43 119.38) (xy 138.43 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed8fa933-a204-4ef9-bb0c-4c7bacfaf02f")
+	)
+	(wire
+		(pts
+			(xy 148.59 71.12) (xy 148.59 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f34db538-470f-4a57-a09d-d10996085b66")
+	)
+	(wire
+		(pts
+			(xy 148.59 68.58) (xy 158.75 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f71ff143-e9be-4afd-8abd-87a635c1de12")
+	)
+	(wire
+		(pts
+			(xy 166.37 218.44) (xy 166.37 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8200e13-595d-4b35-b3c7-f3458341d47d")
+	)
+	(wire
+		(pts
+			(xy 87.63 119.38) (xy 87.63 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa83fc47-6cbd-42f6-b8f5-5bcabc79a71a")
+	)
+	(wire
+		(pts
+			(xy 158.75 96.52) (xy 168.91 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbc594be-bc7e-4638-8e8d-5d0a164e9bf7")
+	)
+	(wire
+		(pts
+			(xy 95.25 205.74) (xy 115.57 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc40069b-6b8c-445d-b3f4-d5fdb692d866")
+	)
+	(wire
+		(pts
+			(xy 128.27 149.86) (xy 130.81 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcd0a7e7-4a9f-4edd-b231-a62f024f5546")
+	)
+	(wire
+		(pts
+			(xy 163.83 121.92) (xy 163.83 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff186c36-5d39-4605-99d7-b6f030c5a30a")
+	)
+	(text_box "VOut = 0.6 x (1+ Rtop/Rbot)"
+		(exclude_from_sim no)
+		(at 140.97 160.02 0)
+		(size -35.56 5.08)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 150 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "1769eb04-47ed-4a1e-8ca3-b4afc4108e5c")
+	)
+	(text_box "1V Output (FPGA VCCINT)\n\nGoes to 1.06 in TURBO mode"
+		(exclude_from_sim no)
+		(at 200.66 110.49 0)
+		(size 33.02 10.16)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 150 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "6e5d5098-06d4-45cb-a831-f940479949d8")
+	)
+	(text_box "1.8V for FPGA AUX + ADC_DIG"
+		(exclude_from_sim no)
+		(at 267.97 48.26 0)
+		(size -20.32 10.16)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 150 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "87496ff5-7c50-4658-9a4c-c26526d77de6")
+	)
+	(text_box "3.3V Output (VCICO) for FPGA, front-end, etc."
+		(exclude_from_sim no)
+		(at 204.47 48.26 0)
+		(size -27.94 12.7)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 150 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "a205775a-d382-4552-8c30-f088359d3a3f")
+	)
+	(text_box "Adjusts VCC-INT higher for TURBO mode."
+		(exclude_from_sim no)
+		(at 207.01 154.94 0)
+		(size -27.94 7.62)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 150 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "b4077636-dbf6-4667-af70-1e5bd9d906f2")
+	)
+	(text_box "200mA draw = 300mW power dissipation. Ensure some copper on the PCB for power dissipation!"
+		(exclude_from_sim no)
+		(at 273.05 83.82 0)
+		(size -43.18 10.16)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 150 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "ef71c655-1b6e-4919-8389-3d2427596a97")
+	)
+	(label "PWRIN_5V"
+		(at 74.93 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6223523f-dcb3-451d-b8b5-a6e5c8863c42")
+	)
+	(label "PWRIN_5V"
+		(at 64.77 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "945f1691-723c-4785-8bd7-f506d8e0cef5")
+	)
+	(label "FPGAIO_TURBO"
+		(at 153.67 175.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9cbd6a3d-16d6-46eb-8948-ab12e3439564")
+	)
+	(label "PWRIN_5V"
+		(at 64.77 205.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e48fa6b3-522a-4e99-b45f-386652876c89")
+	)
+	(label "USB_nSUSPEND"
+		(at 219.71 180.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f39ac558-7696-4d6e-b34f-92b8e6c0e350")
+	)
+	(hierarchical_label "USB_nSUSPEND"
+		(shape bidirectional)
+		(at 236.22 180.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cbb3dc8b-e521-4e1b-bab1-06d95134ec81")
+	)
+	(hierarchical_label "PWRIN_5V"
+		(shape bidirectional)
+		(at 72.39 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dc18bf6e-f6f7-4c2c-9742-17d246665cac")
+	)
+	(hierarchical_label "FPGAIO_TURBO"
+		(shape bidirectional)
+		(at 152.4 175.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e7a4503b-945b-469f-baba-3d622e8aa82b")
+	)
+	(symbol
+		(lib_id "SONATA-ONE-symbols:root_0_RES-EU")
+		(at 153.67 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00c3fe89-c66e-4c0c-9925-0a033c1a6e7a")
+		(property "Reference" "R10"
+			(at 154.686 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100k"
+			(at 154.686 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SONATA-ONE-LIBRARY:RESC1005X40N"
+			(at 153.67 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10k res, 0402, 1%, 1/16W"
+			(at 153.67 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURE PART NUMBER 1" "RC0402FR-07100KL"
+			(at 152.654 131.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "617183bd-87ba-42b5-ad99-ee3230bbe9dc")
+		)
+		(pin "1"
+			(uuid "41b37888-1886-4fb1-ad13-9d71ae30274f")
+		)
+		(instances
+			(project "SONATA-ONE"
+				(path "/e7c9b7db-69aa-4c96-995e-e694ce2e3dcf/b5a3ce17-af04-4bd2-8987-e8ce0a8bcdf5"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SONATA-ONE-symbols:root_0_CAP")
+		(at 184.15 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "06e544de-9948-45cf-8368-7c790eb6ab06")
+		(property "Reference" "C38"
+			(at 186.436 126.746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "22uF"
+			(at 186.69 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SONATA-ONE-LIBRARY:CAPC0805_M"
+			(at 184.15 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100n, 0402"
+			(at 184.15 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURE PART NUMBER 1" "CL21A226MOCLRNC"
+			(at 181.864 118.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "adce1869-f6a3-43c9-9b5e-a8f41d6b19be")
+		)
+		(pin "2"
+			(uuid "a16d7410-7985-4eb9-b427-4b2be76d09ec")
+		)
+		(instances
+			(project "SONATA-ONE"
+				(path "/e7c9b7db-69aa-4c96-995e-e694ce2e3dcf/b5a3ce17-af04-4bd2-8987-e8ce0a8bcdf5"
+					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SONATA-ONE-symbols:root_0_RES-EU")
+		(at 148.59 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1bd01bfc-c82c-4be3-a87d-404a1e04f476")
+		(property "Reference" "R8"
+			(at 149.606 93.726 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "2k2"
+			(at 149.86 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SONATA-ONE-LIBRARY:RESC1005X40N"
+			(at 148.59 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10k res, 0402, 1%, 1/16W"
+			(at 148.59 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURE PART NUMBER 1" "RC0402FR-072K2L"
+			(at 147.574 85.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "495a116b-d91d-4a5b-bd0b-4de7e596d66f")
+		)
+		(pin "2"
+			(uuid "d5837a72-81c2-44b6-a05a-34e1fd4ce59f")
+		)
+		(instances
+			(project "SONATA-ONE"
+				(path "/e7c9b7db-69aa-4c96-995e-e694ce2e3dcf/b5a3ce17-af04-4bd2-8987-e8ce0a8bcdf5"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SONATA-ONE-symbols:root_0_IND")
+		(at 151.13 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "215e78b7-e4fc-461a-8e88-54bf4039998d")
+		(property "Reference" "L1"
+			(at 153.67 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "4.7uH"
+			(at 143.51 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SONATA-ONE-LIBRARY:NR6028"
+			(at 151.13 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "fixed ind, ferrite, shielded"
+			(at 151.13 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURE PART NUMBER 1" "NR6028T4R7M"
+			(at 143.002 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da1c81ba-0d45-44c8-a212-f33814f73e37")
+		)
+		(pin "2"
+			(uuid "8b5bdc0b-6aba-4edb-badf-0c825e8b1654")
+		)
+		(instances
+			(project "SONATA-ONE"
+				(path "/e7c9b7db-69aa-4c96-995e-e694ce2e3dcf/b5a3ce17-af04-4bd2-8987-e8ce0a8bcdf5"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SONATA-ONE-symbols:VCCINT_BAR")
+		(at 186.69 116.84 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "237cf29e-e3f8-4cd0-aa8c-375e30694a1f")
+		(property "Reference" "#PWR0226"
+			(at 186.69 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCCINT"
+			(at 186.69 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name 'VCCINT'"
+			(at 186.69 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "bf7cd38a-f67e-4f9b-938c-bd2b33be65d5")
+		)
+		(instances
+			(project "SONATA-ONE"
+				(path "/e7c9b7db-69aa-4c96-995e-e694ce2e3dcf/b5a3ce17-af04-4bd2-8987-e8ce0a8bcdf5"
+					(reference "#PWR0226")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SONATA-ONE-symbols:GND_POWER_GROUND")
+		(at 87.63 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2f74d87b-fc42-49d1-9cb4-913d6d0403cb")
+		(property "Reference" "#PWR0114"
+			(at 87.63 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 87.63 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name 'GND'"
+			(at 87.63 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "a7dccaef-06d1-4d01-a700-98e4ce16a5cf")
+		)
+		(instances
+			(project "SONATA-ONE"
+				(path "/e7c9b7db-69aa-4c96-995e-e694ce2e3dcf/b5a3ce17-af04-4bd2-8987-e8ce0a8bcdf5"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SONATA-ONE-symbols:GND_POWER_GROUND")
+		(at 128.27 218.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "34fdcc10-f0d1-4e79-8a33-d5600d1b11dd")
+		(property "Reference" "#PWR0123"
+			(at 128.27 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name 'GND'"
+			(at 128.27 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "5729fb65-87ca-40a7-b73f-5701c9c5d2e5")
+		)
+		(instances
+			(project "SONATA-ONE"
+				(path "/e7c9b7db-69aa-4c96-995e-e694ce2e3dcf/b5a3ce17-af04-4bd2-8987-e8ce0a8bcdf5"
+					(reference "#PWR0123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SONATA-ONE-symbols:VCC1V8_BAR")
+		(at 288.29 63.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "38ceba34-c0dd-4dfe-a133-e48d16ac84d1")
+		(property "Reference" "#PWR0229"
+			(at 288.29 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC1V8"
+			(at 288.29 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 288.29 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 288.29 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name 'VCC1V8'"
+			(at 288.29 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "a578fcd8-1390-49f0-a992-c0a3a6d02a49")
+		)
+		(instances
+			(project "SONATA-ONE"
+				(path "/e7c9b7db-69aa-4c96-995e-e694ce2e3dcf/b5a3ce17-af04-4bd2-8987-e8ce0a8bcdf5"
+					(reference "#PWR0229")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SONATA-ONE-symbols:GND_POWER_GROUND")
+		(at 95.25 218.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3bfeff22-17a3-4974-b13c-c51970846569")
+		(property "Reference" "#PWR0115"
+			(at 95.25 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 95.25 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name 'GND'"
+			(at 95.25 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "80a605de-6d52-4833-acdb-1d85ebf35e23")
+		)
+		(instances
+			(project "SONATA-ONE"
+				(path "/e7c9b7db-69aa-4c96-995e-e694ce2e3dcf/b5a3ce17-af04-4bd2-8987-e8ce0a8bcdf5"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SONATA-ONE-symbols:GND_POWER_GROUND")
+		(at 247.65 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ed9d325-0f71-4e99-8be2-7d840b1d93d2")
+		(property "Reference" "#PWR0228"
+			(at 247.65 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 247.65 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name 'GND'"
+			(at 247.65 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "2fd92497-c384-46a8-a855-95816e06908f")
+		)
+		(instances
+			(project "SONATA-ONE"
+				(path "/e7c9b7db-69aa-4c96-995e-e694ce2e3dcf/b5a3ce17-af04-4bd2-8987-e8ce0a8bcdf5"
+					(reference "#PWR0228")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SONATA-ONE-symbols:root_0_RES-EU")
+		(at 163.83 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4aea1284-b431-44e3-808d-ce108a9876e1")
+		(property "Reference" "R9"
+			(at 164.846 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10k"
+			(at 164.846 127.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SONATA-ONE-LIBRARY:RESC1005X40N"
+			(at 163.83 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10k res, 0402, 1%, 1/16W"
+			(at 163.83 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURE PART NUMBER 1" "RC0402FR-0710KL"
+			(at 162.814 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c0177fb-399d-45da-8e58-c38e6c3d846a")
+		)
+		(pin "2"
+			(uuid "b45b2348-1a65-4320-8ea8-e71f681a5d98")
+		)
+		(instances
+			(project "SONATA-ONE"
+				(path "/e7c9b7db-69aa-4c96-995e-e694ce2e3dcf/b5a3ce17-af04-4bd2-8987-e8ce0a8bcdf5"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SONATA-ONE-symbols:GND_POWER_GROUND")
+		(at 153.67 218.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4da46e45-6283-422e-96ee-e5aecd6e53b4")
+		(property "Reference" "#PWR0222"
+			(at 153.67 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name 'GND'"
+			(at 153.67 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "482ece75-f892-4434-a5d5-7a0fb25aba3f")
+		)
+		(instances
+			(project "SONATA-ONE"
+				(path "/e7c9b7db-69aa-4c96-995e-e694ce2e3dcf/b5a3ce17-af04-4bd2-8987-e8ce0a8bcdf5"
+					(reference "#PWR0222")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SONATA-ONE-symbols:VCCUSB3V3_BAR")
+		(at 166.37 203.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "55166aee-3a07-4af2-9a5b-3c4026872d39")
+		(property "Reference" "#PWR0223"
+			(at 166.37 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCCUSB3V3"
+			(at 166.37 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name 'VCCUSB3V3'"
+			(at 166.37 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "32d522d2-917f-47d2-9d18-8580b5fad557")
+		)
+		(instances
+			(project "SONATA-ONE"
+				(path "/e7c9b7db-69aa-4c96-995e-e694ce2e3dcf/b5a3ce17-af04-4bd2-8987-e8ce0a8bcdf5"
+					(reference "#PWR0223")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SONATA-ONE-symbols:root_0_LD1117S33")
+		(at 247.65 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "566ffda0-04cd-464f-9fef-abdc3cd3c976")
+		(property "Reference" "U9"
+			(at 240.03 79.248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "LD1117S18"
+			(at 250.19 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SONATA-ONE-LIBRARY:SOT-223"
+			(at 247.65 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC REG LIN POS 3.3V 800MA SOT223"
+			(at 247.65 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURE PART NUMBER 1" "LD1117S18TR"
+			(at 234.442 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8ab57fc-32f0-4489-9d6b-778a49e86b1e")
+		)
+		(pin "2"
+			(uuid "4ac180c0-f670-4e0a-aeab-7cc9fae6dfa8")
+		)
+		(pin "4"
+			(uuid "20291686-e42b-4389-b68b-481346ebd435")
+		)
+		(pin "3"
+			(uuid "533adada-8959-4995-afce-2d8eaf42ecbe")
+		)
+		(instances
+			(project "SONATA-ONE"
+				(path "/e7c9b7db-69aa-4c96-995e-e694ce2e3dcf/b5a3ce17-af04-4bd2-8987-e8ce0a8bcdf5"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SONATA-ONE-symbols:root_0_IND")
+		(at 156.21 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5693fde8-e8c9-4e1f-aa68-447e688557f8")
+		(property "Reference" "L2"
+			(at 158.75 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "4.7uH"
+			(at 148.59 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SONATA-ONE-LIBRARY:NR6028"
+			(at 156.21 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "fixed ind, ferrite, shielded"
+			(at 156.21 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURE PART NUMBER 1" "NR6028T4R7M"
+			(at 148.082 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1327337-598c-4c63-98ed-6e4d567d338a")
+		)
+		(pin "2"
+			(uuid "e2053521-93ba-4a95-a5f5-b05fcad71d0f")
+		)
+		(instances
+			(project "SONATA-ONE"
+				(path "/e7c9b7db-69aa-4c96-995e-e694ce2e3dcf/b5a3ce17-af04-4bd2-8987-e8ce0a8bcdf5"
+					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SONATA-ONE-symbols:root_0_CAP")
+		(at 87.63 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5fedf09c-2ef3-45e2-91af-0eef86e46a22")
+		(property "Reference" "C33"
+			(at 89.916 73.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "22uF"
+			(at 90.17 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SONATA-ONE-LIBRARY:CAPC0805_M"
+			(at 87.63 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100n, 0402"
+			(at 87.63 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURE PART NUMBER 1" "CL21A226MOCLRNC"
+			(at 85.344 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8e3936d-f58f-42d3-98d7-0b1442bc5e10")
+		)
+		(pin "2"
+			(uuid "2dd89d2f-8af2-48f6-94f1-39e0f8ca4ddb")
+		)
+		(instances
+			(project "SONATA-ONE"
+				(path "/e7c9b7db-69aa-4c96-995e-e694ce2e3dcf/b5a3ce17-af04-4bd2-8987-e8ce0a8bcdf5"
+					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SONATA-ONE-symbols:GND_POWER_GROUND")
+		(at 118.11 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60d4be34-378b-437e-ab23-59f895d38b28")
+		(property "Reference" "#PWR0117"
+			(at 118.11 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name 'GND'"
+			(at 118.11 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "6624f307-71c9-4079-b055-1de4e0e75d11")
+		)
+		(instances
+			(project "SONATA-ONE"
+				(path "/e7c9b7db-69aa-4c96-995e-e694ce2e3dcf/b5a3ce17-af04-4bd2-8987-e8ce0a8bcdf5"
+					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SONATA-ONE-symbols:root_0_RES-EU")
+		(at 163.83 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61cb39bb-0bff-49a2-a84c-ccbdb1ada7fe")
+		(property "Reference" "R11"
+			(at 164.846 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "15k"
+			(at 164.846 137.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SONATA-ONE-LIBRARY:RESC1005X40N"
+			(at 163.83 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10k res, 0402, 1%, 1/16W"
+			(at 163.83 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURE PART NUMBER 1" "RC0402FR-0715KL"
+			(at 162.814 131.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "710d8dd1-c1ac-4b06-bea5-76f4ed7be002")
+		)
+		(pin "1"
+			(uuid "644f46c6-5d6b-4fb5-947a-615e0e388fc6")
+		)
+		(instances
+			(project "SONATA-ONE"
+				(path "/e7c9b7db-69aa-4c96-995e-e694ce2e3dcf/b5a3ce17-af04-4bd2-8987-e8ce0a8bcdf5"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SONATA-ONE-symbols:root_0_CAP")
+		(at 87.63 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68c4f14a-f311-4a70-9562-465a039a4f8b")
+		(property "Reference" "C36"
+			(at 89.916 126.746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "22uF"
+			(at 90.17 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SONATA-ONE-LIBRARY:CAPC0805_M"
+			(at 87.63 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100n, 0402"
+			(at 87.63 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURE PART NUMBER 1" "CL21A226MOCLRNC"
+			(at 85.344 118.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89d8b16e-61f4-4827-8ac3-20e425345602")
+		)
+		(pin "2"
+			(uuid "b6ab73ba-47dc-4cb4-8e76-2ad28b88754d")
+		)
+		(instances
+			(project "SONATA-ONE"
+				(path "/e7c9b7db-69aa-4c96-995e-e694ce2e3dcf/b5a3ce17-af04-4bd2-8987-e8ce0a8bcdf5"
+					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SONATA-ONE-symbols:root_0_a78650ae27aee94b64e9c93150c7d5d")
+		(at 179.07 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ebaa414-aa40-42ba-bd36-55a73280405f")
+		(property "Reference" "SW6"
+			(at 183.642 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "218-4LPSTR"
+			(at 183.642 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SONATA-ONE-LIBRARY:FP-218-4LPSTR-MFG"
+			(at 179.07 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SWITCH SLIDE DIP SPST 25MA 24V"
+			(at 179.07 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "67141cc3-abd6-46c7-8632-0f50aa38bc9b")
+		)
+		(pin "6"
+			(uuid "69310fe4-26c0-48d8-9094-52d309766f09")
+		)
+		(pin "1"
+			(uuid "ca6e3868-815b-4a9b-8273-c009431927dd")
+		)
+		(pin "8"
+			(uuid "daa1403f-90d1-4d16-bcbe-d2d956c33bca")
+		)
+		(pin "5"
+			(uuid "0f534a2e-5dbb-423e-a345-a70b9279c056")
+		)
+		(pin "2"
+			(uuid "101af0a0-95d3-46f8-b3ec-ba19aa1792f6")
+		)
+		(pin "7"
+			(uuid "d73c6961-bb34-451d-9667-b70ab8a9c7a4")
+		)
+		(pin "4"
+			(uuid "7b308803-24cc-4884-8d9a-3fc0bb396d34")
+		)
+		(instances
+			(project "SONATA-ONE"
+				(path "/e7c9b7db-69aa-4c96-995e-e694ce2e3dcf/b5a3ce17-af04-4bd2-8987-e8ce0a8bcdf5"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SONATA-ONE-symbols:root_0_CAP")
+		(at 227.33 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "88961e40-dd9f-4f22-807b-7828e3c10297")
+		(property "Reference" "C30"
+			(at 229.616 70.866 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "2u2"
+			(at 230.378 68.326 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SONATA-ONE-LIBRARY:CAPC0603_M"
+			(at 227.33 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100n, 0402"
+			(at 227.33 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURE PART NUMBER 1" "CL10B225KP8NNNC"
+			(at 225.044 62.992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "26f3d420-f173-41a5-993a-2e9ff7e98714")
+		)
+		(pin "1"
+			(uuid "ca84854d-51a3-4ef9-967b-2995301cac2f")
+		)
+		(instances
+			(project "SONATA-ONE"
+				(path "/e7c9b7db-69aa-4c96-995e-e694ce2e3dcf/b5a3ce17-af04-4bd2-8987-e8ce0a8bcdf5"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SONATA-ONE-symbols:root_2_RES-EU")
+		(at 153.67 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ed2e512-cb40-4967-9db5-a16c29c08324")
+		(property "Reference" "R15"
+			(at 154.686 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100k"
+			(at 154.686 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SONATA-ONE-LIBRARY:RESC1608X55N"
+			(at 153.67 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Do Not Mount Resistor"
+			(at 153.67 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURE PART NUMBER 1" "RC0603FR-07100KL"
+			(at 152.654 182.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ef780031-2935-43b9-82cc-10674e225829")
+		)
+		(pin "1"
+			(uuid "50cb9cf8-acee-459e-a8a5-1f83d6c8c476")
+		)
+		(instances
+			(project "SONATA-ONE"
+				(path "/e7c9b7db-69aa-4c96-995e-e694ce2e3dcf/b5a3ce17-af04-4bd2-8987-e8ce0a8bcdf5"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SONATA-ONE-symbols:root_0_CAP")
+		(at 95.25 210.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9306269e-1548-4866-82b9-2ce3be7b689d")
+		(property "Reference" "C39"
+			(at 97.536 213.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "2u2"
+			(at 98.298 210.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SONATA-ONE-LIBRARY:CAPC0603_M"
+			(at 95.25 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100n, 0402"
+			(at 95.25 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURE PART NUMBER 1" "CL10B225KP8NNNC"
+			(at 92.964 205.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8e0dd7e1-2d90-46f4-8f2a-1f2947623910")
+		)
+		(pin "1"
+			(uuid "33efe02f-4b70-4927-ae11-e4e23367d087")
+		)
+		(instances
+			(project "SONATA-ONE"
+				(path "/e7c9b7db-69aa-4c96-995e-e694ce2e3dcf/b5a3ce17-af04-4bd2-8987-e8ce0a8bcdf5"
+					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SONATA-ONE-symbols:GND_POWER_GROUND")
+		(at 133.35 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "953af561-6b06-46b0-9849-b62ffe9fd28a")
+		(property "Reference" "#PWR0124"
+			(at 133.35 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 133.35 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name 'GND'"
+			(at 133.35 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "05c5b9c6-e364-4a89-9ee9-b6d500a8532e")
+		)
+		(instances
+			(project "SONATA-ONE"
+				(path "/e7c9b7db-69aa-4c96-995e-e694ce2e3dcf/b5a3ce17-af04-4bd2-8987-e8ce0a8bcdf5"
+					(reference "#PWR0124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SONATA-ONE-symbols:root_0_RT8058")
+		(at 115.57 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a44b9699-7cdf-4ea6-8c1c-a1bb9ba6717f")
+		(property "Reference" "U8"
+			(at 115.57 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "RT8058"
+			(at 123.19 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SONATA-ONE-LIBRARY:QFN16_50P300X300X100_HS-17M"
+			(at 115.57 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switching supply controller, 2A"
+			(at 115.57 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURE PART NUMBER 1" "RT8058"
+			(at 109.982 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "55981aa4-c267-43c5-addc-a7feb4e43bea")
+		)
+		(pin "7"
+			(uuid "8c434d7b-4cd9-4fc5-a350-e56593ca865b")
+		)
+		(pin "9"
+			(uuid "4e4c4268-af87-4fe0-a7ac-6e0b0b394bde")
+		)
+		(pin "6"
+			(uuid "ca646e64-8a2f-47ba-92e3-15902fb44a72")
+		)
+		(pin "11"
+			(uuid "6da53378-e05d-4100-8eab-291f41a0a63f")
+		)
+		(pin "4"
+			(uuid "59e0ee78-c5e4-4d25-bd73-91d7094de4bc")
+		)
+		(pin "13"
+			(uuid "cc513246-f041-413d-9bf2-7f5ad202ff9d")
+		)
+		(pin "3"
+			(uuid "07c4a5c3-79b1-4d1e-b65b-088725bda92d")
+		)
+		(pin "1"
+			(uuid "1f0be338-f861-4cc6-b2f7-4a0722cbfa11")
+		)
+		(pin "15"
+			(uuid "501603a5-9fc9-4af3-94b6-cc076e4b71f5")
+		)
+		(pin "17"
+			(uuid "dc8cdd33-1572-4337-ab74-7f9b5647151f")
+		)
+		(pin "8"
+			(uuid "2ce1305d-34dd-47ed-b5a0-c44050b6a08a")
+		)
+		(pin "16"
+			(uuid "19ab86d2-e6f5-4b06-b7fc-ce780f5f11b5")
+		)
+		(pin "5"
+			(uuid "8e3bbfde-0f75-41a5-abfd-f49aff444879")
+		)
+		(pin "12"
+			(uuid "0ac75192-947b-4633-8eb9-3fe0372bc78e")
+		)
+		(pin "14"
+			(uuid "504cb8c7-d85d-4ddd-afef-bf0b64da378e")
+		)
+		(pin "10"
+			(uuid "1e448107-1fd1-48d1-a18b-0683928ea16f")
+		)
+		(instances
+			(project "SONATA-ONE"
+				(path "/e7c9b7db-69aa-4c96-995e-e694ce2e3dcf/b5a3ce17-af04-4bd2-8987-e8ce0a8bcdf5"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SONATA-ONE-symbols:root_0_CAP")
+		(at 168.91 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a85140a2-d16c-4a7d-9bdb-87fcc8d96ca5")
+		(property "Reference" "C35"
+			(at 171.196 75.946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "22uF"
+			(at 171.45 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SONATA-ONE-LIBRARY:CAPC0805_M"
+			(at 168.91 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100n, 0402"
+			(at 168.91 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURE PART NUMBER 1" "CL21A226MOCLRNC"
+			(at 166.624 68.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "45783649-478a-4f85-8801-b47c49432e1d")
+		)
+		(pin "1"
+			(uuid "41794772-decf-4541-b0ec-607616c3d70f")
+		)
+		(instances
+			(project "SONATA-ONE"
+				(path "/e7c9b7db-69aa-4c96-995e-e694ce2e3dcf/b5a3ce17-af04-4bd2-8987-e8ce0a8bcdf5"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SONATA-ONE-symbols:root_0_CAP")
+		(at 173.99 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa91bb3b-cfb8-47d2-a015-7c932373a4ea")
+		(property "Reference" "C37"
+			(at 176.276 126.746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "22uF"
+			(at 176.53 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SONATA-ONE-LIBRARY:CAPC0805_M"
+			(at 173.99 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100n, 0402"
+			(at 173.99 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURE PART NUMBER 1" "CL21A226MOCLRNC"
+			(at 171.704 118.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a256309-0694-47ca-aed0-a94130083b4b")
+		)
+		(pin "2"
+			(uuid "e4c7d044-65fd-4534-ba76-40a46e97aaf7")
+		)
+		(instances
+			(project "SONATA-ONE"
+				(path "/e7c9b7db-69aa-4c96-995e-e694ce2e3dcf/b5a3ce17-af04-4bd2-8987-e8ce0a8bcdf5"
+					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SONATA-ONE-symbols:root_0_CAP")
+		(at 283.21 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc0ee260-12a3-4f0f-b5e1-df23a10d986d")
+		(property "Reference" "C32"
+			(at 285.496 70.866 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "2u2"
+			(at 286.258 68.326 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SONATA-ONE-LIBRARY:CAPC0603_M"
+			(at 283.21 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 283.21 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100n, 0402"
+			(at 283.21 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURE PART NUMBER 1" "CL10B225KP8NNNC"
+			(at 280.924 62.992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4d3355c8-df8b-43b9-928b-438af5999b44")
+		)
+		(pin "1"
+			(uuid "3aa4d25a-cd95-4e1d-a938-3ab236502430")
+		)
+		(instances
+			(project "SONATA-ONE"
+				(path "/e7c9b7db-69aa-4c96-995e-e694ce2e3dcf/b5a3ce17-af04-4bd2-8987-e8ce0a8bcdf5"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SONATA-ONE-symbols:root_0_CAP")
+		(at 166.37 213.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf4b8189-c642-4a2d-8089-89bee7daa5c0")
+		(property "Reference" "C41"
+			(at 168.656 215.646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "2u2"
+			(at 169.418 213.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SONATA-ONE-LIBRARY:CAPC0603_M"
+			(at 166.37 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100n, 0402"
+			(at 166.37 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURE PART NUMBER 1" "CL10B225KP8NNNC"
+			(at 164.084 207.772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "986b4717-51e7-4509-a298-e0d33f49b19b")
+		)
+		(pin "2"
+			(uuid "17cf8d12-01ad-4304-978a-4b7288873195")
+		)
+		(instances
+			(project "SONATA-ONE"
+				(path "/e7c9b7db-69aa-4c96-995e-e694ce2e3dcf/b5a3ce17-af04-4bd2-8987-e8ce0a8bcdf5"
+					(reference "C41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SONATA-ONE-symbols:GND_POWER_GROUND")
+		(at 87.63 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c1082f56-75eb-40fa-93d2-970842288d79")
+		(property "Reference" "#PWR0113"
+			(at 87.63 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 87.63 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name 'GND'"
+			(at 87.63 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "c91cc43d-84b3-487e-a337-325a818f07d8")
+		)
+		(instances
+			(project "SONATA-ONE"
+				(path "/e7c9b7db-69aa-4c96-995e-e694ce2e3dcf/b5a3ce17-af04-4bd2-8987-e8ce0a8bcdf5"
+					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SONATA-ONE-symbols:root_0_CAP")
+		(at 270.51 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2a8abee-eabe-4b56-b016-b3546901dc35")
+		(property "Reference" "C31"
+			(at 272.796 70.866 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100n"
+			(at 272.796 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SONATA-ONE-LIBRARY:CAPC0402_M"
+			(at 270.51 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100n, 0402"
+			(at 270.51 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7ed6ec07-770c-4222-99f4-901731d80fbc")
+		)
+		(pin "1"
+			(uuid "82a8888d-65f2-4ba8-9f8e-1a6b99294481")
+		)
+		(instances
+			(project "SONATA-ONE"
+				(path "/e7c9b7db-69aa-4c96-995e-e694ce2e3dcf/b5a3ce17-af04-4bd2-8987-e8ce0a8bcdf5"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SONATA-ONE-symbols:VCCIO_BAR")
+		(at 171.45 63.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d60a10ba-ae08-4e58-9aee-df287ab5b476")
+		(property "Reference" "#PWR0225"
+			(at 171.45 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCCIO"
+			(at 171.45 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name 'VCCIO'"
+			(at 171.45 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "eb12fdb3-5a30-4b27-9b49-809bd8a6e7ae")
+		)
+		(instances
+			(project "SONATA-ONE"
+				(path "/e7c9b7db-69aa-4c96-995e-e694ce2e3dcf/b5a3ce17-af04-4bd2-8987-e8ce0a8bcdf5"
+					(reference "#PWR0225")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SONATA-ONE-symbols:root_0_LD1117S33")
+		(at 128.27 205.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "db0dfe84-d2f4-4135-9478-c7dd4bd62afb")
+		(property "Reference" "U2"
+			(at 120.65 221.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "LD1117S33"
+			(at 130.81 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SONATA-ONE-LIBRARY:SOT-223"
+			(at 128.27 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC REG LIN POS 3.3V 800MA SOT223"
+			(at 128.27 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURE PART NUMBER 1" "LD1117S33TR"
+			(at 115.062 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c14dfb08-1294-4ebf-97e6-9f67aafb2660")
+		)
+		(pin "4"
+			(uuid "753adb20-a0fd-445b-8e99-4de0575c0fea")
+		)
+		(pin "2"
+			(uuid "2de8015e-2dd0-4846-87bc-2b6458d562a2")
+		)
+		(pin "3"
+			(uuid "92329b6f-649d-4bea-9505-be74c3f98f45")
+		)
+		(instances
+			(project "SONATA-ONE"
+				(path "/e7c9b7db-69aa-4c96-995e-e694ce2e3dcf/b5a3ce17-af04-4bd2-8987-e8ce0a8bcdf5"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SONATA-ONE-symbols:root_0_CAP")
+		(at 153.67 213.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e09e004b-ece9-42cb-b559-ec887354be4d")
+		(property "Reference" "C40"
+			(at 155.956 215.646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100n"
+			(at 155.956 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SONATA-ONE-LIBRARY:CAPC0402_M"
+			(at 153.67 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100n, 0402"
+			(at 153.67 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a75ceaa-479e-4278-8e9a-b1e67f7a1d04")
+		)
+		(pin "2"
+			(uuid "f6fe4a24-d0f4-4b41-93d5-66c424dfe15c")
+		)
+		(instances
+			(project "SONATA-ONE"
+				(path "/e7c9b7db-69aa-4c96-995e-e694ce2e3dcf/b5a3ce17-af04-4bd2-8987-e8ce0a8bcdf5"
+					(reference "C40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SONATA-ONE-symbols:root_0_RES-EU")
+		(at 148.59 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e0fb2cd0-0270-40ab-866e-84b4b3927c04")
+		(property "Reference" "R7"
+			(at 149.606 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10k"
+			(at 149.606 76.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SONATA-ONE-LIBRARY:RESC1005X40N"
+			(at 148.59 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10k res, 0402, 1%, 1/16W"
+			(at 148.59 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURE PART NUMBER 1" "RC0402FR-0710KL"
+			(at 147.574 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8b7d4fae-5c9f-4b8e-bf91-39a8192359e1")
+		)
+		(pin "1"
+			(uuid "73f17702-5245-445d-8af4-def81200e19a")
+		)
+		(instances
+			(project "SONATA-ONE"
+				(path "/e7c9b7db-69aa-4c96-995e-e694ce2e3dcf/b5a3ce17-af04-4bd2-8987-e8ce0a8bcdf5"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SONATA-ONE-symbols:root_0_RT8058")
+		(at 115.57 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e21f28fa-0b43-458f-80ed-8c7a5842c990")
+		(property "Reference" "U10"
+			(at 115.57 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "RT8058"
+			(at 123.19 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SONATA-ONE-LIBRARY:QFN16_50P300X300X100_HS-17M"
+			(at 115.57 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switching supply controller, 2A"
+			(at 115.57 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURE PART NUMBER 1" "RT8058"
+			(at 109.982 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "a96ab9cf-b0ec-4649-bc9d-abe8b7508076")
+		)
+		(pin "14"
+			(uuid "fb1a3111-ee7a-48c0-8d10-dabae9513b06")
+		)
+		(pin "15"
+			(uuid "a0cd6053-27d5-424a-b5f9-fa2a93c0189f")
+		)
+		(pin "16"
+			(uuid "4748ae2e-d260-49c5-9b13-9145209c253b")
+		)
+		(pin "12"
+			(uuid "71bdb975-22f7-4d1d-8fac-942cc55b2505")
+		)
+		(pin "5"
+			(uuid "6f9771b4-4018-47cc-b1c4-3304519ebad8")
+		)
+		(pin "10"
+			(uuid "fb0f6bf2-9356-4437-9299-8e11be670014")
+		)
+		(pin "3"
+			(uuid "427c155e-ffe2-466a-8956-73db0614c837")
+		)
+		(pin "9"
+			(uuid "796846b7-9bb3-410b-acca-de6b5af28acf")
+		)
+		(pin "6"
+			(uuid "e17dd24e-4a4e-4f93-9068-8e826cc6cfff")
+		)
+		(pin "1"
+			(uuid "9e3ffeba-bb13-41d8-8462-1587856eb17d")
+		)
+		(pin "4"
+			(uuid "aaf35568-0192-4edb-827d-38d433e36117")
+		)
+		(pin "2"
+			(uuid "a7b25505-e9af-43d9-ba80-5790c75b7558")
+		)
+		(pin "17"
+			(uuid "8dfc3c33-2b85-432f-860b-5e2ba1a59fbc")
+		)
+		(pin "8"
+			(uuid "28258ce0-c28c-4010-90ac-4be725b00884")
+		)
+		(pin "13"
+			(uuid "b55dfbda-8b73-4915-b40f-f0b52d93e9ab")
+		)
+		(pin "7"
+			(uuid "ea4747f2-3c20-4e42-8866-1e75badcf6ce")
+		)
+		(instances
+			(project "SONATA-ONE"
+				(path "/e7c9b7db-69aa-4c96-995e-e694ce2e3dcf/b5a3ce17-af04-4bd2-8987-e8ce0a8bcdf5"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SONATA-ONE-symbols:GND_POWER_GROUND")
+		(at 166.37 218.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e7d49986-355f-4cff-977b-4cf1330594dd")
+		(property "Reference" "#PWR0224"
+			(at 166.37 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 166.37 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name 'GND'"
+			(at 166.37 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "62727794-19b1-4f0d-9a46-e52ff8f2212b")
+		)
+		(instances
+			(project "SONATA-ONE"
+				(path "/e7c9b7db-69aa-4c96-995e-e694ce2e3dcf/b5a3ce17-af04-4bd2-8987-e8ce0a8bcdf5"
+					(reference "#PWR0224")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SONATA-ONE-symbols:GND_POWER_GROUND")
+		(at 217.17 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eaa4c9d3-fa28-42b6-8a5f-a1ceb025b011")
+		(property "Reference" "#PWR0227"
+			(at 217.17 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.17 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name 'GND'"
+			(at 217.17 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "8fb5efaa-afd3-4562-a2ee-ad2106b8bcc7")
+		)
+		(instances
+			(project "SONATA-ONE"
+				(path "/e7c9b7db-69aa-4c96-995e-e694ce2e3dcf/b5a3ce17-af04-4bd2-8987-e8ce0a8bcdf5"
+					(reference "#PWR0227")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SONATA-ONE-symbols:root_0_CAP")
+		(at 158.75 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff994a0e-a5bf-4d0f-9657-0f8f1bcef69c")
+		(property "Reference" "C34"
+			(at 161.036 75.946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "22uF"
+			(at 161.29 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SONATA-ONE-LIBRARY:CAPC0805_M"
+			(at 158.75 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100n, 0402"
+			(at 158.75 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURE PART NUMBER 1" "CL21A226MOCLRNC"
+			(at 156.464 68.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d4c5131-fb8b-44c3-8779-558c35df06f9")
+		)
+		(pin "2"
+			(uuid "b74fb432-adf1-4812-a18f-e5d935f2e26c")
+		)
+		(instances
+			(project "SONATA-ONE"
+				(path "/e7c9b7db-69aa-4c96-995e-e694ce2e3dcf/b5a3ce17-af04-4bd2-8987-e8ce0a8bcdf5"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

@@ -1,0 +1,839 @@
+(footprint "FP-USB4105-GF-A-MFG"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 6.24827 -2.62489 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4c97acb8-2677-4df6-859e-ea92e8916eaa")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.2032)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "USB4105-GF-A"
+		(at -4.8133 6.3373 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "02c72896-2525-459f-8bf4-0907dbce0f61")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" "Sonata_Footprints:FP-USB4105-GF-A-MFG"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c2e0505a-b4a8-4104-b859-fdb162d246d8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d9f2be18-23f7-4e56-be62-0e603295644c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "CONN RCPT USB2.0 TYPEC 5A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0ed45b8a-f251-47ee-ab53-48c3a6dd39c9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DEVICE CLASS L1" "Connectors"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cb193bdb-3b80-4e37-b1b6-1eddc9de5e59")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CATEGORY" "Conn"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dfcfeb0c-5e79-454a-a106-2a31487eb436")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LEAD FREE" "Yes"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "68390182-d51f-49ae-8b1f-e70f552d4f82")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ROHS" "TRUE"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6a1e8688-ce96-415c-a067-d0456aea859d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "TEMPERATURE RANGE HIGH" "+85°C"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3dc147c4-6156-457d-99b1-7d24d5d5f657")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DIGIKEY DESCRIPTION" "CONN RCPT USB2.0 TYPEC 5A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8607786c-5e12-4d83-9708-8202b9840935")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DEVICE CLASS L3" "unset"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a69a6279-d404-424d-8c47-b4572e6f0201")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "VOLTAGE RATING" "20V"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a6457090-da81-40b3-91b6-3bc68d6902a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "COMPONENTLINK2DESCRIPTION" "Datasheet"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bff26eac-8c41-4328-b8f2-2a8288eb1fc5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "IS FEMALE" "yes"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f322c0cb-19d2-4593-9636-24c67045ebc1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER PART NUMBER" "USB4105-GF-A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ca46bf91-3534-40db-9524-e25f3ce46927")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PACKAGE" "0"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00c249d2-f189-446b-8b9d-6778d01a6210")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "USB STANDARD" "USB 2.0"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "41ecb76d-ddf3-4784-a20f-f53978de4e1b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DEVICE CLASS L2" "USB Connectors"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5e020a79-1525-43ce-977d-663f9edeae4a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "AUTOMOTIVE" "No"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "15d94a60-9c17-4578-ad54-9b9a60686dde")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "TEMPERATURE RANGE LOW" "-40°C"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e0ba34ca-8db5-4660-bf2f-2dd845580ba4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CURRENT RATING" "5/6.25/1.25/0.25A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2c62f6f0-1bd4-4154-8568-2cb3b02311bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "HEIGHT" "3.46mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3b1ec835-2017-4a16-943d-7e160aaaeff5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "TEMPERATURE" "-40°C to +85°C"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "37b01a61-6f2e-4ab2-9b52-901208494ac9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "NUMBER OF CONTACTS" "16"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2abfb17c-2dd4-4385-b36c-98d65e2f5a68")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" "GCT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "142cde70-3729-490b-aed7-fa8728cc3da0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CONTACT MATERIAL" "Gold,Nickel"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7463ac97-addb-42f1-bebc-fe91a3ccd327")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "COMPONENTLINK2URL" "https://gct.co/files/drawings/usb4105.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b35311fb-d2b7-4fda-8fcb-44237749dd1f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CONN ORIENTATION" "Right Angle"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "24ebdacf-d35a-4363-900e-a865b531214e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "OCTOPART" "https://octopart.com/usb4105-gf-a-gct-106627878"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4c66916f-6d0e-48c1-a7a9-3889a4383c4b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -4.865 -0.11)
+		(end -4.865 -1.59)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "524ae680-f242-438a-a855-3d468b680ce9")
+	)
+	(fp_line
+		(start -4.865 3.84)
+		(end -4.865 2.44)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "da7709c5-2bd2-4599-8b21-076ed3d1264a")
+	)
+	(fp_line
+		(start 4.865 -0.11)
+		(end 4.865 -1.59)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dd04f80a-9a66-40a7-9ea3-0d8646ce9bde")
+	)
+	(fp_line
+		(start 4.865 3.84)
+		(end -4.865 3.84)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1709f1f8-4314-40c4-876d-8dfe5faec201")
+	)
+	(fp_line
+		(start 4.865 3.84)
+		(end 4.865 2.44)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bedfd928-52a1-4786-b169-6867dc869513")
+	)
+	(fp_circle
+		(center -3.265 -4.715)
+		(end -3.39 -4.715)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "071364ad-d7cb-4a51-a3c2-dde05f01def2")
+	)
+	(fp_line
+		(start -4.965 3.94)
+		(end -4.965 -4.265)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "f689fbc4-124e-4f40-9c9e-7215a960feb6")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "89575377-2be0-44c1-844a-74ff1f735cb7")
+	)
+	(fp_line
+		(start 0.5 0)
+		(end -0.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "b1b1e69c-c74d-4bb7-be06-1641e57b661b")
+	)
+	(fp_line
+		(start 4.965 -4.265)
+		(end -4.965 -4.265)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "70f18b0f-56b0-439c-9d86-ed7a305c447c")
+	)
+	(fp_line
+		(start 4.965 3.94)
+		(end -4.965 3.94)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "686fe6c4-2db4-47ee-9603-e34e4c4244f0")
+	)
+	(fp_line
+		(start 4.965 3.94)
+		(end 4.965 -4.265)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "11f672d1-1f39-4239-b42c-dc52626b9a06")
+	)
+	(fp_line
+		(start -4.865 3.84)
+		(end -4.865 -3.84)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "11716e25-146d-4b12-9c06-a9a2ef4b1b33")
+	)
+	(fp_line
+		(start 4.865 -3.84)
+		(end -4.865 -3.84)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "4ee31705-d28c-40cf-8583-dfb64355fc7b")
+	)
+	(fp_line
+		(start 4.865 3.84)
+		(end -4.865 3.84)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "10a8c9e3-26b3-48c8-a0fc-2251313a23a9")
+	)
+	(fp_line
+		(start 4.865 3.84)
+		(end 4.865 -3.84)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "f375bd7e-dc40-4267-9aa9-1550e795a3e6")
+	)
+	(fp_line
+		(start -4.965 3.94)
+		(end -4.965 -4.265)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.5")
+		(uuid "5fc45ae1-0197-4ca1-a777-f863cb1d1ad4")
+	)
+	(fp_line
+		(start 4.965 -4.265)
+		(end -4.965 -4.265)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.5")
+		(uuid "65f30f7c-15bb-4468-86b1-e3f4625e07f4")
+	)
+	(fp_line
+		(start 4.965 3.94)
+		(end -4.965 3.94)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.5")
+		(uuid "f76320d6-68a5-43a9-bb55-ff055e4eae3e")
+	)
+	(fp_line
+		(start 4.965 3.94)
+		(end 4.965 -4.265)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.5")
+		(uuid "20590053-6831-4be3-af84-3f0555029c57")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.00186 -0.17312 0)
+		(unlocked yes)
+		(layer "User.5")
+		(uuid "f576cb09-33ae-4a55-b874-c563526635e0")
+		(effects
+			(font
+				(face "Arial")
+				(size 0.63 0.63)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+		(render_cache "REF**" 0
+			(polygon
+				(pts
+					(xy 90.105373 79.3741) (xy 90.136634 79.376596) (xy 90.167601 79.381486) (xy 90.199169 79.390655)
+					(xy 90.227421 79.405649) (xy 90.251455 79.426934) (xy 90.269643 79.451743) (xy 90.2836 79.480038)
+					(xy 90.292388 79.510107) (xy 90.296006 79.541948) (xy 90.296109 79.548529) (xy 90.293378 79.58142)
+					(xy 90.285184 79.611617) (xy 90.269437 79.642371) (xy 90.252409 79.663934) (xy 90.227588 79.685197)
+					(xy 90.196823 79.70221) (xy 90.165028 79.713609) (xy 90.134154 79.720789) (xy 90.117463 79.723483)
+					(xy 90.14514 79.738494) (xy 90.168087 79.755181) (xy 90.190681 79.778072) (xy 90.212494 79.80424)
+					(xy 90.231457 79.830591) (xy 90.237638 79.839965) (xy 90.348118 80.01338) (xy 90.242408 80.01338)
+					(xy 90.158547 79.880741) (xy 90.140967 79.853727) (xy 90.123121 79.827359) (xy 90.104085 79.800917)
+					(xy 90.097921 79.79288) (xy 90.076677 79.76834) (xy 90.055298 79.750257) (xy 90.026707 79.736177)
+					(xy 90.016984 79.733331) (xy 89.985305 79.730446) (xy 89.970206 79.730253) (xy 89.872805 79.730253)
+					(xy 89.872805 80.01338) (xy 89.788944 80.01338) (xy 89.788944 79.658856) (xy 89.872805 79.658856)
+					(xy 90.053298 79.658856) (xy 90.086816 79.657669) (xy 90.118029 79.653621) (xy 90.143313 79.6467)
+					(xy 90.171895 79.630928) (xy 90.192707 79.607924) (xy 90.205914 79.578174) (xy 90.209633 79.54976)
+					(xy 90.205024 79.517663) (xy 90.191197 79.490154) (xy 90.176858 79.474362) (xy 90.14994 79.457455)
+					(xy 90.117675 79.448174) (xy 90.086518 79.444926) (xy 90.073609 79.444665) (xy 89.872805 79.444665)
+					(xy 89.872805 79.658856) (xy 89.788944 79.658856) (xy 89.788944 79.373268) (xy 90.070224 79.373268)
+				)
+			)
+			(polygon
+				(pts
+					(xy 90.425824 80.01338) (xy 90.425824 79.373268) (xy 90.88452 79.373268) (xy 90.88452 79.447127)
+					(xy 90.509685 79.447127) (xy 90.509685 79.649008) (xy 90.860669 79.649008) (xy 90.860669 79.722867)
+					(xy 90.509685 79.722867) (xy 90.509685 79.93952) (xy 90.899291 79.93952) (xy 90.899291 80.01338)
+				)
+			)
+			(polygon
+				(pts
+					(xy 91.016235 80.01338) (xy 91.016235 79.373268) (xy 91.444156 79.373268) (xy 91.444156 79.447127)
+					(xy 91.100096 79.447127) (xy 91.100096 79.649008) (xy 91.39784 79.649008) (xy 91.39784 79.722867)
+					(xy 91.100096 79.722867) (xy 91.100096 80.01338)
+				)
+			)
+			(polygon
+				(pts
+					(xy 91.509706 79.491442) (xy 91.529555 79.432355) (xy 91.561657 79.442395) (xy 91.592116 79.452863)
+					(xy 91.621211 79.464466) (xy 91.629573 79.468361) (xy 91.626373 79.437253) (xy 91.623341 79.403966)
+					(xy 91.621191 79.37132) (xy 91.620956 79.36342) (xy 91.683736 79.36342) (xy 91.681929 79.394579)
+					(xy 91.678804 79.427229) (xy 91.674783 79.460135) (xy 91.673734 79.4679) (xy 91.702886 79.456164)
+					(xy 91.734562 79.444999) (xy 91.765229 79.435439) (xy 91.775906 79.432355) (xy 91.795756 79.491442)
+					(xy 91.765026 79.499357) (xy 91.734638 79.505615) (xy 91.701273 79.510628) (xy 91.688044 79.512061)
+					(xy 91.710851 79.533887) (xy 91.731989 79.556789) (xy 91.753681 79.581846) (xy 91.762519 79.592383)
+					(xy 91.71051 79.629313) (xy 91.692194 79.603272) (xy 91.673681 79.574613) (xy 91.657594 79.548267)
+					(xy 91.651269 79.537604) (xy 91.635747 79.565898) (xy 91.619434 79.593451) (xy 91.601149 79.620979)
+					(xy 91.594951 79.629313) (xy 91.543865 79.592383) (xy 91.564449 79.567765) (xy 91.584638 79.544463)
+					(xy 91.606587 79.520839) (xy 91.615724 79.512061) (xy 91.584756 79.506698) (xy 91.551402 79.500338)
+					(xy 91.519161 79.493558)
+				)
+			)
+			(polygon
+				(pts
+					(xy 91.852535 79.491442) (xy 91.872384 79.432355) (xy 91.904486 79.442395) (xy 91.934945 79.452863)
+					(xy 91.96404 79.464466) (xy 91.972402 79.468361) (xy 91.969202 79.437253) (xy 91.96617 79.403966)
+					(xy 91.96402 79.37132) (xy 91.963785 79.36342) (xy 92.026565 79.36342) (xy 92.024758 79.394579)
+					(xy 92.021633 79.427229) (xy 92.017612 79.460135) (xy 92.016563 79.4679) (xy 92.045715 79.456164)
+					(xy 92.077391 79.444999) (xy 92.108058 79.435439) (xy 92.118735 79.432355) (xy 92.138585 79.491442)
+					(xy 92.107855 79.499357) (xy 92.077467 79.505615) (xy 92.044102 79.510628) (xy 92.030873 79.512061)
+					(xy 92.05368 79.533887) (xy 92.074818 79.556789) (xy 92.09651 79.581846) (xy 92.105348 79.592383)
+					(xy 92.053339 79.629313) (xy 92.035023 79.603272) (xy 92.01651 79.574613) (xy 92.000423 79.548267)
+					(xy 91.994098 79.537604) (xy 91.978576 79.565898) (xy 91.962263 79.593451) (xy 91.943979 79.620979)
+					(xy 91.93778 79.629313) (xy 91.886694 79.592383) (xy 91.907278 79.567765) (xy 91.927467 79.544463)
+					(xy 91.949416 79.520839) (xy 91.958553 79.512061) (xy 91.927585 79.506698) (xy 91.894231 79.500338)
+					(xy 91.86199 79.493558)
+				)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -2.89 -2.515)
+		(size 0.65 0.65)
+		(drill 0.65)
+		(layers "F&B.Cu" "*.Mask")
+		(solder_mask_margin 0.001)
+		(solder_paste_margin 0.001)
+		(clearance 0.001)
+		(uuid "a7b23bb6-72f9-46d2-8341-d4f259c4bba9")
+	)
+	(pad "" np_thru_hole circle
+		(at 2.89 -2.515)
+		(size 0.65 0.65)
+		(drill 0.65)
+		(layers "F&B.Cu" "*.Mask")
+		(solder_mask_margin 0.001)
+		(solder_paste_margin 0.001)
+		(clearance 0.001)
+		(uuid "9ab2f4e6-6e62-4ca2-a70a-a1ede68a8b7e")
+	)
+	(pad "1" thru_hole roundrect
+		(at -4.32 -3.015)
+		(size 1 2.1)
+		(drill oval 0.6 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.5)
+		(solder_paste_margin -2147.483637)
+		(thermal_bridge_angle 45)
+		(uuid "12fdd5e6-b69a-4d46-8e5d-4da7953aa447")
+	)
+	(pad "2" thru_hole roundrect
+		(at 4.32 -3.015)
+		(size 1 2.1)
+		(drill oval 0.6 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.5)
+		(solder_paste_margin -2147.483637)
+		(thermal_bridge_angle 45)
+		(uuid "caab1d33-28ca-401c-a1d5-6dc4b1628e0f")
+	)
+	(pad "3" thru_hole roundrect
+		(at -4.32 1.165)
+		(size 1 1.8)
+		(drill oval 0.6 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.5)
+		(solder_paste_margin -2147.483637)
+		(thermal_bridge_angle 45)
+		(uuid "31c8381d-a94a-4dfd-9c8f-a036415770c0")
+	)
+	(pad "4" thru_hole roundrect
+		(at 4.32 1.165)
+		(size 1 1.8)
+		(drill oval 0.6 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.5)
+		(solder_paste_margin -2147.483637)
+		(thermal_bridge_angle 45)
+		(uuid "756620ed-5f6e-4739-9518-74895b67db73")
+	)
+	(pad "A1-B12" smd rect
+		(at -3.2 -3.6325)
+		(size 0.6 1.065)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "ac88b557-342c-4396-b19a-88ed0a852097")
+	)
+	(pad "A4-B9" smd rect
+		(at -2.4 -3.62)
+		(size 0.6 1.09)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "9e1ce2d5-d8b6-43be-a183-80ce4bc63653")
+	)
+	(pad "A5" smd rect
+		(at -1.25 -3.59)
+		(size 0.3 1.15)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "47291005-2d58-4216-9dfa-b846c1bacb82")
+	)
+	(pad "A6" smd rect
+		(at -0.25 -3.59)
+		(size 0.3 1.15)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "21fe6631-aec1-4927-9ae7-8f6caf39fa63")
+	)
+	(pad "A7" smd rect
+		(at 0.25 -3.59)
+		(size 0.3 1.15)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "0b43cea3-0ced-407a-8045-76704a0e259f")
+	)
+	(pad "A8" smd rect
+		(at 1.25 -3.59)
+		(size 0.3 1.15)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "9a429f7a-5e0e-427e-be23-d047331cdd20")
+	)
+	(pad "B1-A12" smd rect
+		(at 3.2 -3.6325)
+		(size 0.6 1.065)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "fd7cd389-e226-4a10-9aaa-ea9aef0dac3a")
+	)
+	(pad "B4-A9" smd rect
+		(at 2.4 -3.62)
+		(size 0.6 1.09)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "3ea81a3d-cd7d-4f73-9adf-61fcf903b875")
+	)
+	(pad "B5" smd rect
+		(at 1.75 -3.59)
+		(size 0.3 1.15)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "653e8e0b-9fb4-4f3a-9496-45ab43020bcb")
+	)
+	(pad "B6" smd rect
+		(at 0.75 -3.59)
+		(size 0.3 1.15)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "bf0efa3c-93c7-4e37-bf74-625b77721c07")
+	)
+	(pad "B7" smd rect
+		(at -0.75 -3.59)
+		(size 0.3 1.15)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "cefd1266-d0c9-46f9-a019-8be79449b49b")
+	)
+	(pad "B8" smd rect
+		(at -1.75 -3.59)
+		(size 0.3 1.15)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "583531e7-58e9-45be-8fb4-2f1afb6fed07")
+	)
+	(model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/Conn_GCT_USB4105-GF-A_eec.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

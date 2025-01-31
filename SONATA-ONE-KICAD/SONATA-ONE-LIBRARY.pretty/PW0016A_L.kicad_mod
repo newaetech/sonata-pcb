@@ -1,0 +1,634 @@
+(footprint "PW0016A_L"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 1.17289 -2.81873 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "06f1d7fa-5d41-4f86-9f45-9fdc3e78134e")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.2032)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "MAX3221IPWR"
+		(at -3.3147 4.9657 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "79379c0a-c717-44aa-bf53-abfbb5038503")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "bf3dcd9d-0496-4ab8-89a5-d7c41a32f774")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "7da01222-1f73-42c7-b592-854438bbd602")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" "3-V to 5.5-V Single-Channel RS-232 Line Driver / Receiver with ±15-kV ESD Protection, -40 to 85 degC, 16-Pin TSSOP (PW), Green (RoHS & no Sb/Br)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "a38ba554-6192-4d8e-9b76-600d8a7a580c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "COMPONENTLINK2DESCRIPTION" "Datasheet"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4563a7d5-e514-40a3-8cbc-2ff10514310b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "COMPONENTLINK3URL" "http://www.ti.com/litv/pdf/mpds361"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a61cade-9081-4b25-ae60-1f4b7d7db196")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SUBFAMILY" "RS-232"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9c06ceb8-8941-4e66-bfd3-55810046dc47")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DRIVERS PER PACKAGE" "1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4defa457-5f21-42e3-82e7-f22362fee40a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PACKAGEDESCRIPTION" "16-Pin Plastic Thin Small Outline Package 5 x 4.4 mm Body ,0.65 mm Pitch"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7baf3f31-aa6f-4d24-a502-f39d6d47c18e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ICC(MAX)(MA)" "1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a627a3e0-5d19-4914-ac02-b9ba1e2592f3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PACKAGEREFERENCE" "PW0016A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8e97b56c-b49b-4eb3-96c4-a7a7060a91cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "RECEIVERS PER PACKAGE" "1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f9546aec-3d35-4515-bb3d-4511dee270ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DATASHEETVERSION" "SLLS348M"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "54a0db0a-e857-4cd5-bfdd-e0e79c414d13")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ESD HBM(KV)" "+/-15"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "85b819bf-11da-4e0a-bfbb-43caa44cff90")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PACKAGEVERSION" "revG, Feb-2011"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d449dec5-a0e6-4807-ba03-a76365cf981a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "COMPONENTLINK1URL" "www.ti.com"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "83535a26-e453-4ad4-9b76-5844811ce1f0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "COMPONENTLINK1DESCRIPTION" "Manufacturer URL"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "339ca2b2-e844-403a-903a-f0a632448b5f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "COMPONENTLINK2URL" "http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=MAX3221&fileType=pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1311e953-ff20-464a-af27-75592b568823")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "COMPONENTLINK3DESCRIPTION" "Package Specification"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ddae34ea-8cd1-4c1e-b698-cd0417f776ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SUPPLY VOLTAGE(S)(V)" "3.3 or 5.0"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "41187f77-a339-4b06-8523-d3b45b447669")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "RS-232" "TRUE"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "092282d4-7842-4beb-a081-4275d51a29cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SINGLE SUPPLY" "TRUE"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "05e58e99-12d3-45e3-88bd-13cc319cbabb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start 1.85 -2.55)
+		(end 1.85 2.55)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ff0908c5-0f85-43ec-83f5-bbff2dcb8fcd")
+	)
+	(fp_line
+		(start -1.85 2.55)
+		(end 1.85 2.55)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "598a9f68-7ec2-43c4-ad73-29eb3988d86e")
+	)
+	(fp_line
+		(start -1.85 -2.55)
+		(end 1.85 -2.55)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "02cea6ea-a473-4f06-b8cf-d4ad0e76a65a")
+	)
+	(fp_line
+		(start -1.85 -2.55)
+		(end -1.85 2.55)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f9d3055f-06b0-48e7-a82c-fb35a5056306")
+	)
+	(fp_circle
+		(center -0.85 -1.55)
+		(end -0.85 -1.85)
+		(stroke
+			(width 0.6)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "57ad76f7-b0fe-484c-8d22-ff7e543e3fb2")
+	)
+	(fp_circle
+		(center -2.85 -3.025)
+		(end -2.85 -3.15)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "1aaf7aac-b565-4e12-a69b-0c982297de39")
+	)
+	(fp_line
+		(start 3.55 -2.65)
+		(end 3.55 2.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "4c8c2b25-9903-4c29-aabe-8063910f6f8d")
+	)
+	(fp_line
+		(start 2.25 -2.55)
+		(end 2.25 2.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "f36477a6-2456-4b97-b50c-e16c70b016da")
+	)
+	(fp_line
+		(start 0 -0.5)
+		(end 0 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "37bfc57e-939c-4d9d-9f06-69902fa6ea5b")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "f9f4d29d-6de4-47b1-9b3e-e069a801f794")
+	)
+	(fp_line
+		(start -2.25 2.55)
+		(end 2.25 2.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "fe09adfc-054a-4890-9148-ac31d15748ff")
+	)
+	(fp_line
+		(start -2.25 -2.55)
+		(end 2.25 -2.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "13288580-eb40-49fa-9321-b705a8d4b54b")
+	)
+	(fp_line
+		(start -2.25 -2.55)
+		(end -2.25 2.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "87abf2ed-c148-4f6f-8b16-33f0b4c8be39")
+	)
+	(fp_line
+		(start -3.55 2.65)
+		(end 3.55 2.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "7ca15c84-3882-46c6-b079-61a650a74519")
+	)
+	(fp_line
+		(start -3.55 -2.65)
+		(end 3.55 -2.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "429d6efe-3701-4940-ae9b-4282599eb65b")
+	)
+	(fp_line
+		(start -3.55 -2.65)
+		(end -3.55 2.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "7d2cf5ef-36c5-4e09-8526-f55228935ba8")
+	)
+	(fp_circle
+		(center -1.35 -1.65)
+		(end -1.35 -2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "Eco1.User")
+		(uuid "896ba43f-77f0-4701-9ef5-14dc42c247f6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -1.524 0.50799 180)
+		(unlocked yes)
+		(layer "User.1")
+		(uuid "4cb16f83-d2e0-4eac-8949-26c3cd1f3e9f")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1778)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.85 -2.275 270)
+		(size 0.4 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(thermal_bridge_angle 45)
+		(uuid "cd0cb02e-8f65-4852-916a-0b8b8d20ce5a")
+	)
+	(pad "2" smd roundrect
+		(at -2.85 -1.625 270)
+		(size 0.4 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(thermal_bridge_angle 45)
+		(uuid "6695721f-30c0-4a56-a4c3-ec123a69ea1b")
+	)
+	(pad "3" smd roundrect
+		(at -2.85 -0.975 270)
+		(size 0.4 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(thermal_bridge_angle 45)
+		(uuid "98a6e9f2-ed3f-4343-8c2e-9e2b2ff662f4")
+	)
+	(pad "4" smd roundrect
+		(at -2.85 -0.325 270)
+		(size 0.4 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(thermal_bridge_angle 45)
+		(uuid "6d20ec2b-8bbb-42b5-bab7-727e56f27f2b")
+	)
+	(pad "5" smd roundrect
+		(at -2.85 0.32499 270)
+		(size 0.4 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(thermal_bridge_angle 45)
+		(uuid "670cc351-7ee5-4eb9-b66a-26f3f7303dcb")
+	)
+	(pad "6" smd roundrect
+		(at -2.85 0.975 270)
+		(size 0.4 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(thermal_bridge_angle 45)
+		(uuid "cd30e62c-ba46-4c04-87d0-57af8de60a9c")
+	)
+	(pad "7" smd roundrect
+		(at -2.85 1.625 270)
+		(size 0.4 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(thermal_bridge_angle 45)
+		(uuid "c851ea67-53c4-4673-b057-66268d86c948")
+	)
+	(pad "8" smd roundrect
+		(at -2.85 2.275 270)
+		(size 0.4 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(thermal_bridge_angle 45)
+		(uuid "0c67a5c8-f25a-4baa-9eb3-33f9d3687a6b")
+	)
+	(pad "9" smd roundrect
+		(at 2.85 2.275 270)
+		(size 0.4 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(thermal_bridge_angle 45)
+		(uuid "49d10b23-a29a-439d-a0a9-741c1edc6e45")
+	)
+	(pad "10" smd roundrect
+		(at 2.85 1.625 270)
+		(size 0.4 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(thermal_bridge_angle 45)
+		(uuid "ced3e64e-fbde-4eb0-ad78-906610b23cd2")
+	)
+	(pad "11" smd roundrect
+		(at 2.85 0.975 270)
+		(size 0.4 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(thermal_bridge_angle 45)
+		(uuid "3eea088e-6f46-4501-a7a6-a8e3dac42262")
+	)
+	(pad "12" smd roundrect
+		(at 2.85 0.32499 270)
+		(size 0.4 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(thermal_bridge_angle 45)
+		(uuid "c1213f7a-d3c6-4732-a58e-2e7dc5d6be34")
+	)
+	(pad "13" smd roundrect
+		(at 2.85 -0.325 270)
+		(size 0.4 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(thermal_bridge_angle 45)
+		(uuid "58e5f744-8746-4a5d-9425-ecf576934bc0")
+	)
+	(pad "14" smd roundrect
+		(at 2.85 -0.975 270)
+		(size 0.4 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(thermal_bridge_angle 45)
+		(uuid "053cbb92-5ec8-4f1f-a873-d735a408f711")
+	)
+	(pad "15" smd roundrect
+		(at 2.85 -1.625 270)
+		(size 0.4 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(thermal_bridge_angle 45)
+		(uuid "8c5a0250-5134-4748-9e17-9f0092b7470c")
+	)
+	(pad "16" smd roundrect
+		(at 2.85 -2.275 270)
+		(size 0.4 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(thermal_bridge_angle 45)
+		(uuid "7ad9cd20-2043-477a-95e6-77a7a6ba0b44")
+	)
+	(model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/PW0016AakaMTC16.stp"
+		(offset
+			(xyz 0.00006 0.00012 0.623)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)

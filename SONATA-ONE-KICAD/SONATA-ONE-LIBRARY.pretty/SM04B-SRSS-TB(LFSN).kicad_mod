@@ -1,0 +1,317 @@
+(footprint "SM04B-SRSS-TB(LFSN)"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 6.26831 -2.86973 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fe4fb737-ee89-406c-b4fe-ad50b69741ee")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.2032)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "SM04B-SRSS-TB_LF__SN_"
+		(at -0.2413 2.5019 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f06423a8-9f21-422b-bb64-e660cb6d13ae")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" "Sonata_Footprints:SM04B-SRSS-TB(LFSN)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "29a86604-62c4-44a2-9d35-3d10f8071d87")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "216728dd-c042-4b5d-b56e-24dcec34ec53")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Connector"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7692d1ba-bf15-42a7-a6f8-05ba87295fa9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DATASHEET LINK" "http://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00c6e42f-4600-4a9e-85f4-8cd511bebdd3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER_NAME" "JST (JAPAN SOLDERLESS TERMINALS)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "70505709-6101-49d3-9f72-954586337f76")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER_PART_NUMBER" "SM04B-SRSS-TB(LF)(SN)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b7445a11-dafb-44d5-9e0d-709f294845df")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MOUSER PART NUMBER" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "19971c0e-13df-4e0d-a4ba-ba5fab7d4928")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MOUSER PRICE/STOCK" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "826ddcfb-1c92-46c4-86f4-01d19a95c5e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ARROW PART NUMBER" "SM04B-SRSS-TB(LF)(SN)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b75a1806-35ec-4f93-a5c2-157c55aa2a64")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/sm04b-srss-tb-lf-sn/jst-manufacturing?region=europe"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "624214ff-5f8d-4f5a-b3f3-e3392a4b3068")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start 0 -4.85)
+		(end 1.029 -4.85)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "24d94473-39bf-4168-9d0c-b530cec52b1e")
+	)
+	(fp_line
+		(start 0 -1.87)
+		(end 0 -4.85)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a6b02e40-7e06-410f-a663-b47654980576")
+	)
+	(fp_line
+		(start 1.094 0)
+		(end 4.903 0)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2139c5d2-46bd-4173-8adb-424fc4efc671")
+	)
+	(fp_line
+		(start 4.937 -4.85)
+		(end 6 -4.85)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9496f54f-d8aa-4e59-9302-d877da65dcf1")
+	)
+	(fp_line
+		(start 6 -1.87)
+		(end 6 -4.85)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "88bc3a67-94b3-42c9-af2a-f9f881c49692")
+	)
+	(fp_circle
+		(center 0.702 -5.642)
+		(end 0.702 -5.70237)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "cbd5f0d2-ed83-44fd-a20c-529e764d67fc")
+	)
+	(fp_line
+		(start 0 -4.85)
+		(end 6 -4.85)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "6649d3b1-d0f4-496a-8e70-183761785772")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -4.85)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "9e41a407-d59e-4657-9820-e16561e5daa5")
+	)
+	(fp_line
+		(start 0 0)
+		(end 6 0)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "d3d3e17b-c876-4c89-a92f-979e48cbf2fa")
+	)
+	(fp_line
+		(start 6 0)
+		(end 6 -4.85)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "978768bd-053a-44fd-8ada-a3bb0a611058")
+	)
+	(pad "1" smd rect
+		(at 1.5 -4.661 90)
+		(size 1.55 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "3789d711-2d07-4be9-88de-e3338004e2b3")
+	)
+	(pad "2" smd rect
+		(at 2.5 -4.661 90)
+		(size 1.55 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "063aa14d-f183-4f17-9edc-27094928cd26")
+	)
+	(pad "3" smd rect
+		(at 3.5 -4.661 90)
+		(size 1.55 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "e5d91e79-7cbe-4899-ab8e-4d9637ea025c")
+	)
+	(pad "4" smd rect
+		(at 4.5 -4.661 90)
+		(size 1.55 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "9951226c-144c-4577-bbdd-5da65f3e519d")
+	)
+	(pad "5" connect rect
+		(at 0.2 -0.786 90)
+		(size 1.8 1.2)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "aa6a7d70-5983-4c6a-b6da-ddfe7e6bb582")
+	)
+	(pad "6" connect rect
+		(at 5.8 -0.786 90)
+		(size 1.8 1.2)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "0086c12e-dd21-4449-bddd-f1d79451e447")
+	)
+	(model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/SM04B-SRSS-TB_LF__SN_.stp"
+		(offset
+			(xyz 3 4.18 -0.29)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 0)
+		)
+	)
+)

@@ -1,0 +1,483 @@
+(footprint "BGA24C100P5X5_600X800X120"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(locked yes)
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -3.39373 3.88025 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4e1f0be5-5294-468c-871e-4bef8bd07c85")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.2032)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "W956D8MBYA5I"
+		(at -3.8227 7.3533 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d33a607f-14d0-4f56-99b6-3971285a9798")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2b854a02-94e6-420e-9b5c-c83a400a5405")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "375337ef-fced-475d-ae76-b9c084a7d00a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Integrated Circuit"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9769142d-1af3-4c37-893f-cf27da26e634")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DATASHEET LINK" "https://www.winbond.com/hq/search-resource-file.jsp?partNo=W956D8MBYA5I&type=datasheet"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e7341e4c-333d-45e4-aed1-cf50c895c5f2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "HEIGHT" "1.2mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65792b30-38d9-4525-8834-1d1f34335bab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER_NAME" "Winbond"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3adc53fe-47b1-40cb-97c7-39332738af99")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER_PART_NUMBER" "W956D8MBYA5I"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "452a3181-057a-4ad7-9cf0-ec41b0cc3874")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MOUSER PART NUMBER" "454-W956D8MBYA5I"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f4d76ca4-5422-4fa1-969f-3b582d86c878")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Winbond/W956D8MBYA5I?qs=YwPsRIUVAOcvNB%2FM4WBgTQ%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c3414f0d-6ade-4c97-a936-639e6d404c47")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ARROW PART NUMBER" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "efd0af9b-1c88-42c2-9dbf-fe7529c094c4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ARROW PRICE/STOCK" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65fadfaa-9844-4086-8278-e9012de400ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -3 -2)
+		(end -1 -4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "590ba350-9f99-439f-86be-2e12f13d9d99")
+	)
+	(fp_line
+		(start -3 4)
+		(end -3 -2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "07f45e54-5062-46db-b4e5-c66c6bf5bec2")
+	)
+	(fp_line
+		(start 3 -4)
+		(end -1 -4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dbad9ecf-800c-4b76-ae4a-84583697820a")
+	)
+	(fp_line
+		(start 3 4)
+		(end -3 4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d840f68d-b248-4888-8e4d-268d76a90b80")
+	)
+	(fp_line
+		(start 3 4)
+		(end 3 -4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cf3833dd-dd58-484a-9e17-749d94832342")
+	)
+	(fp_circle
+		(center -3 -4)
+		(end -3.1 -4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "102c9d54-1192-4d85-bf02-ff5c7fe891a0")
+	)
+	(fp_line
+		(start -4.05 5.05)
+		(end -4.05 -5.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "f287d72d-3454-4cc7-a51e-414d89ac1e40")
+	)
+	(fp_line
+		(start 4.05 -5.05)
+		(end -4.05 -5.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "f0d86f9f-b45c-4d93-95d4-c2903a436f07")
+	)
+	(fp_line
+		(start 4.05 5.05)
+		(end -4.05 5.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "95345115-b7bb-40cc-82f7-4035b2ad626a")
+	)
+	(fp_line
+		(start 4.05 5.05)
+		(end 4.05 -5.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "2329ce4b-c253-47e7-bad5-c19bad7bea8a")
+	)
+	(fp_line
+		(start -3 -1.975)
+		(end -0.975 -4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "eab2a884-ab14-44a4-b920-aefa8f016645")
+	)
+	(fp_line
+		(start -3 4)
+		(end -3 -4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "02f5561b-4c30-4a5c-9e06-12b450edeaee")
+	)
+	(fp_line
+		(start 3 -4)
+		(end -3 -4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "d2be7230-ebdc-44e7-8a44-a2a2aa964238")
+	)
+	(fp_line
+		(start 3 4)
+		(end -3 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "a611b3c9-117c-4ca6-9805-697b61c4aa1f")
+	)
+	(fp_line
+		(start 3 4)
+		(end 3 -4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "8ca61988-6d94-4dfb-9285-9a59b58e9d59")
+	)
+	(pad "A2" smd circle
+		(at -1 -2)
+		(size 0.37 0.37)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3ebd3a6d-3fa2-4a28-a930-5107e63cf872")
+	)
+	(pad "A3" smd circle
+		(at 0 -2)
+		(size 0.37 0.37)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0efd8a3a-b780-416d-b2cd-4d864f267502")
+	)
+	(pad "A4" smd circle
+		(at 1 -2)
+		(size 0.37 0.37)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "51ae80dd-2496-47de-b0fe-2572bc57d845")
+	)
+	(pad "A5" smd circle
+		(at 2 -2)
+		(size 0.37 0.37)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8b700f00-afea-4887-9908-b49edea6a0cc")
+	)
+	(pad "B1" smd circle
+		(at -2 -1)
+		(size 0.37 0.37)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f414a298-0285-44f5-b907-264c313f17c6")
+	)
+	(pad "B2" smd circle
+		(at -1 -1)
+		(size 0.37 0.37)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d440d61e-4bcf-4c50-898b-82499f0f7a52")
+	)
+	(pad "B3" smd circle
+		(at 0 -1)
+		(size 0.37 0.37)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c8b12bbd-6f17-4cee-b8a2-9a06ddb7299a")
+	)
+	(pad "B4" smd circle
+		(at 1 -1)
+		(size 0.37 0.37)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f29b9c9e-b618-466b-95ba-abf8cef02cab")
+	)
+	(pad "B5" smd circle
+		(at 2 -1)
+		(size 0.37 0.37)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "47e15684-c873-476d-9b9b-9c1033617e7f")
+	)
+	(pad "C1" smd circle
+		(at -2 0)
+		(size 0.37 0.37)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "32264d66-2869-461f-99cc-15f68ca0aeb3")
+	)
+	(pad "C2" smd circle
+		(at -1 0)
+		(size 0.37 0.37)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "964465ba-ff15-4ed9-af4e-d5c52cab968f")
+	)
+	(pad "C3" smd circle
+		(at 0 0)
+		(size 0.37 0.37)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "71ebc272-0e07-4325-a2ee-99fe698e100b")
+	)
+	(pad "C4" smd circle
+		(at 1 0)
+		(size 0.37 0.37)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "101f7cee-4770-4cc4-a093-b50225c1b6c2")
+	)
+	(pad "C5" smd circle
+		(at 2 0)
+		(size 0.37 0.37)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c360fa54-82ee-4638-a2d1-680658086469")
+	)
+	(pad "D1" smd circle
+		(at -2 1)
+		(size 0.37 0.37)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "09e5f51b-d371-44eb-9054-5d1ccb8b604c")
+	)
+	(pad "D2" smd circle
+		(at -1 1)
+		(size 0.37 0.37)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "90ba88f3-a31c-46b3-a381-8d7243d53518")
+	)
+	(pad "D3" smd circle
+		(at 0 1)
+		(size 0.37 0.37)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5b5e0727-5742-41d3-93da-c2795c64d299")
+	)
+	(pad "D4" smd circle
+		(at 1 1)
+		(size 0.37 0.37)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "dc6808ac-6ee8-4de7-a6c3-9ce46482cd50")
+	)
+	(pad "D5" smd circle
+		(at 2 1)
+		(size 0.37 0.37)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a2a8db30-dafa-4852-9e9d-773b61fe7add")
+	)
+	(pad "E1" smd circle
+		(at -2 2)
+		(size 0.37 0.37)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "305b94b1-9fcf-48a5-a09d-beee19656f7d")
+	)
+	(pad "E2" smd circle
+		(at -1 2)
+		(size 0.37 0.37)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5bc24c9f-5b8c-4a66-9bbe-00f5c175d92b")
+	)
+	(pad "E3" smd circle
+		(at 0 2)
+		(size 0.37 0.37)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "734d1a92-0951-46b3-a9c3-4aa4454b3b49")
+	)
+	(pad "E4" smd circle
+		(at 1 2)
+		(size 0.37 0.37)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ececf767-8431-452d-8b29-ddcfe8fa8c1e")
+	)
+	(pad "E5" smd circle
+		(at 2 2)
+		(size 0.37 0.37)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "39a486a2-4fbb-4956-8f8e-654466e3149d")
+	)
+	(model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/W956D8MBYA5I.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

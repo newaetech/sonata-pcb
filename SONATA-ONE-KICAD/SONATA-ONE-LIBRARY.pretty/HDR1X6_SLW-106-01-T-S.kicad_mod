@@ -1,0 +1,212 @@
+(footprint "HDR1X6_SLW-106-01-T-S"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(locked yes)
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.76289 -0.32627 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "537c5621-72ba-468b-9e5d-9ff93efabab1")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.2032)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "Header 6"
+		(at -3.6449 -1.1049 -90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ecdf59bb-5501-4310-a77e-13fa2df64b7d")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6c1448c3-8e7b-4b7e-842e-099978d661ef")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5039194e-f172-4165-9889-eb65fbe99ae1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Header, 6-Pin"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7852a1b6-b0da-4fc0-958d-21963e400e8b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LATESTREVISIONDATE" "17-Jul-2002"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "51ed02b0-635e-4ebc-bc05-501ceda1b725")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LATESTREVISIONNOTE" "Re-released for DXP Platform."
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5b99f905-2e72-4835-8f43-099642bea612")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PUBLISHER" "Altium Limited"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "536b3734-d3f9-4002-bc60-1b43c29cae24")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -1.27 -1.27)
+		(end -1.27 1.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6832730f-cd0a-41db-8235-f16c42ccf443")
+	)
+	(fp_line
+		(start 13.97 -1.27)
+		(end -1.27 -1.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1e9cee89-04b7-4ce4-a856-f9696b1b3110")
+	)
+	(fp_line
+		(start 13.97 -1.27)
+		(end 13.97 1.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "83269c50-eb2b-4126-8019-c5305ff280fd")
+	)
+	(fp_line
+		(start 13.97 1.27)
+		(end -1.27 1.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "46277b66-e6c0-4384-b2e2-0e5995028370")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "6baee611-1285-41ad-9c6d-661f9f3f484d")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bdb10479-de08-4742-afe8-f23b5480fd7d")
+	)
+	(pad "3" thru_hole circle
+		(at 5.08 0)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f251646e-5cef-45bd-b87f-3da1dc03da8f")
+	)
+	(pad "4" thru_hole circle
+		(at 7.62 0)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bd9c05b6-926b-4813-a3a4-d068292b21c8")
+	)
+	(pad "5" thru_hole circle
+		(at 10.16 0)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "92ca05d3-2a78-4ad9-9f82-f5289321691f")
+	)
+	(pad "6" thru_hole circle
+		(at 12.7 0)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "edf8417e-1a74-4fea-8b88-3498e7589d1f")
+	)
+	(model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/SLW-106-01-T-S.stp"
+		(offset
+			(xyz 6.35 0 0.0127)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -180)
+		)
+	)
+)

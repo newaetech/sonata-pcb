@@ -1,0 +1,855 @@
+(footprint "HVQFN-24-1EP_4x4mm_P0.5mm_EP2.5x2.5mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "HVQFN, 24 Pin (https://www.nxp.com/docs/en/package-information/SOT616-3.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py")
+	(tags "HVQFN NoLead")
+	(property "Reference" "REF**"
+		(at 0 -3.33 0)
+		(layer "F.SilkS")
+		(uuid "d290d3b2-f61b-4e31-949b-709b1998e4a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "USB2422-I/MJ"
+		(at 0 3.33 0)
+		(layer "F.Fab")
+		(uuid "fc74dae5-796a-4891-b708-65da5c5daf43")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Package_DFN_QFN:HVQFN-24-1EP_4x4mm_P0.5mm_EP2.5x2.5mm"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b02f71e-1b6a-4de7-bd4a-3ddf1bcac2f6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "62a4fd82-0ad2-4a5a-bf92-a12205a26746")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "IC HUB CTLR USB 2.0 24QFN"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ff7b697f-1d36-482b-9f6a-58cda40f8439")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MIN SUPPLY VOLTAGE" "3V"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fbe539a4-1f11-4a28-9468-ff85fda9fff0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DEVICE CLASS L1" "Integrated Circuits (ICs)"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "37ac6c5c-8784-4c62-894f-ab92c3714764")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "COMPONENTLINK2URL" "http://ww1.microchip.com/downloads/en/DeviceDoc/00001726B.pdf"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bd2e78c9-a229-4b6d-8d17-fe6065cde43e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "STANDOFF HEIGHT" "0mm"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1bdd6965-4905-48be-bfc3-2d3e021ab9c6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" "Microchip"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a6b36df5-0a68-4907-a5e9-1c5ee03489f4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "TEMPERATURE" "-40°C to +85°C"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1de43809-0fb1-45e8-9a6d-54cbb403f925")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LEAD FREE" "Yes"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ca8d4098-c0c7-4da0-b381-84d906f75479")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CATEGORY" "IC"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "57424c33-86d4-44c7-83d0-cc20cd5bc879")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ROHS" "TRUE"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2b46ea4f-fc06-43b8-af73-003a6eba371b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DIGIKEY DESCRIPTION" "IC HUB CTLR USB 2.0 24QFN"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2f37af19-9d0a-4821-a5cd-ff9cbf922779")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "USB STANDARD" "USB 2.0"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6dd44bb6-0a35-4b97-8e50-c7688d3709d3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "INTERFACE" "I2C,USB,SMBus"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5f614438-d090-403c-a912-0d0b772a9cac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "NUMBER OF PORTS" "2"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "49898951-3dc6-4b23-bf9e-667743084de2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MAX SUPPLY VOLTAGE" "3.6V"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d215a3c6-8638-4bb7-b833-8e43cafe235e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DEVICE CLASS L2" "Interface ICs"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "62f061ee-52fd-4477-9e18-730f73cd5f62")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "HEIGHT" "1mm"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b417b92-b32e-4082-8da6-e721d7c33746")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "NOMINAL SUPPLY CURRENT" "29-70mA"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bd6cc824-1935-4669-9931-7e138222d43e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DEVICE CLASS L3" "USB Interface ICs"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "494b4a62-9d38-45ba-bbee-0977e738b801")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "TEMPERATURE RANGE HIGH" "+85°C"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "43332891-7ec3-4eec-9d05-bff8f01e6b65")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "AUTOMOTIVE" "No"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b2ce00a3-31b7-411b-bf28-83db33ab3575")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "IPC LAND PATTERN NAME" "QFN50P400X400X90-24"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e2648213-11e0-4414-9582-ccf849481c74")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "TEMPERATURE RANGE LOW" "-40°C"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a812613b-f991-4eeb-a10c-cea7aaf360b1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER PART NUMBER" "USB2422-I/MJ"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0ff817c9-5da2-429d-a349-fb40675b6d15")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MOUSER DESCRIPTION" "Microchip USB2422-I/MJ; USB Controller; USB 2.0; 3 - 3.6 V; 24-Pin SQFN"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "19942775-3b97-42ca-b058-ae8e14b010fe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PACKAGE" "24-S4QFN-4x4B-0.5P"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d188c9c5-95ea-4fa4-a0ef-37e8826a94d7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "AMBIENT TEMPERATURE RANGE LOW" "-40°C"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b36ab9a-534a-4d66-9465-ac2731c911aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "COMPONENTLINK2DESCRIPTION" "Datasheet"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5e494695-73b2-4f02-965d-7012dd2bac9d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "AMBIENT TEMPERATURE RANGE HIGH" "+85°C"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "98957b20-617d-4deb-b0c1-7b3629d2ddb5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "OCTOPART" "https://octopart.com/usb2422-i%2Fmj-microchip-29030614"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5de83c80-3eb2-4ded-8c58-c3b1950da4c6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 2.11 2.11)
+		(end 2.11 1.635)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b963ab54-f6fe-4bf4-bb5d-d3444a9f2904")
+	)
+	(fp_line
+		(start 2.11 -2.11)
+		(end 2.11 -1.635)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d52698c1-b23b-4008-a007-dbf7cdf45f5f")
+	)
+	(fp_line
+		(start 1.635 2.11)
+		(end 2.11 2.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "276db12d-2a3b-4c3a-8c67-6168c6e722ef")
+	)
+	(fp_line
+		(start 1.635 -2.11)
+		(end 2.11 -2.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cea3609c-4004-49b4-b93a-9de905398835")
+	)
+	(fp_line
+		(start -1.635 2.11)
+		(end -2.11 2.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bd3f4500-9006-485d-b7c0-2f653e3e8fd6")
+	)
+	(fp_line
+		(start -1.635 -2.11)
+		(end -1.81 -2.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "011c6c88-52ec-4315-b85d-19c5b866fc2d")
+	)
+	(fp_line
+		(start -2.11 2.11)
+		(end -2.11 1.635)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1e51cb40-31f5-48ee-8a7b-b867607776fd")
+	)
+	(fp_line
+		(start -2.11 -1.635)
+		(end -2.11 -1.87)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "11724f2c-ec2e-4601-b72a-75a70ede0c67")
+	)
+	(fp_poly
+		(pts
+			(xy -2.11 -2.11) (xy -2.35 -2.44) (xy -1.87 -2.44) (xy -2.11 -2.11)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "eae41f69-f24e-474e-bf3d-c6668b4682bb")
+	)
+	(fp_line
+		(start 2.63 2.63)
+		(end 2.63 -2.63)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2d72f60c-db42-4688-aa63-7ddaf277d397")
+	)
+	(fp_line
+		(start 2.63 -2.63)
+		(end -2.63 -2.63)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "adf72808-5c0d-4428-a351-e7a754c662b8")
+	)
+	(fp_line
+		(start -2.63 2.63)
+		(end 2.63 2.63)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ee91a9cb-31d8-46d1-9a69-b3a28b03a563")
+	)
+	(fp_line
+		(start -2.63 -2.63)
+		(end -2.63 2.63)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "49d919d5-0ba5-4236-987f-7ac4d7bb714b")
+	)
+	(fp_line
+		(start 2 2)
+		(end -2 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ac66eb32-44d2-4eb6-a1ed-66e0c8968e9f")
+	)
+	(fp_line
+		(start 2 -2)
+		(end 2 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e543fc32-6a6d-46dd-a0a1-539c67fbccce")
+	)
+	(fp_line
+		(start -1 -2)
+		(end 2 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b5a8352b-507b-4851-a69d-5d8cf649cc7c")
+	)
+	(fp_line
+		(start -2 2)
+		(end -2 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c2d011a1-b6ab-4eec-b718-1b2b2bca50a2")
+	)
+	(fp_line
+		(start -2 -1)
+		(end -1 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0ef98724-795a-4b88-a3d3-f342fbc170b6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "0d3bccd0-f2ee-4653-b637-06e6e9699bb6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" smd roundrect
+		(at -0.625 -0.625 180)
+		(size 1.01 1.01)
+		(layers "F.Paste")
+		(roundrect_rratio 0.247525)
+		(uuid "a43a4911-79b3-448c-b9d6-fc23c7bfe2f7")
+	)
+	(pad "" smd roundrect
+		(at -0.625 0.625 180)
+		(size 1.01 1.01)
+		(layers "F.Paste")
+		(roundrect_rratio 0.247525)
+		(uuid "291b76e9-ab43-4224-b511-f9fb71eb9de7")
+	)
+	(pad "" smd roundrect
+		(at 0.625 -0.625 180)
+		(size 1.01 1.01)
+		(layers "F.Paste")
+		(roundrect_rratio 0.247525)
+		(uuid "d3561e67-72d3-439f-a072-00a42a943e99")
+	)
+	(pad "" smd roundrect
+		(at 0.625 0.625 180)
+		(size 1.01 1.01)
+		(layers "F.Paste")
+		(roundrect_rratio 0.247525)
+		(uuid "c1634509-7493-4bf0-ade7-03c56e30503c")
+	)
+	(pad "1" smd roundrect
+		(at -1.9375 -1.25 180)
+		(size 0.875 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "154df96b-39e8-4cf7-a251-c58179933c3c")
+	)
+	(pad "2" smd roundrect
+		(at -1.9375 -0.75 180)
+		(size 0.875 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "28affd75-a825-4799-bd16-6f4fa257e6c3")
+	)
+	(pad "3" smd roundrect
+		(at -1.9375 -0.25 180)
+		(size 0.875 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "03d7dca2-10b0-4808-be7e-b8b42a44c94c")
+	)
+	(pad "4" smd roundrect
+		(at -1.9375 0.25 180)
+		(size 0.875 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "0f565333-058e-447d-9dd7-48e8dc0ef0dc")
+	)
+	(pad "5" smd roundrect
+		(at -1.9375 0.75 180)
+		(size 0.875 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "477d102a-6b0f-4fb1-8216-a4c8d987d6ac")
+	)
+	(pad "6" smd roundrect
+		(at -1.9375 1.25 180)
+		(size 0.875 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "66e1b2d9-0374-47ee-9f5a-3f0fd8b5555f")
+	)
+	(pad "7" smd roundrect
+		(at -1.25 1.9375 180)
+		(size 0.25 0.875)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "41509fab-6441-40f7-bd3c-c3d9567b8828")
+	)
+	(pad "8" smd roundrect
+		(at -0.75 1.9375 180)
+		(size 0.25 0.875)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "61fb8b24-4b6e-47b5-8a88-4a9c3e487f10")
+	)
+	(pad "9" smd roundrect
+		(at -0.25 1.9375 180)
+		(size 0.25 0.875)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "ec8ebe57-2364-4b05-b71d-df6ee39059bf")
+	)
+	(pad "10" smd roundrect
+		(at 0.25 1.9375 180)
+		(size 0.25 0.875)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "f8af4e4d-4e71-4bab-9a77-a4df3ebda09e")
+	)
+	(pad "11" smd roundrect
+		(at 0.75 1.9375 180)
+		(size 0.25 0.875)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "629af7d0-3a6b-4d93-9b45-7180c78e69a3")
+	)
+	(pad "12" smd roundrect
+		(at 1.25 1.9375 180)
+		(size 0.25 0.875)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "85604dd1-b6d8-4eef-9ba8-1389d4ed58f0")
+	)
+	(pad "13" smd roundrect
+		(at 1.9375 1.25 180)
+		(size 0.875 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "2c868873-c44a-4c51-af37-f8dc7dca088b")
+	)
+	(pad "14" smd roundrect
+		(at 1.9375 0.75 180)
+		(size 0.875 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "937594bb-604b-40a0-baa0-065f045e90bd")
+	)
+	(pad "15" smd roundrect
+		(at 1.9375 0.25 180)
+		(size 0.875 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "678d292d-dab6-4221-9b9b-e7aa7aa7e802")
+	)
+	(pad "16" smd roundrect
+		(at 1.9375 -0.25 180)
+		(size 0.875 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "a8878361-6f2a-49f3-9391-5fd6a96ee79d")
+	)
+	(pad "17" smd roundrect
+		(at 1.9375 -0.75 180)
+		(size 0.875 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "c04fccb0-a483-4cc7-9843-8c8e8b8b6d7b")
+	)
+	(pad "18" smd roundrect
+		(at 1.9375 -1.25 180)
+		(size 0.875 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "6f48168b-982b-477c-9baa-93cff079f092")
+	)
+	(pad "19" smd roundrect
+		(at 1.25 -1.9375 180)
+		(size 0.25 0.875)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "9be1eea4-6608-4f89-987a-f881b4f66b0b")
+	)
+	(pad "20" smd roundrect
+		(at 0.75 -1.9375 180)
+		(size 0.25 0.875)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "729adad1-5431-4bd1-8293-b95cb56f43e6")
+	)
+	(pad "21" smd roundrect
+		(at 0.25 -1.9375 180)
+		(size 0.25 0.875)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "1138a871-01fb-43b2-828b-c64f18fb9387")
+	)
+	(pad "22" smd roundrect
+		(at -0.25 -1.9375 180)
+		(size 0.25 0.875)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "bdaf5427-b040-42ed-a20e-2e1e74e3779d")
+	)
+	(pad "23" smd roundrect
+		(at -0.75 -1.9375 180)
+		(size 0.25 0.875)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "441954a3-6547-4b59-a654-77d3e6592d8a")
+	)
+	(pad "24" smd roundrect
+		(at -1.25 -1.9375 180)
+		(size 0.25 0.875)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "03bb5312-616f-4219-8b91-d7845be902be")
+	)
+	(pad "25" smd rect
+		(at 0 0 180)
+		(size 2.5 2.5)
+		(property pad_prop_heatsink)
+		(layers "F.Cu" "F.Mask")
+		(zone_connect 2)
+		(uuid "83d0fa27-c222-4d6e-aff1-8c58256ad839")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/HVQFN-24-1EP_4x4mm_P0.5mm_EP2.5x2.5mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

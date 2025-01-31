@@ -1,0 +1,457 @@
+(footprint "5x3.2MM XTAL"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.75831 -3.64637 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "75e8ff3a-e2dc-4e88-ae89-a1ae743ab94a")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.2032)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "H130B-12.000-16-2525-EXT-TR"
+		(at -3.0861 4.9911 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8f4e4387-06b8-4a78-b8a8-24aaae8c0500")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "ca97769e-4f0d-4301-8b69-4971c68c72ae")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "83ac82ce-ea7b-4385-bea4-40ea94ce51a1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" "12MHz ±25ppm Crystal 16pF 35 Ohms 4-SMD, No Lead"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "a16554cf-1bec-4a15-a300-046d5b747983")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "SUPPLIER 1" "Digi-Key"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b2ec7517-d66a-411e-ab60-bf44fbf659c7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ROHS" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "93774f9b-a82d-4b1e-937b-ef44021de8c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "STOCK 1" "4955"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ca76a210-93c3-4243-95f8-768550bbcfbe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PRICING 1" "1=0.590000, 10=0.488000, 50=0.439400, 100=0.390600, 500=0.371100 (USD)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0e275e77-5e65-40e2-8e0c-1e89c711d199")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a6510f79-3164-4f85-9578-c4852f9f004e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SUPPLIER PART NUMBER 1" "2151-H130B-12.000-16-2525-EXT-TR-ND"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1d2757c0-59f9-4b29-8741-d23cb4aa700a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ".CHECKED SCH" "*"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "17d7bed2-ddb6-4cc7-9fca-583abddcdf85")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ".CHECKED PCB" "*"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "876549e5-0c14-4ba6-8e1e-e0e11665783d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER PART NUMBER" "H130B-12.000-16-2525-EXT-TR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "93ca0e22-ed1f-4b70-9899-48028f675d36")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PART NUMBER" "H130B-12.000-16-2525-EXT-TR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4572b7fc-d745-4aca-a670-24a40fdc5e82")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "COMPONENT GROUP" "Crystal"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9eced026-c371-4bd3-b240-1969f668734f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "FOOTPRINT" "5x3.2mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b8e54736-63fb-4a62-8973-e9c31b642654")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURE 1" "Raltron Electronics"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5b9f11c7-d64f-499f-b202-572da7b082d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURE PART NUMBER 1" "H130B-12.000-16-2525-EXT-TR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "edae6151-1117-474d-972d-13dbec7e13ae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PIN COUNT" "4"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a10fe0b-7774-4da3-89fe-794a835d11d7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ALTIUM_VALUE" "12.000MHz"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "358e36ea-904f-458b-ac30-05efcc27cdbe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MOUNTING TECHNOLOGY" "SMT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "22449807-a160-43eb-8fdc-7386c341fbc5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "COMPONENT KIND" "Standard"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "23f89eb5-049c-477f-9abd-532c384e1fbc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "COMPONENT TYPE" "Standard"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b4475ebf-9fcd-4cad-99be-8679c57dbc99")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PP MATERIAL STACK" "0"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f74f6884-5b48-45a8-8760-a4d37483d04c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PP ROTATION" "0"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc098807-0939-4e3b-a8c1-9f1e5e93d7df")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start 2.89877 2.1844)
+		(end 2.89877 -2.13043)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6aa1eb19-e639-4ffe-ac02-dbb8f00c612c")
+	)
+	(fp_line
+		(start 2.89877 2.1844)
+		(end -2.0574 2.1844)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a4e52c47-b17b-45fb-a101-2055a1bec185")
+	)
+	(fp_line
+		(start 2.89877 -2.13043)
+		(end 2.8194 -2.2098)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2d89b781-59d3-4277-9321-94270a84acbd")
+	)
+	(fp_line
+		(start 2.8194 -2.2098)
+		(end -2.91678 -2.2098)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7b398ff1-6502-4a11-be8e-443ae3faab3c")
+	)
+	(fp_line
+		(start -2.0574 2.1844)
+		(end -2.2352 2.3622)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c6019ce5-1674-4fa2-91a4-2dde131c1c26")
+	)
+	(fp_line
+		(start -2.91678 -2.2098)
+		(end -2.93436 1.3868)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b4f2f93c-6377-41a5-9c69-f75d4055a519")
+	)
+	(fp_line
+		(start -2.93436 1.3868)
+		(end -3.1242 1.5748)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fc6904f1-70bd-41bd-b4ac-7b4b2efefa3f")
+	)
+	(fp_circle
+		(center -2.921 2.286)
+		(end -2.921 2.45005)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "d0d66bed-a104-4c99-b153-9ddef7986da9")
+	)
+	(pad "1" smd rect
+		(at -1.6 1.25 180)
+		(size 1.9 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "044d34a3-1841-40af-8d47-b1f165b0d55e")
+	)
+	(pad "2" smd rect
+		(at 1.6 1.25 180)
+		(size 1.9 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "5e1d4699-5db9-4308-955c-e2a5254c8244")
+	)
+	(pad "3" smd rect
+		(at 1.6 -1.25 180)
+		(size 1.9 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "a8a37c5e-b5f3-4ba6-bc4a-54fff8e53370")
+	)
+	(pad "4" smd rect
+		(at -1.6 -1.25 180)
+		(size 1.9 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "94339352-70d8-477d-8c3c-cc21d74e01bd")
+	)
+)

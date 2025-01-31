@@ -1,0 +1,607 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "fcf28c62-4ee0-4947-ac5c-62c0b0d56236")
+	(paper "A3")
+	(title_block
+		(title "NAE-SONATA-ONE")
+		(date "2024-08-16")
+		(rev "10")
+		(company "NewAE Technology")
+		(comment 2 "Apache-2")
+	)
+	(lib_symbols
+		(symbol "SONATA-ONE-symbols:root_0_Mounting_Hole"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Machine screw M3 Mounting Hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*MOUNT_M3_TIGHT*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_Mounting_Hole_1_0"
+				(circle
+					(center 0 0)
+					(radius 0.695)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 1.667)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(no_connect
+		(at 143.51 110.49)
+		(uuid "129ca044-350c-47da-bff8-753966d38569")
+	)
+	(no_connect
+		(at 107.95 110.49)
+		(uuid "2100d23e-c6b2-49b1-8fc5-899312a6bfce")
+	)
+	(no_connect
+		(at 214.63 110.49)
+		(uuid "3a982e92-f4d6-474c-8ed6-ca0b675028b4")
+	)
+	(no_connect
+		(at 196.85 110.49)
+		(uuid "92fd85ee-14d6-452a-b6e2-4a947c02fc0a")
+	)
+	(no_connect
+		(at 161.29 110.49)
+		(uuid "bb9c28e9-2cd1-4163-9734-bb07c61641bb")
+	)
+	(no_connect
+		(at 179.07 110.49)
+		(uuid "c6e5d46d-fd6e-42e9-9ffd-c742fdbc5982")
+	)
+	(no_connect
+		(at 125.73 110.49)
+		(uuid "f787b277-cf05-4db3-80b9-a1cb7fa7d03b")
+	)
+	(symbol
+		(lib_id "SONATA-ONE-symbols:root_0_Mounting_Hole")
+		(at 179.07 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00e72c30-6e7a-4e77-b23d-7368d5e25d0c")
+		(property "Reference" "MH5"
+			(at 177.403 103.743 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "M3, Tight Fit"
+			(at 177.403 113.538 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SONATA-ONE-LIBRARY:MOUNT_M3_TIGHT"
+			(at 179.07 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Machine screw M3 Mounting Hole"
+			(at 179.07 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49fb2465-911b-4fd0-9999-8f5052bf1244")
+		)
+		(instances
+			(project "SONATA-ONE"
+				(path "/e7c9b7db-69aa-4c96-995e-e694ce2e3dcf/3cef9bb3-ee65-4fec-8702-3f1c6ea3e194"
+					(reference "MH5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SONATA-ONE-symbols:root_0_Mounting_Hole")
+		(at 196.85 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "15552846-df96-4334-92dc-1a5753eca5ee")
+		(property "Reference" "MH6"
+			(at 195.183 103.743 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "M3, Tight Fit"
+			(at 195.183 113.538 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SONATA-ONE-LIBRARY:MOUNT_M3_TIGHT"
+			(at 196.85 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Machine screw M3 Mounting Hole"
+			(at 196.85 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef2981ae-02de-4232-8534-bd0d425163ba")
+		)
+		(instances
+			(project "SONATA-ONE"
+				(path "/e7c9b7db-69aa-4c96-995e-e694ce2e3dcf/3cef9bb3-ee65-4fec-8702-3f1c6ea3e194"
+					(reference "MH6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SONATA-ONE-symbols:root_0_Mounting_Hole")
+		(at 214.63 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "186226ae-5864-4634-905a-47f710c5f2b0")
+		(property "Reference" "MH7"
+			(at 212.963 103.743 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "M3, Tight Fit"
+			(at 212.963 113.538 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SONATA-ONE-LIBRARY:MOUNT_M3_TIGHT"
+			(at 214.63 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Machine screw M3 Mounting Hole"
+			(at 214.63 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a102fd5b-6cea-489d-8c23-50d206a9773d")
+		)
+		(instances
+			(project "SONATA-ONE"
+				(path "/e7c9b7db-69aa-4c96-995e-e694ce2e3dcf/3cef9bb3-ee65-4fec-8702-3f1c6ea3e194"
+					(reference "MH7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SONATA-ONE-symbols:root_0_Mounting_Hole")
+		(at 107.95 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1d6f7888-f76b-4064-a615-54c7af3f6fc9")
+		(property "Reference" "MH1"
+			(at 106.283 103.743 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "M3, Tight Fit"
+			(at 106.283 113.538 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SONATA-ONE-LIBRARY:MOUNT_M3_TIGHT"
+			(at 107.95 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Machine screw M3 Mounting Hole"
+			(at 107.95 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a462d8e8-1bd9-4076-bec5-688e494cea92")
+		)
+		(instances
+			(project "SONATA-ONE"
+				(path "/e7c9b7db-69aa-4c96-995e-e694ce2e3dcf/3cef9bb3-ee65-4fec-8702-3f1c6ea3e194"
+					(reference "MH1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SONATA-ONE-symbols:root_0_Mounting_Hole")
+		(at 161.29 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2c6e0c99-38ba-46dc-b369-3f9db9f301b0")
+		(property "Reference" "MH4"
+			(at 159.623 103.743 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "M3, Tight Fit"
+			(at 159.623 113.538 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SONATA-ONE-LIBRARY:MOUNT_M3_TIGHT"
+			(at 161.29 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Machine screw M3 Mounting Hole"
+			(at 161.29 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20dd82b7-dc3d-4c60-a7af-52cb5de8c614")
+		)
+		(instances
+			(project "SONATA-ONE"
+				(path "/e7c9b7db-69aa-4c96-995e-e694ce2e3dcf/3cef9bb3-ee65-4fec-8702-3f1c6ea3e194"
+					(reference "MH4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SONATA-ONE-symbols:root_0_Mounting_Hole")
+		(at 143.51 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "89b06f31-dc95-4c63-a6e4-707f624f55d1")
+		(property "Reference" "MH3"
+			(at 141.843 103.743 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "M3, Tight Fit"
+			(at 141.843 113.538 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SONATA-ONE-LIBRARY:MOUNT_M3_TIGHT"
+			(at 143.51 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Machine screw M3 Mounting Hole"
+			(at 143.51 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "405ef4b2-61fa-4101-9162-612215c7a31d")
+		)
+		(instances
+			(project "SONATA-ONE"
+				(path "/e7c9b7db-69aa-4c96-995e-e694ce2e3dcf/3cef9bb3-ee65-4fec-8702-3f1c6ea3e194"
+					(reference "MH3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SONATA-ONE-symbols:root_0_Mounting_Hole")
+		(at 125.73 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a4ee6a25-5a1c-40d6-af75-1b1f06665063")
+		(property "Reference" "MH2"
+			(at 124.063 103.743 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "M3, Tight Fit"
+			(at 124.063 113.538 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SONATA-ONE-LIBRARY:MOUNT_M3_TIGHT"
+			(at 125.73 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Machine screw M3 Mounting Hole"
+			(at 125.73 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6ff7a75-218f-4b85-902c-bb6034cbd688")
+		)
+		(instances
+			(project "SONATA-ONE"
+				(path "/e7c9b7db-69aa-4c96-995e-e694ce2e3dcf/3cef9bb3-ee65-4fec-8702-3f1c6ea3e194"
+					(reference "MH2")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

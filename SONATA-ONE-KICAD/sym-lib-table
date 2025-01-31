@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SONATA-ONE-symbols")(type "KiCad")(uri "${KIPRJMOD}/SONATA-ONE-symbols.kicad_sym")(options "")(descr ""))
+)

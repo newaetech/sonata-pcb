@@ -1,0 +1,423 @@
+(footprint "2425755-1"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.709699 -7.06872 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ed76a126-676f-4063-92fc-54a7e9826ad9")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.2032)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "2425755-1"
+		(at -6.337296 9.512304 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0bd361f6-81a3-4300-bb38-be1d2ad3bb00")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "96a3d358-2fef-4fb6-b349-4eadfc8c7986")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30bc4a75-78a7-4b29-b583-c49b8e93936f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "5-Way Joystick"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d5a8939f-fed1-4c74-9580-6d74ab4e9aa9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PART NUMBER" "2425755-1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e0b23dd8-febe-412b-8148-2636590480cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "COMPONENT GROUP" "Switch"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5c5ee981-4103-4318-b684-d8d763b78c19")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "FOOTPRINT" "2425755-1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "990e2ede-c662-4df7-8549-769791524665")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURE 1" "TE"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "168f8ef9-df0f-4ebd-b194-60d753466031")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURE PART NUMBER 1" "2425755-1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "60264d80-a715-4d68-a75a-fd38cf452de8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PIN COUNT" "10"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e6adf91b-9dea-4b5b-938a-a33bcbe662e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SUPPLIER 1" "Digi-Key"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d19dff2-b2c1-4b5c-884c-d46ee27ae5fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "COMPONENT KIND" "Standard"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dee229d3-c406-4fe7-93cc-c629b8cbe5c7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "COMPONENT TYPE" "Standard"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1a807aed-a913-4ba7-bc58-a4294b6a2fa1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PP MATERIAL STACK" "0"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9b540a27-77c2-4b59-b42f-57af131009a4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PP ROTATION" "0"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d1c89d47-a9b3-4e57-98d6-ae0dbfca43a7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PP ROTATION1" "0"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "92cad717-3f7f-4ed5-920e-4c42168650c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -6.300095 -6.299996)
+		(end -6.300088 -5.399998)
+		(stroke
+			(width 0.305)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "33adc221-5f86-4bb5-85eb-b0f4b3989185")
+	)
+	(fp_line
+		(start -6.300095 -6.299996)
+		(end -4.499999 -6.299996)
+		(stroke
+			(width 0.305)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e8f21160-e99b-4de4-a089-8223f76d4c9b")
+	)
+	(fp_line
+		(start -6.300003 2.399998)
+		(end -6.300003 6.300003)
+		(stroke
+			(width 0.305)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ddaefaf8-e655-4c89-b2f4-29f87fee2394")
+	)
+	(fp_line
+		(start -6.300003 6.300003)
+		(end -4.499999 6.299996)
+		(stroke
+			(width 0.305)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "362f167a-345e-406d-9760-f6a4bc05acb5")
+	)
+	(fp_line
+		(start -2.500004 -6.299996)
+		(end 2.500004 -6.299996)
+		(stroke
+			(width 0.305)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8ee46bde-9f17-4449-ac2c-b9126c1cf13f")
+	)
+	(fp_line
+		(start -2.499997 6.300003)
+		(end 2.499997 6.300003)
+		(stroke
+			(width 0.305)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8a339e35-d19b-43d8-aca1-7da324a0a752")
+	)
+	(fp_line
+		(start 4.499999 -6.299996)
+		(end 6.299996 -6.299996)
+		(stroke
+			(width 0.305)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e51ab615-29cb-4ccd-9211-d2bbe66be72c")
+	)
+	(fp_line
+		(start 4.600005 6.300003)
+		(end 6.300003 6.300003)
+		(stroke
+			(width 0.305)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "adb55651-c26a-4b08-9355-17f7c2adae71")
+	)
+	(fp_line
+		(start 6.299996 -6.299996)
+		(end 6.300003 -5.399998)
+		(stroke
+			(width 0.305)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0209e8c6-fd53-4d92-8059-69fef61fe061")
+	)
+	(fp_line
+		(start 6.300003 2.399998)
+		(end 6.300003 6.300003)
+		(stroke
+			(width 0.305)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d4e49a09-7608-4d45-80b2-c0b660de7a07")
+	)
+	(pad "" np_thru_hole circle
+		(at -5.499997 5.450004)
+		(size 1 1)
+		(drill 1)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "4af052f2-e5b4-4694-8cb7-e7c809af3390")
+	)
+	(pad "" np_thru_hole circle
+		(at 5.499997 5.450004)
+		(size 1 1)
+		(drill 1)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "02bac568-f1b0-404c-a616-320a0d4354da")
+	)
+	(pad "1" smd rect
+		(at -5.649995 -4.499999)
+		(size 1.7 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "456ebdd1-caed-43d7-9b75-b05b8a9c7b7e")
+	)
+	(pad "2" smd rect
+		(at -5.649995 -1.5)
+		(size 1.7 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "3a7e642c-6e2a-4d16-bbd5-c326efb5ed63")
+	)
+	(pad "3" smd rect
+		(at -5.649995 1.5)
+		(size 1.7 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "2209dbdb-aee2-451e-a45d-0dfa070e0eae")
+	)
+	(pad "4" smd rect
+		(at 5.649995 -4.499999)
+		(size 1.7 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "2c562399-4094-4874-8224-ab18bf5b018b")
+	)
+	(pad "5" smd rect
+		(at 5.649995 -1.5)
+		(size 1.7 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "9cbb2462-61c7-492f-91cd-56f0572973b2")
+	)
+	(pad "6" smd rect
+		(at 5.649995 1.5)
+		(size 1.7 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "9cbcd1a2-3bf1-4990-af42-98586a45b645")
+	)
+	(pad "MP1" smd rect
+		(at -3.500002 -6.175001 90)
+		(size 1.9 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "1ba14b78-4657-4c27-b60c-11e326669147")
+	)
+	(pad "MP2" smd rect
+		(at 3.500002 -6.175001 90)
+		(size 1.9 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "4872abfd-fe5f-49ff-a26c-ff95574d19a4")
+	)
+	(pad "MP3" smd rect
+		(at 3.500002 6.175001 90)
+		(size 1.9 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "b3a7f4a0-6ea5-473f-a9fc-ca10de43c604")
+	)
+	(pad "MP4" smd rect
+		(at -3.500002 6.175001 90)
+		(size 1.9 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "ff5ddd37-be12-4826-9316-d6e92f6160d5")
+	)
+	(model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/c-2425755-1-a-3d.stp"
+		(offset
+			(xyz 0 -0 7.2628)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
+)

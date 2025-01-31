@@ -1,0 +1,772 @@
+(footprint "FP-C04-057-SN-MFG"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 4.89227 -2.89433 -90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c7f1d7ef-0ada-46eb-9e3f-e6a1170ca524")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.2032)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "AT93C46DN-SH-T"
+		(at -6.6421 -2.6035 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "cb9be7f6-fda3-4db2-87db-cb596a733fca")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "753ab6e8-dc1a-49d3-ae6e-31796cce0eea")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "041ff4df-d3df-4dd0-9c09-0fdbb2f355a3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" "IC EEPROM 1K SPI 2MHZ 8SOIC"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "e0672639-d4ac-43d9-8b0c-110e94e05f88")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "CATEGORY" "IC"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "51f1b79d-c9e0-47e3-937e-26aea0f58d06")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "TEMPERATURE RANGE HIGH" "+85°C"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c1e3e6c5-56a9-4027-be6f-98826b365060")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "NOMINAL SUPPLY CURRENT" "0.5mA"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2eab1f38-32c9-497e-9a34-6283f7d2ef11")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MOUSER DESCRIPTION" "EEPROM Serial-3Wire 1K-Bit 128 x 8/64 x 16 2.5V/3.3V/5V 8-Pin SOIC T/R"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8a355b44-ffdd-446b-8381-430ece34fbb4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "IPC LAND PATTERN NAME" "SOIC127P600X175-8"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d0b04fd6-1b97-4014-868e-b35464c8d742")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "TEMPERATURE RANGE LOW" "-40°C"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d8bb488d-b4b9-440b-aa92-d005184530dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MEMORY SIZE" "1Kbits"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "beb1bd96-1170-470a-85a7-c7adff501742")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "TEMPERATURE" "-40°C to +85°C"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e6856b99-985e-4182-8639-999a4ea2f08a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DIGIKEY DESCRIPTION" "IC EEPROM 1K SPI 2MHZ 8SOIC"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55559f00-d362-43d4-9fa8-b3544d113d50")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LEAD FREE" "Yes"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fd482a6d-dcc1-4c31-a4ef-4a8be1038a1f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DEVICE CLASS L2" "Memory"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8752e39f-2500-4983-8c78-0110cbfed0ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ACCESS TIME" "1000ns"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "25ae073c-b313-4781-9a52-f8d5b673639d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "COMPONENTLINK2URL" "http://ww1.microchip.com/downloads/en/DeviceDoc/20006224B.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a7583b91-9825-47f3-b4b4-6da30712d3d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" "Microchip"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ebd71917-23e9-41dd-aff7-71aafafb5d92")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "AUTOMOTIVE" "No"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "13ea37e6-9c3d-4002-8b1d-8bde4d53364a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DEVICE CLASS L3" "EEPROM"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9ac3a5ea-62ee-49c7-8998-d0d526737772")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PACKAGE" "C04-057-SN"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e2144ca7-fdc0-4bec-8597-ee67c1b673f2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MAX SUPPLY VOLTAGE" "5.5V"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fe811878-fcdb-4f2b-b51a-a92d45dcfa02")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "OCTOPART" "https://octopart.com/at93c46dn-sh-t-microchip-77759177"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d72171ab-f619-4fea-aa5f-664eb3c22cae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "INTERFACE" "Other"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "494f9c83-2696-4969-a1e5-950228acf277")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ROHS" "TRUE"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "788ef9c7-6793-4b37-859a-90a6c3825ecc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "STANDOFF HEIGHT" "0.1mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "de6555ef-97ac-4084-921c-32309f922f7e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MEMORY TYPE" "EEPROM"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a8cdc7ef-169c-4acf-b955-81867921ca0f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "HEIGHT" "1.75mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b8491b89-a130-4e10-95ca-e7531840a0b3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MIN SUPPLY VOLTAGE" "1.8V"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "562d8d54-165e-405e-86fa-cfadd14d675c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER PART NUMBER" "AT93C46DN-SH-T"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "986a48e3-b0ef-4144-a8fa-0780563b2d86")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "COMPONENTLINK2DESCRIPTION" "Datasheet"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "005a5eb5-7189-4ba9-bd92-15587961abb4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "FREQUENCY" "2MHz"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cf127626-2c5f-4fd7-992a-8f110e14dbd3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DEVICE CLASS L1" "Integrated Circuits (ICs)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "48e0dff1-1207-4108-bd05-1ddcb019fe9c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -1.55 2.5)
+		(end 1.55 2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c64e4c91-b7d6-4ee1-ad70-e190563f7ecb")
+	)
+	(fp_line
+		(start -1.55 -2.5)
+		(end 1.55 -2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e7b6ac2c-3c66-4ea5-9202-cf9036830988")
+	)
+	(fp_circle
+		(center -4.1 -1.905)
+		(end -4.225 -1.905)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "70f4f128-b9b9-4ae5-b2d7-4ea013ca2e74")
+	)
+	(fp_line
+		(start 3.575 2.75)
+		(end 3.575 -2.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "196d7cfa-84f1-47dd-ab1b-a625787d26d7")
+	)
+	(fp_line
+		(start 3.575 2.75)
+		(end 3.575 -2.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "8c8e5437-529e-46be-b339-d9ca8929e91b")
+	)
+	(fp_line
+		(start 2 2.5)
+		(end 2 -2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "3040e59f-40e5-4e70-9718-ac0522321ea6")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "3ba5fc22-8394-43c6-8c68-841e1a61596d")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "3f1e98c2-4a81-4b21-a028-1de1004e5535")
+	)
+	(fp_line
+		(start -2 2.5)
+		(end 2 2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "d61cab71-4a61-41ac-b604-537b2dd16d38")
+	)
+	(fp_line
+		(start -2 2.5)
+		(end -2 -2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "5188ff04-7acf-4344-83a4-5185f11a5dc1")
+	)
+	(fp_line
+		(start -2 -2.5)
+		(end 2 -2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "dfb7c19d-015c-4422-b1b8-ef308b842723")
+	)
+	(fp_line
+		(start -3.575 2.75)
+		(end 3.575 2.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "c3d7a9c9-0ee4-434c-a8eb-cd1a693561d7")
+	)
+	(fp_line
+		(start -3.575 2.75)
+		(end 3.575 2.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "f13c1f82-ba9c-432c-935e-00bff74de32b")
+	)
+	(fp_line
+		(start -3.575 2.75)
+		(end -3.575 -2.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "4280a9e7-7276-40b2-80c9-0ce5795fcef7")
+	)
+	(fp_line
+		(start -3.575 2.75)
+		(end -3.575 -2.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "983af599-0623-46ba-afa8-fa299aadd136")
+	)
+	(fp_line
+		(start -3.575 -2.75)
+		(end 3.575 -2.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "19e6083a-73be-4195-a563-0c6e103747d4")
+	)
+	(fp_line
+		(start -3.575 -2.75)
+		(end 3.575 -2.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "fa54a570-ea10-47c0-b41d-833db621e2c4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.00001 -0.01062 180)
+		(unlocked yes)
+		(layer "Eco1.User")
+		(uuid "7f9fe704-525e-4d48-b2e7-c0388aa61ae9")
+		(effects
+			(font
+				(face "Arial")
+				(size 0.63 0.63)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+		(render_cache "REF**" 180
+			(polygon
+				(pts
+					(xy 98.764675 107.618446) (xy 98.862076 107.618446) (xy 98.877175 107.618253) (xy 98.908854 107.615368)
+					(xy 98.918577 107.612522) (xy 98.947168 107.598442) (xy 98.968547 107.580359) (xy 98.989791 107.55582)
+					(xy 98.995955 107.547782) (xy 99.014991 107.52134) (xy 99.032837 107.494972) (xy 99.050417 107.467958)
+					(xy 99.134278 107.33532) (xy 99.239988 107.33532) (xy 99.129508 107.508734) (xy 99.123327 107.518108)
+					(xy 99.104364 107.544459) (xy 99.082551 107.570627) (xy 99.059957 107.593518) (xy 99.03701 107.610205)
+					(xy 99.009333 107.625216) (xy 99.026024 107.62791) (xy 99.056898 107.63509) (xy 99.088693 107.646489)
+					(xy 99.119458 107.663502) (xy 99.144279 107.684765) (xy 99.161307 107.706328) (xy 99.177054 107.737082)
+					(xy 99.185248 107.767279) (xy 99.187979 107.80017) (xy 99.187876 107.806751) (xy 99.184258 107.838592)
+					(xy 99.17547 107.868661) (xy 99.161513 107.896956) (xy 99.143325 107.921765) (xy 99.119291 107.94305)
+					(xy 99.091039 107.958044) (xy 99.059471 107.967213) (xy 99.028504 107.972103) (xy 98.997243 107.974599)
+					(xy 98.962094 107.975431) (xy 98.680814 107.975431) (xy 98.680814 107.904034) (xy 98.764675 107.904034)
+					(xy 98.965479 107.904034) (xy 98.978388 107.903773) (xy 99.009545 107.900525) (xy 99.04181 107.891244)
+					(xy 99.068728 107.874337) (xy 99.083067 107.858545) (xy 99.096894 107.831036) (xy 99.101503 107.798939)
+					(xy 99.097784 107.770525) (xy 99.084577 107.740775) (xy 99.063765 107.717771) (xy 99.035183 107.701999)
+					(xy 99.009899 107.695078) (xy 98.978686 107.69103) (xy 98.945168 107.689843) (xy 98.764675 107.689843)
+					(xy 98.764675 107.904034) (xy 98.680814 107.904034) (xy 98.680814 107.33532) (xy 98.764675 107.33532)
+				)
+			)
+			(polygon
+				(pts
+					(xy 99.317694 107.33532) (xy 99.317694 107.975431) (xy 99.77639 107.975431) (xy 99.77639 107.901572)
+					(xy 99.401555 107.901572) (xy 99.401555 107.699691) (xy 99.752539 107.699691) (xy 99.752539 107.625832)
+					(xy 99.401555 107.625832) (xy 99.401555 107.409179) (xy 99.791161 107.409179) (xy 99.791161 107.33532)
+				)
+			)
+			(polygon
+				(pts
+					(xy 99.908105 107.33532) (xy 99.908105 107.975431) (xy 100.336026 107.975431) (xy 100.336026 107.901572)
+					(xy 99.991966 107.901572) (xy 99.991966 107.699691) (xy 100.28971 107.699691) (xy 100.28971 107.625832)
+					(xy 99.991966 107.625832) (xy 99.991966 107.33532)
+				)
+			)
+			(polygon
+				(pts
+					(xy 100.401576 107.857257) (xy 100.421425 107.916344) (xy 100.453527 107.906304) (xy 100.483986 107.895836)
+					(xy 100.513081 107.884233) (xy 100.521443 107.880338) (xy 100.518243 107.911446) (xy 100.515211 107.944733)
+					(xy 100.513061 107.977379) (xy 100.512826 107.985279) (xy 100.575606 107.985279) (xy 100.573799 107.95412)
+					(xy 100.570674 107.92147) (xy 100.566653 107.888564) (xy 100.565604 107.880799) (xy 100.594756 107.892535)
+					(xy 100.626432 107.9037) (xy 100.657099 107.91326) (xy 100.667776 107.916344) (xy 100.687626 107.857257)
+					(xy 100.656896 107.849342) (xy 100.626508 107.843084) (xy 100.593143 107.838071) (xy 100.579914 107.836638)
+					(xy 100.602721 107.814812) (xy 100.623859 107.79191) (xy 100.645551 107.766853) (xy 100.654389 107.756316)
+					(xy 100.60238 107.719386) (xy 100.584064 107.745427) (xy 100.565551 107.774086) (xy 100.549464 107.800432)
+					(xy 100.543139 107.811095) (xy 100.527617 107.782801) (xy 100.511304 107.755248) (xy 100.493019 107.72772)
+					(xy 100.486821 107.719386) (xy 100.435735 107.756316) (xy 100.456319 107.780934) (xy 100.476508 107.804236)
+					(xy 100.498457 107.82786) (xy 100.507594 107.836638) (xy 100.476626 107.842001) (xy 100.443272 107.848361)
+					(xy 100.411031 107.855141)
+				)
+			)
+			(polygon
+				(pts
+					(xy 100.744405 107.857257) (xy 100.764254 107.916344) (xy 100.796356 107.906304) (xy 100.826815 107.895836)
+					(xy 100.85591 107.884233) (xy 100.864272 107.880338) (xy 100.861072 107.911446) (xy 100.85804 107.944733)
+					(xy 100.85589 107.977379) (xy 100.855655 107.985279) (xy 100.918435 107.985279) (xy 100.916628 107.95412)
+					(xy 100.913503 107.92147) (xy 100.909482 107.888564) (xy 100.908433 107.880799) (xy 100.937585 107.892535)
+					(xy 100.969261 107.9037) (xy 100.999928 107.91326) (xy 101.010605 107.916344) (xy 101.030455 107.857257)
+					(xy 100.999725 107.849342) (xy 100.969337 107.843084) (xy 100.935972 107.838071) (xy 100.922743 107.836638)
+					(xy 100.94555 107.814812) (xy 100.966688 107.79191) (xy 100.98838 107.766853) (xy 100.997218 107.756316)
+					(xy 100.945209 107.719386) (xy 100.926893 107.745427) (xy 100.90838 107.774086) (xy 100.892293 107.800432)
+					(xy 100.885968 107.811095) (xy 100.870446 107.782801) (xy 100.854133 107.755248) (xy 100.835849 107.72772)
+					(xy 100.82965 107.719386) (xy 100.778564 107.756316) (xy 100.799148 107.780934) (xy 100.819337 107.804236)
+					(xy 100.841286 107.82786) (xy 100.850423 107.836638) (xy 100.819455 107.842001) (xy 100.786101 107.848361)
+					(xy 100.75386 107.855141)
+				)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.7 -1.905 180)
+		(size 1.55 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "99e4ad27-6c73-47c1-9462-e8b1df5d8a5b")
+	)
+	(pad "2" smd rect
+		(at -2.7 -0.635 180)
+		(size 1.55 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "8fc146e0-6575-4b55-b339-99f5f3bb8476")
+	)
+	(pad "3" smd rect
+		(at -2.7 0.635 180)
+		(size 1.55 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "4dc549fd-2280-4e99-88c7-ed36c9a2eabe")
+	)
+	(pad "4" smd rect
+		(at -2.7 1.905 180)
+		(size 1.55 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "eb96a481-5db3-475c-8bd5-edd6e55f0edd")
+	)
+	(pad "5" smd rect
+		(at 2.7 1.905 180)
+		(size 1.55 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "5dc64898-449f-43db-88ee-9f7cbc80e31b")
+	)
+	(pad "6" smd rect
+		(at 2.7 0.635 180)
+		(size 1.55 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "89c71aa3-670d-4a73-9e13-ac84db186aef")
+	)
+	(pad "7" smd rect
+		(at 2.7 -0.635 180)
+		(size 1.55 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "8e9cbb39-145d-45aa-8422-9bcd02c978df")
+	)
+	(pad "8" smd rect
+		(at 2.7 -1.905 180)
+		(size 1.55 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "3d7de7fc-70a6-4a5e-b53a-83121a466107")
+	)
+	(model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/IC_Microchip_24LC1025T-I-SN_eec.STEP"
+		(offset
+			(xyz 0 -0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

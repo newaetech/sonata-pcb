@@ -1,0 +1,292 @@
+(footprint "SJ_3S_NC12"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 2.47936 0.95172 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f111d76c-b13c-4cad-85fc-959a97937606")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.2032)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "NC"
+		(at -1.3589 3.3909 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b44d02fd-d743-492b-b5e5-3a61178d1fdd")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0e5db1d9-6c19-4616-bf2f-93d6fc4db068")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b7aa11a-7eaa-4e66-b47d-e2eaed0492f8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Solder Jumper, NC"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dae85887-ce2f-4a60-bbf1-316304e69b47")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PART NUMBER" "SJ_3S_12JMP"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "657414b5-4578-4666-a6ca-30c6b108b7c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "COMPONENT GROUP" "PCB Feature"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "819e006c-130c-4976-9d05-9db54ba9cf16")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "FOOTPRINT" "SJ_3S_NC12"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d6f01112-07a6-4886-8605-307d068bb048")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PIN COUNT" "3"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8010e608-d80c-4d90-a556-6b8788ebcdee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MOUNTING TECHNOLOGY" "COPPER"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8eace413-0ad7-4c52-87f1-515dc4d9ba28")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "COMPONENT KIND" "Standard (No BOM)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "56705b75-d84c-42b1-b396-fe4ce93d5215")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "COMPONENT TYPE" "Standard (No BOM)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "23933bb9-f869-4399-ab5a-4a2615145342")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr allow_soldermask_bridges)
+	(fp_rect
+		(start -1.3119 0.8)
+		(end 0.2881 -0.8)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "f6b56f35-6891-4c39-936a-e1c86bd83ea9")
+	)
+	(fp_line
+		(start -1.5119 0.8)
+		(end -1.5119 -0.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6c75b161-865e-4de8-84b4-cf353aab5107")
+	)
+	(fp_line
+		(start -1.3119 1)
+		(end 1.2881 1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "72c418e5-96f3-43ba-bcda-23bb445f2401")
+	)
+	(fp_line
+		(start -1.2119 -1)
+		(end 1.2881 -1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4fcc8955-4c41-42d6-bc97-df9c2847f648")
+	)
+	(fp_line
+		(start 1.4881 0.8)
+		(end 1.4881 -0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d7bb2804-4873-49a8-ba92-0f02884652bc")
+	)
+	(fp_arc
+		(start -1.5119 -0.7)
+		(mid -1.424032 -0.912132)
+		(end -1.2119 -1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "de188229-9890-49cd-8672-94fee4a59c4c")
+	)
+	(fp_arc
+		(start -1.3119 1)
+		(mid -1.453321 0.941421)
+		(end -1.5119 0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "358c395e-ea10-4384-b21a-9467af3ee779")
+	)
+	(fp_arc
+		(start 1.2881 -1)
+		(mid 1.429521 -0.941421)
+		(end 1.4881 -0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "285f46ff-e11b-43d5-a456-e625195df676")
+	)
+	(fp_arc
+		(start 1.4881 0.8)
+		(mid 1.429521 0.941421)
+		(end 1.2881 1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "56dd6a79-a4b5-4171-b61c-1e7bed14864d")
+	)
+	(fp_rect
+		(start -1.3119 0.8)
+		(end 1.2881 -0.8)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "37345f39-b0f0-4bff-a0ca-0c6e934993d4")
+	)
+	(pad "1" smd rect
+		(at -0.8238 0)
+		(size 0.635 1.27)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "34f39687-696a-49a6-b691-18dcc4785f2d")
+	)
+	(pad "2" smd rect
+		(at 0 0)
+		(size 0.635 1.27)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "da2f82aa-d915-4fda-b897-ce6712f69dae")
+	)
+	(pad "3" smd rect
+		(at 0.8241 0)
+		(size 0.635 1.27)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin -10)
+		(thermal_bridge_angle 45)
+		(uuid "c8e677a8-b5a0-47b6-852f-3915a3a0aea8")
+	)
+)

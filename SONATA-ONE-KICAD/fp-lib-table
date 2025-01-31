@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SONATA-ONE-LIBRARY")(type "KiCad")(uri "${KIPRJMOD}/SONATA-ONE-LIBRARY.pretty")(options "")(descr ""))
+)

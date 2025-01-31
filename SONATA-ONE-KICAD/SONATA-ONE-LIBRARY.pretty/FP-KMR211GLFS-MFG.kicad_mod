@@ -1,0 +1,757 @@
+(footprint "FP-KMR211GLFS-MFG"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 3.47993 -1.66758 -90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8a5ee73e-68ed-4f01-8082-f3e4fb8d361e")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.2032)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "KMR211GLFS"
+		(at -5.9563 -1.9939 -90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "05dd6395-6fa1-4143-8d4b-4b906bb714e7")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6465740c-c237-470f-be4d-c4781c9e439c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a23a396-6ba8-42cc-b318-6453d021fdb9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "SWITCH TACTILE SPST-NO 0.05A 32V"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "023845cb-bc05-44cb-99b7-f04fc09c5b97")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "REACH SVHC" "No SVHC"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2209b332-de0d-4bdc-90b3-faca2e759377")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "VOLTAGE RATING (DC)" "32V"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3c800f2c-ee6d-41ee-9cdd-a287d9da225c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LENGTH" "2.8mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ddabb42e-73e8-45e1-b5b7-54b45d45f0e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MIN OPERATING TEMPERATURE" "-40°C"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d4689c28-f218-4b5f-b197-bcfc0db35027")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MOUNT" "Surface Mount"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bd67698c-0c08-46f1-8d98-6ef4b89cb5c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SWITCH FUNCTION" "Off-Mom"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "de10ce1a-ee8e-4ebc-b9f9-84ffbfc3efae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "THROW CONFIGURATION" "SPST"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "094ea99a-b536-452a-bcf0-3a1f1709b4db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SWITCH TRAVEL" "0.2mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "844621c6-d3f4-4571-a86a-9724ca01d0e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CURRENT RATING" "50mA"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d4970094-94ab-48ce-a610-ff5d0c9558c4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MAX VOLTAGE RATING (DC)" "32V"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d54d1ffe-4ae7-4652-8475-7330d6991adf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "WIDTH" "2.8mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6b90b46d-34a2-449e-9f2c-64edfcaff0e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ILLUMINATION TYPE" "Non-Illuminated"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f9e7f229-f6eb-459b-9c44-cb3b1bf8035b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ACTUATOR LENGTH" "0.5mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "243c1e2e-14a6-4a62-8b78-6a6701af6d93")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DEPTH" "4.6mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bb72a6fb-5541-4a1a-8585-41c30d6497c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PACKAGING" "Tape and Reel"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "793532d3-2a43-4868-8561-6e1e07787ce2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LEAD FREE" "Lead Free"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b60060f7-ac52-4e5c-91a2-6a25a5ccd021")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CONTACT MATERIAL" "Silver"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d8a78d30-34f0-4d91-8e27-2a32dd4b6cb6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "TERMINATION" "Gull Wing"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "60fd54dc-8765-4821-aaba-e31f6e90a7e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "POWER RATING" "1W"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00f6a8c7-921b-41ab-bfc5-0ce3f5dfce08")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PACKAGE QUANTITY" "1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d117cdc2-7ffb-49b3-858f-43bfd9ffb81e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "OPERATING FORCE" "1.2N"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "575a5909-753c-4be8-9321-a08282c83c45")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CONTACT CURRENT RATING" "50mA"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "206c3d2e-fb03-4fb8-a31d-0a029f4e38f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ORIENTATION" "Straight"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3596dec3-210f-41ee-8c7c-45b0cc9fd7c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MAX OPERATING TEMPERATURE" "85°C"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ee68cc41-8953-477d-980c-e78c8f839de1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ACTUATOR TYPE" "Standard"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d00ab4f8-90a0-4933-b093-8b36cfb242b2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "RADIATION HARDENING" "No"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fd29d28a-445c-4751-9f88-c763d1e520b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MECHANICAL LIFE" "200000Cycles"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "14e74666-9737-464e-bb23-7c9c7726290a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MAX CURRENT RATING" "50mA"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "430cb6c6-4ef7-4079-9762-060fe67fdd33")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CONTACT PLATING" "Silver"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e83c939e-86e4-4149-817a-21634c3edabe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -2.875 -2.1495)
+		(end -2.875 1.6755)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "049bdcb0-ebce-47be-89e4-4569a30fe099")
+	)
+	(fp_line
+		(start -2.875 -2.1495)
+		(end 2.875 -2.1495)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "530f8af7-db9c-4647-9a97-12647cd1a925")
+	)
+	(fp_line
+		(start -2.875 1.6755)
+		(end 2.875 1.6755)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e6306873-f8f9-4f86-813f-f74792538a72")
+	)
+	(fp_line
+		(start 2.875 -2.1495)
+		(end 2.875 1.6755)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b2658849-d389-4da0-999c-ea583f1ee139")
+	)
+	(fp_circle
+		(center -3.425 -0.855)
+		(end -3.3 -0.855)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "0e6738fd-a30b-4d59-b4ea-33b9c38e751e")
+	)
+	(fp_line
+		(start -2.6 -1.8)
+		(end -2.6 1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "d40eb62e-b5fd-4b08-ab52-724c4ee28c15")
+	)
+	(fp_line
+		(start -2.6 -1.8)
+		(end 2.6 -1.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "dff0adb9-c357-4a29-a8ac-fe241af01237")
+	)
+	(fp_line
+		(start -2.6 1.5)
+		(end 2.6 1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "fb949711-4f57-48ec-8018-931ecbac0fd5")
+	)
+	(fp_line
+		(start -0.495 0)
+		(end 0.495 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "fe7747bf-0d49-46d4-8998-a5e9a0368a90")
+	)
+	(fp_line
+		(start 0 -0.495)
+		(end 0 0.495)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "5c9d1bf6-9606-4fa9-8fd8-2ed05b21c73d")
+	)
+	(fp_line
+		(start 2.6 -1.8)
+		(end 2.6 1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "31f49bc7-2601-471b-ac24-383fc6af5427")
+	)
+	(fp_line
+		(start -2.1 -1.4)
+		(end -2.1 1.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "1400ffe9-2af7-428b-9b3b-6732fb57c5a2")
+	)
+	(fp_line
+		(start -2.1 -1.4)
+		(end 2.1 -1.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "c45155d9-2377-4ea5-a743-1653d8182287")
+	)
+	(fp_line
+		(start -2.1 1.4)
+		(end 2.1 1.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "071db808-c6c8-4c72-a746-a700eaef0083")
+	)
+	(fp_line
+		(start 2.1 -1.4)
+		(end 2.1 1.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "bcfc0a81-408a-4b43-86ad-6599173ee23c")
+	)
+	(fp_line
+		(start -2.6 -1.8)
+		(end -2.6 1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.5")
+		(uuid "a7c9d066-f654-444f-8eb9-e30f07e96d63")
+	)
+	(fp_line
+		(start -2.6 -1.8)
+		(end 2.6 -1.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.5")
+		(uuid "7c57ee1c-2cc7-4f62-a532-ab78abf45f7f")
+	)
+	(fp_line
+		(start -2.6 1.5)
+		(end 2.6 1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.5")
+		(uuid "a8c7cf79-59d6-4589-a00e-eae90455500c")
+	)
+	(fp_line
+		(start 2.6 -1.8)
+		(end 2.6 1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.5")
+		(uuid "f1f936f8-81d4-4317-838c-4cf37cec2c21")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.00001 -0.16062 0)
+		(unlocked yes)
+		(layer "User.5")
+		(uuid "fe05c858-ea29-4f48-8d59-de21486e0dad")
+		(effects
+			(font
+				(face "Arial")
+				(size 0.63 0.63)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+		(render_cache "REF**" 0
+			(polygon
+				(pts
+					(xy 115.862823 77.9642) (xy 115.894084 77.966696) (xy 115.925051 77.971586) (xy 115.956619 77.980755)
+					(xy 115.984871 77.995749) (xy 116.008905 78.017034) (xy 116.027093 78.041843) (xy 116.04105 78.070138)
+					(xy 116.049838 78.100207) (xy 116.053456 78.132048) (xy 116.053559 78.138629) (xy 116.050828 78.17152)
+					(xy 116.042634 78.201717) (xy 116.026887 78.232471) (xy 116.009859 78.254034) (xy 115.985038 78.275297)
+					(xy 115.954273 78.29231) (xy 115.922478 78.303709) (xy 115.891604 78.310889) (xy 115.874913 78.313583)
+					(xy 115.90259 78.328594) (xy 115.925537 78.345281) (xy 115.948131 78.368172) (xy 115.969944 78.39434)
+					(xy 115.988907 78.420691) (xy 115.995088 78.430065) (xy 116.105568 78.60348) (xy 115.999858 78.60348)
+					(xy 115.915997 78.470841) (xy 115.898417 78.443827) (xy 115.880571 78.417459) (xy 115.861535 78.391017)
+					(xy 115.855371 78.38298) (xy 115.834127 78.35844) (xy 115.812748 78.340357) (xy 115.784157 78.326277)
+					(xy 115.774434 78.323431) (xy 115.742755 78.320546) (xy 115.727656 78.320353) (xy 115.630255 78.320353)
+					(xy 115.630255 78.60348) (xy 115.546394 78.60348) (xy 115.546394 78.248956) (xy 115.630255 78.248956)
+					(xy 115.810748 78.248956) (xy 115.844266 78.247769) (xy 115.875479 78.243721) (xy 115.900763 78.2368)
+					(xy 115.929345 78.221028) (xy 115.950157 78.198024) (xy 115.963364 78.168274) (xy 115.967083 78.13986)
+					(xy 115.962474 78.107763) (xy 115.948647 78.080254) (xy 115.934308 78.064462) (xy 115.90739 78.047555)
+					(xy 115.875125 78.038274) (xy 115.843968 78.035026) (xy 115.831059 78.034765) (xy 115.630255 78.034765)
+					(xy 115.630255 78.248956) (xy 115.546394 78.248956) (xy 115.546394 77.963368) (xy 115.827674 77.963368)
+				)
+			)
+			(polygon
+				(pts
+					(xy 116.183274 78.60348) (xy 116.183274 77.963368) (xy 116.64197 77.963368) (xy 116.64197 78.037227)
+					(xy 116.267135 78.037227) (xy 116.267135 78.239108) (xy 116.618119 78.239108) (xy 116.618119 78.312967)
+					(xy 116.267135 78.312967) (xy 116.267135 78.52962) (xy 116.656741 78.52962) (xy 116.656741 78.60348)
+				)
+			)
+			(polygon
+				(pts
+					(xy 116.773685 78.60348) (xy 116.773685 77.963368) (xy 117.201606 77.963368) (xy 117.201606 78.037227)
+					(xy 116.857546 78.037227) (xy 116.857546 78.239108) (xy 117.15529 78.239108) (xy 117.15529 78.312967)
+					(xy 116.857546 78.312967) (xy 116.857546 78.60348)
+				)
+			)
+			(polygon
+				(pts
+					(xy 117.267156 78.081542) (xy 117.287005 78.022455) (xy 117.319107 78.032495) (xy 117.349566 78.042963)
+					(xy 117.378661 78.054566) (xy 117.387023 78.058461) (xy 117.383823 78.027353) (xy 117.380791 77.994066)
+					(xy 117.378641 77.96142) (xy 117.378406 77.95352) (xy 117.441186 77.95352) (xy 117.439379 77.984679)
+					(xy 117.436254 78.017329) (xy 117.432233 78.050235) (xy 117.431184 78.058) (xy 117.460336 78.046264)
+					(xy 117.492012 78.035099) (xy 117.522679 78.025539) (xy 117.533356 78.022455) (xy 117.553206 78.081542)
+					(xy 117.522476 78.089457) (xy 117.492088 78.095715) (xy 117.458723 78.100728) (xy 117.445494 78.102161)
+					(xy 117.468301 78.123987) (xy 117.489439 78.146889) (xy 117.511131 78.171946) (xy 117.519969 78.182483)
+					(xy 117.46796 78.219413) (xy 117.449644 78.193372) (xy 117.431131 78.164713) (xy 117.415044 78.138367)
+					(xy 117.408719 78.127704) (xy 117.393197 78.155998) (xy 117.376884 78.183551) (xy 117.358599 78.211079)
+					(xy 117.352401 78.219413) (xy 117.301315 78.182483) (xy 117.321899 78.157865) (xy 117.342088 78.134563)
+					(xy 117.364037 78.110939) (xy 117.373174 78.102161) (xy 117.342206 78.096798) (xy 117.308852 78.090438)
+					(xy 117.276611 78.083658)
+				)
+			)
+			(polygon
+				(pts
+					(xy 117.609985 78.081542) (xy 117.629834 78.022455) (xy 117.661936 78.032495) (xy 117.692395 78.042963)
+					(xy 117.72149 78.054566) (xy 117.729852 78.058461) (xy 117.726652 78.027353) (xy 117.72362 77.994066)
+					(xy 117.72147 77.96142) (xy 117.721235 77.95352) (xy 117.784015 77.95352) (xy 117.782208 77.984679)
+					(xy 117.779083 78.017329) (xy 117.775062 78.050235) (xy 117.774013 78.058) (xy 117.803165 78.046264)
+					(xy 117.834841 78.035099) (xy 117.865508 78.025539) (xy 117.876185 78.022455) (xy 117.896035 78.081542)
+					(xy 117.865305 78.089457) (xy 117.834917 78.095715) (xy 117.801552 78.100728) (xy 117.788323 78.102161)
+					(xy 117.81113 78.123987) (xy 117.832268 78.146889) (xy 117.85396 78.171946) (xy 117.862798 78.182483)
+					(xy 117.810789 78.219413) (xy 117.792473 78.193372) (xy 117.77396 78.164713) (xy 117.757873 78.138367)
+					(xy 117.751548 78.127704) (xy 117.736026 78.155998) (xy 117.719713 78.183551) (xy 117.701429 78.211079)
+					(xy 117.69523 78.219413) (xy 117.644144 78.182483) (xy 117.664728 78.157865) (xy 117.684917 78.134563)
+					(xy 117.706866 78.110939) (xy 117.716003 78.102161) (xy 117.685035 78.096798) (xy 117.651681 78.090438)
+					(xy 117.61944 78.083658)
+				)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.05 -0.8)
+		(size 0.9 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "8c6f3db3-2c66-45dc-859f-172c53d6db7a")
+	)
+	(pad "2" smd rect
+		(at 2.05 -0.8)
+		(size 0.9 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "900f60d2-32c9-4929-8680-e58ad963eb6b")
+	)
+	(pad "3" smd rect
+		(at -2.05 0.8)
+		(size 0.9 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "5ea5cc5d-5f28-4803-abe6-0779c4cdb5dd")
+	)
+	(pad "4" smd rect
+		(at 2.05 0.8)
+		(size 0.9 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "2a22fc72-dc09-4535-9493-75715affc64b")
+	)
+	(pad "5" smd rect
+		(at 0 -1.425)
+		(size 1.7 0.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "4bab1281-332b-441d-be17-a9b428f029ee")
+	)
+)

@@ -1,0 +1,250 @@
+(footprint "MOUNT_M3_TIGHT"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(locked yes)
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -2.56961 -3.49251 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8379a8ad-79dc-43d1-a8df-1d9f48349f4b")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.2032)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "M3, Tight Fit"
+		(at -2.5019 5.0419 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "cdb826b0-aa92-431c-ab25-7884cc1df938")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "326513a8-5e36-4ed7-9782-c6aeba8424ff")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "45f59fa8-ce21-4fa8-985c-c2000dc49292")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Machine screw M3 Mounting Hole"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b6e632c5-7256-4264-be55-4537db39cc9b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PART NUMBER" "MOUNT_M3_TIGHT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "714968b8-a5b7-4e6b-a7bd-f518a3662ff6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "COMPONENT GROUP" "Mechanical"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "74bab145-8fad-4f7a-8145-321af902ddb0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "FOOTPRINT" "MOUNT_M3_TIGHT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8160732a-a9fa-4b1c-a37e-2c14d8170cc1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PIN COUNT" "1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "28b39205-0ab6-419e-a9a7-1fa8d26a279d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "COMPONENT KIND" "Mechanical"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "99e8bc9a-8cd4-4bd5-9da7-3e18d0bd60bc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "COMPONENT TYPE" "Mechanical"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "967dab25-efd2-466a-a1a9-25b291d06cfe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PP MATERIAL STACK" "0"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "48bfc16e-c4ce-48b2-8a67-58b514724986")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PP ROTATION" "0"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "77e729ee-d86e-4dd7-9b17-3afcd753ca51")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2.08806 0 180)
+		(size 0.3556 0.3556)
+		(drill 0.3048)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "71f4ff0a-8879-4488-a50f-211b2fc169db")
+	)
+	(pad "1" thru_hole circle
+		(at -1.47648 -1.47648 135)
+		(size 0.3556 0.3556)
+		(drill 0.3048)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "33c7e2b3-59e8-4339-bfdc-e9936f3b0561")
+	)
+	(pad "1" thru_hole circle
+		(at -1.47648 1.47648 225)
+		(size 0.3556 0.3556)
+		(drill 0.3048)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7b096490-cd32-4e82-b5a1-a72f5f8837c7")
+	)
+	(pad "1" thru_hole circle
+		(at 0 -2.08806 90)
+		(size 0.3556 0.3556)
+		(drill 0.3048)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3258ca18-603b-4a3f-baa2-829dbb55371e")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 5.3 5.3)
+		(drill 3.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d10c9999-abc8-441c-a426-9986ea94549a")
+	)
+	(pad "1" thru_hole circle
+		(at 0 2.08806 270)
+		(size 0.3556 0.3556)
+		(drill 0.3048)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "76b64ab0-eb2b-49de-8bd8-79493b81d09d")
+	)
+	(pad "1" thru_hole circle
+		(at 1.47649 -1.47648 45)
+		(size 0.3556 0.3556)
+		(drill 0.3048)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1959283b-70bb-4439-9640-2b0495144adf")
+	)
+	(pad "1" thru_hole circle
+		(at 1.47649 1.47648 315)
+		(size 0.3556 0.3556)
+		(drill 0.3048)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "87ff4d45-547f-4858-9679-08aab8a5b693")
+	)
+	(pad "1" thru_hole circle
+		(at 2.08806 0)
+		(size 0.3556 0.3556)
+		(drill 0.3048)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5bcf80a9-bca3-487f-a40d-e420936a4ef2")
+	)
+)

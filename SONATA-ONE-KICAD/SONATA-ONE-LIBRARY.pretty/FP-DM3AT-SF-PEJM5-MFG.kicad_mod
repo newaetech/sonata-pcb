@@ -1,0 +1,1000 @@
+(footprint "FP-DM3AT-SF-PEJM5-MFG"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -7.45948 -5.37129 -90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "542ac0c3-9d71-43e7-aa78-3219d6955d73")
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.254)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "DM3AT-SF-PEJM5"
+		(at -7.2771 10.6553 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0ba492ef-99ae-4dd9-996c-83253c3fee4b")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "e1c883cb-fce5-4042-9545-40b7f5cfd322")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "156803b8-eb19-4a17-8144-47602adcd638")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" "Micro SD Card Connector, 0.5 A, 125 V, -25 to 85 degC, 8-Pin SMD, RoHS, Tape and Reel"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "40652dbf-30c7-4eab-9da9-97948870a9af")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "FEATURED PRODUCT" "DM3ATSeries"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b8d6958a-4b34-401f-8d61-5e50d53cb47b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER URL" "https://www.hirose.com"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6f2e7a4e-aa17-4564-97a2-2a45a15b684c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CONTACT FINISH" "Gold"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b580a7c5-4833-4c03-883c-e8c610d05361")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "HEIGHT ABOVE BOARD" "0.066\"(1.68mm)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b8ff910c-08f2-4512-b3ea-5159e20384c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "HTML DATASHEET" "DM3SeriesmicroSD.html"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "64e9a995-ed32-46e2-87ca-133ec03bb3af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "FAMILY" "MemoryConnectors-PCCardSockets"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "739a49cf-a2c0-435b-9143-f50ac327ef1c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PACKAGE REFERENCE" "DM3AT-8"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3343cec9-ac3c-47dc-869c-77d0d444f23b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CATEGORY" "Connectors,Interconnects"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a5d191d7-c010-472e-8555-92a2fcbbbca6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "FEATURES" "Switch"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "535965ff-3975-4570-a6c1-48f5182e635b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MOUNTING TYPE" "SurfaceMount,RightAngle"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fd0c8b90-efba-4036-8a6b-62a0249cd1c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DATASHEET VERSION" "Jun-10"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0b8d6b44-1cdd-4174-a972-f5b776e59baa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "OTHER NAMES" "HR1964DKR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f11c494b-e775-4305-9cdf-77b1564164cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CONNECTOR TYPE" "ConnectorandEjector"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65ab7a9c-bc2a-43f4-b4e1-c2dd3277f7e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "INSERTION, REMOVAL METHOD" "PushIn,PushOut"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a833c22b-ac96-4410-a996-391efb137dff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" "Hirose Electric"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f9abb0a9-2bce-438b-97e4-2b15da450260")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PACKAGE DESCRIPTION" "8-Pin Surface Mount Device, Body 16.15 x 13.85 mm, Pitch 1.1 mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f626ebf-a927-43e1-91e5-748d16d38d06")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CARD TYPE" "SecureDigital-microSD™"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "622ee792-3eba-4f3e-947b-55a9beb436de")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "STANDARD PACKAGE" "1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c43416f9-62c9-43e1-9a0b-1e5c885eab1f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ONLINE CATALOG" "DM3Series"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "89771113-d398-4017-bef3-a830baa587fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CONTACT FINISH THICKNESS" "-"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6a83c318-01ca-4f9d-bcc8-d215dd43d3a7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DATASHEET URL" "https://ciiva.com/datasheet-click-46418261?src=ciiva&sig=4019062a"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "51bff3ed-f4f6-47cf-a011-b35744625ed9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MOUNTING FEATURE" "Normal,Standard-Top"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a20a8ea-5062-40b9-9060-e2f4a20a5b8d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SERIES" "DM3"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4ec221e9-39b2-4c89-ad5a-0a7609fd6aa3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PACKAGING" "Digi-Reel"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "73a140f2-019c-42fd-8473-e698a3d3bcbc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "NUMBER OF POSITIONS" "10(8+2)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6a5276c2-d06e-4942-a4c7-7247e51e61bc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PRODUCT TRAINING MODULES" "DM3SeriesmicroSDCardSockets"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dd91d3a1-97b3-48c1-b1a7-dc5a7129aad8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PACKAGE URL" "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "545bbba4-a003-46b0-a9a6-efcda7ceb0d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "EJECTOR SIDE" "-"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f8c214d0-5210-40db-b9c6-2dedb66e7d5b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -7.025 -8.175)
+		(end -6.6 -8.175)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6793ea97-d92b-4a7d-bd4e-1c22990c72c9")
+	)
+	(fp_line
+		(start -7.025 -4.65)
+		(end -7.025 -8.175)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "80350ac8-3e3d-4d97-8a94-136d09ca9629")
+	)
+	(fp_line
+		(start -7.025 1.75)
+		(end -7.025 -2.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "451d9112-043a-4d8e-90af-5526e91a48ec")
+	)
+	(fp_line
+		(start -7.025 4.9)
+		(end -7.025 3.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fede6781-8fe1-4a98-8711-bbaf8f039fd0")
+	)
+	(fp_line
+		(start -5.95001 8.175)
+		(end 5.1 8.175)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9bef2e0f-1863-44c4-9500-fe072b6ae6ee")
+	)
+	(fp_line
+		(start 5.2 -8.175)
+		(end 7.025 -8.175)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7408a28f-7bf2-49c2-b56e-a8948f91bfb1")
+	)
+	(fp_line
+		(start 7.025 5.8)
+		(end 7.025 -8.175)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b1032bb5-aede-440b-b84c-80a2f230052e")
+	)
+	(fp_circle
+		(center 2.775 -9.125)
+		(end 2.65 -9.125)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "562b4634-a5de-431d-98da-54cfeab7e6c4")
+	)
+	(fp_line
+		(start -7.42501 -8.675)
+		(end 7.42499 -8.675)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "3d7f78fa-c96e-40fc-ad6f-ad22352de6b9")
+	)
+	(fp_line
+		(start -7.42501 8.275)
+		(end -7.42501 -8.675)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "d349b134-941e-4472-8574-c8890a80379f")
+	)
+	(fp_line
+		(start -7.42501 8.275)
+		(end 7.42499 8.275)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "67f0bab7-343e-4bab-88ef-95d1e3b2fc30")
+	)
+	(fp_line
+		(start -7.425 -8.675)
+		(end 7.42499 -8.675)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "fa17220a-d974-4979-84ba-073418007872")
+	)
+	(fp_line
+		(start -7.425 8.275)
+		(end -7.425 -8.675)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "b3582d17-4894-48b5-8b1f-c59f845b45a5")
+	)
+	(fp_line
+		(start -7.425 8.275)
+		(end 7.42499 8.275)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "edd115e0-1a35-41ea-9626-67c2612d31fa")
+	)
+	(fp_line
+		(start -7.025 -8.175)
+		(end 7.025 -8.175)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "3abf2276-ec1d-42fd-9d7b-25bb0e138d3e")
+	)
+	(fp_line
+		(start -7.025 8.175)
+		(end -7.025 -8.175)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "f663ecaf-607f-4526-b423-0d559794f328")
+	)
+	(fp_line
+		(start -7.025 8.175)
+		(end 7.025 8.175)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "a52061f2-36b9-4781-8480-9468c59f7e21")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0.49999 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "621ce9ff-c228-4bf9-acf5-0c133df98319")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0.49999 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "8b06b26d-9a2c-4df9-abb5-3f13c135a1f5")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "7d07c66c-b9f9-467b-821d-7d230a9f77d0")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "c1abe43b-65ec-4a09-ba86-b47c6615dabc")
+	)
+	(fp_line
+		(start 7.025 8.175)
+		(end 7.025 -8.175)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "431503c1-429f-4119-b83f-9684af701899")
+	)
+	(fp_line
+		(start 7.42499 8.275)
+		(end 7.42499 -8.675)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "1407530d-0452-4578-b319-bb23c7910d8b")
+	)
+	(fp_line
+		(start 7.42499 8.275)
+		(end 7.42499 -8.675)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "d7bab592-6bfa-413e-87ee-dcfd6a7c39fe")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.02239 180)
+		(unlocked yes)
+		(layer "Eco1.User")
+		(uuid "82add04a-05e5-48df-8ecd-4b9c3c0febcd")
+		(effects
+			(font
+				(face "Arial")
+				(size 0.63 0.63)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+		(render_cache "REF**" 180
+			(polygon
+				(pts
+					(xy 0.153565 0.367836) (xy 0.250966 0.367836) (xy 0.266065 0.367643) (xy 0.297744 0.364758) (xy 0.307467 0.361912)
+					(xy 0.336058 0.347832) (xy 0.357437 0.329749) (xy 0.378681 0.30521) (xy 0.384845 0.297172) (xy 0.403881 0.27073)
+					(xy 0.421727 0.244362) (xy 0.439307 0.217348) (xy 0.523168 0.08471) (xy 0.628878 0.08471) (xy 0.518398 0.258124)
+					(xy 0.512217 0.267498) (xy 0.493254 0.293849) (xy 0.471441 0.320017) (xy 0.448847 0.342908) (xy 0.4259 0.359595)
+					(xy 0.398223 0.374606) (xy 0.414914 0.3773) (xy 0.445788 0.38448) (xy 0.477583 0.395879) (xy 0.508348 0.412892)
+					(xy 0.533169 0.434155) (xy 0.550197 0.455718) (xy 0.565944 0.486472) (xy 0.574138 0.516669) (xy 0.576869 0.54956)
+					(xy 0.576766 0.556141) (xy 0.573148 0.587982) (xy 0.56436 0.618051) (xy 0.550403 0.646346) (xy 0.532215 0.671155)
+					(xy 0.508181 0.69244) (xy 0.479929 0.707434) (xy 0.448361 0.716603) (xy 0.417394 0.721493) (xy 0.386133 0.723989)
+					(xy 0.350984 0.724821) (xy 0.069704 0.724821) (xy 0.069704 0.653424) (xy 0.153565 0.653424) (xy 0.354369 0.653424)
+					(xy 0.367278 0.653163) (xy 0.398435 0.649915) (xy 0.4307 0.640634) (xy 0.457618 0.623727) (xy 0.471957 0.607935)
+					(xy 0.485784 0.580426) (xy 0.490393 0.548329) (xy 0.486674 0.519915) (xy 0.473467 0.490165) (xy 0.452655 0.467161)
+					(xy 0.424073 0.451389) (xy 0.398789 0.444468) (xy 0.367576 0.44042) (xy 0.334058 0.439233) (xy 0.153565 0.439233)
+					(xy 0.153565 0.653424) (xy 0.069704 0.653424) (xy 0.069704 0.08471) (xy 0.153565 0.08471)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.706584 0.08471) (xy 0.706584 0.724821) (xy 1.16528 0.724821) (xy 1.16528 0.650962) (xy 0.790445 0.650962)
+					(xy 0.790445 0.449081) (xy 1.141429 0.449081) (xy 1.141429 0.375222) (xy 0.790445 0.375222) (xy 0.790445 0.158569)
+					(xy 1.180051 0.158569) (xy 1.180051 0.08471)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.296995 0.08471) (xy 1.296995 0.724821) (xy 1.724916 0.724821) (xy 1.724916 0.650962) (xy 1.380856 0.650962)
+					(xy 1.380856 0.449081) (xy 1.6786 0.449081) (xy 1.6786 0.375222) (xy 1.380856 0.375222) (xy 1.380856 0.08471)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.790466 0.606647) (xy 1.810315 0.665734) (xy 1.842417 0.655694) (xy 1.872876 0.645226) (xy 1.901971 0.633623)
+					(xy 1.910333 0.629728) (xy 1.907133 0.660836) (xy 1.904101 0.694123) (xy 1.901951 0.726769) (xy 1.901716 0.734669)
+					(xy 1.964496 0.734669) (xy 1.962689 0.70351) (xy 1.959564 0.67086) (xy 1.955543 0.637954) (xy 1.954494 0.630189)
+					(xy 1.983646 0.641925) (xy 2.015322 0.65309) (xy 2.045989 0.66265) (xy 2.056666 0.665734) (xy 2.076516 0.606647)
+					(xy 2.045786 0.598732) (xy 2.015398 0.592474) (xy 1.982033 0.587461) (xy 1.968804 0.586028) (xy 1.991611 0.564202)
+					(xy 2.012749 0.5413) (xy 2.034441 0.516243) (xy 2.043279 0.505706) (xy 1.99127 0.468776) (xy 1.972954 0.494817)
+					(xy 1.954441 0.523476) (xy 1.938354 0.549822) (xy 1.932029 0.560485) (xy 1.916507 0.532191) (xy 1.900194 0.504638)
+					(xy 1.881909 0.47711) (xy 1.875711 0.468776) (xy 1.824625 0.505706) (xy 1.845209 0.530324) (xy 1.865398 0.553626)
+					(xy 1.887347 0.57725) (xy 1.896484 0.586028) (xy 1.865516 0.591391) (xy 1.832162 0.597751) (xy 1.799921 0.604531)
+				)
+			)
+			(polygon
+				(pts
+					(xy 2.133295 0.606647) (xy 2.153144 0.665734) (xy 2.185246 0.655694) (xy 2.215705 0.645226) (xy 2.2448 0.633623)
+					(xy 2.253162 0.629728) (xy 2.249962 0.660836) (xy 2.24693 0.694123) (xy 2.24478 0.726769) (xy 2.244545 0.734669)
+					(xy 2.307325 0.734669) (xy 2.305518 0.70351) (xy 2.302393 0.67086) (xy 2.298372 0.637954) (xy 2.297323 0.630189)
+					(xy 2.326475 0.641925) (xy 2.358151 0.65309) (xy 2.388818 0.66265) (xy 2.399495 0.665734) (xy 2.419345 0.606647)
+					(xy 2.388615 0.598732) (xy 2.358227 0.592474) (xy 2.324862 0.587461) (xy 2.311633 0.586028) (xy 2.33444 0.564202)
+					(xy 2.355578 0.5413) (xy 2.37727 0.516243) (xy 2.386108 0.505706) (xy 2.334099 0.468776) (xy 2.315783 0.494817)
+					(xy 2.29727 0.523476) (xy 2.281183 0.549822) (xy 2.274858 0.560485) (xy 2.259336 0.532191) (xy 2.243023 0.504638)
+					(xy 2.224739 0.47711) (xy 2.21854 0.468776) (xy 2.167454 0.505706) (xy 2.188038 0.530324) (xy 2.208227 0.553626)
+					(xy 2.230176 0.57725) (xy 2.239313 0.586028) (xy 2.208345 0.591391) (xy 2.174991 0.597751) (xy 2.14275 0.604531)
+				)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 2.775 -7.975 180)
+		(size 0.7 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "9a90bc2c-967d-4a6d-9d12-22e621f7dca7")
+	)
+	(pad "2" smd rect
+		(at 1.675 -7.975 180)
+		(size 0.7 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "255c98d7-cac1-49a0-b287-60fe95489d4e")
+	)
+	(pad "3" smd rect
+		(at 0.575 -7.975 180)
+		(size 0.7 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "1dbfadd5-e5de-4a3a-9701-c0ea1ebe9e48")
+	)
+	(pad "4" smd rect
+		(at -0.525 -7.975 180)
+		(size 0.7 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "f7f4435c-9a9e-4f35-a134-af6c006ad1ac")
+	)
+	(pad "5" smd rect
+		(at -1.62501 -7.975 180)
+		(size 0.7 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "d7ad7077-0850-4ffb-b8a8-bb26d5352764")
+	)
+	(pad "6" smd rect
+		(at -2.72501 -7.975 180)
+		(size 0.7 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "e10b3e82-3309-46d6-a3bd-5dafcf6d54dc")
+	)
+	(pad "7" smd rect
+		(at -3.82501 -7.975 180)
+		(size 0.7 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "052dc8fd-8a0e-4385-be82-c9d37ff6a9c2")
+	)
+	(pad "8" smd rect
+		(at -4.925 -7.975 180)
+		(size 0.7 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "b3ccb044-171f-4fbb-b39d-97b9d9efe61f")
+	)
+	(pad "9" smd rect
+		(at -5.875 -7.975 180)
+		(size 0.7 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "849a4bd0-f681-4d87-b2fd-061690eb56dc")
+	)
+	(pad "10" smd rect
+		(at -6.825 2.525 180)
+		(size 1 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "650f1caa-511c-482f-a165-68e9ff0f290c")
+	)
+	(pad "11" smd rect
+		(at 4.325 -7.975 180)
+		(size 1 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "22a6d4de-f7d1-4618-b690-f378e31292fa")
+	)
+	(pad "12" smd rect
+		(at -6.825 -3.675 180)
+		(size 1 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "457a2398-735c-40ca-b767-e23e2e961bb8")
+	)
+	(pad "13" connect rect
+		(at -6.825 6.675 180)
+		(size 1 2.8)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "0422e9d5-6b45-48c8-8738-f38450b99c18")
+	)
+	(pad "14" connect rect
+		(at 6.68906 7.15 180)
+		(size 1.3 1.9)
+		(layers "F.Cu" "F.Mask")
+		(uuid "7dac37c9-47c8-486e-91ff-5a2ef4a6f2ff")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "ba25400b-3ba6-48e2-8643-c6aec956f9df")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -7.25 -7.525) (xy -7.25 -4.275) (xy -6.5 -4.275) (xy -6.5 -7.525)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "3d600477-c328-4783-83f1-0004e338dfd0")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -7.25 -3.075) (xy -7.25 0.525) (xy -6.5 0.525) (xy -6.5 -3.075)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "c0e481fb-3cd9-42ec-9db2-6a4eb50309ef")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -6.149995 -1.674325) (xy -6.149995 5.925675) (xy -5.450005 5.925675) (xy -5.450005 -1.674325)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "8dc94473-ad0e-494e-b2d6-4c04fd1c3015")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -5.45 -2.975) (xy -5.45 -1.375) (xy 3.25 -1.375) (xy 3.25 -2.975)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "7b87f3e9-da49-4e1e-807c-3d4a55d1562e")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 2.9 6.725) (xy 2.9 8.075) (xy 5.45 8.075) (xy 5.45 6.725)
+			)
+		)
+	)
+	(model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/Conn_HIROSE_DM3AT-SF-PEJM5_eec.STEP"
+		(offset
+			(xyz 0 -0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)
