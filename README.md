@@ -21,4 +21,13 @@ Unless otherwise noted, everything in the repository is covered by the [Apache L
 
 ## PCB Status
 
-Rev0.8 Gerbers are available & is the first production version. There will be some minor tweaks for the final version, but boards made from 0.8 gerbers will be fully functional.
+### Sonata-One
+
+Rev0.9 Gerbers are the production version. Prior gerbers are currently kept but will be removed (still available in the GIT history).
+
+The original PCB was designed in Altium, and the design then ported to KiCAD. The production gerbers are generated from the Altium PCB.
+
+### Sonata-XL / Sonata-A200
+
+A modified version of Sonata with a larger (Artix A200) FPGA is also available. This version is not currently
+supported. It may not be long-term available as is being used for specific testing.
