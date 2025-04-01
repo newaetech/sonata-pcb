@@ -27,7 +27,7 @@ Rev0.9 Gerbers are the production version. Prior gerbers are currently kept but 
 
 The original PCB was designed in Altium, and the design then ported to KiCAD. The production gerbers are generated from the Altium PCB.
 
-### Sonata-XL / Sonata-A200
+### Sonata-XL (Sonata-A200)
 
-A modified version of Sonata with a larger (Artix A200) FPGA is also available. This version is not currently
-supported. It may not be long-term available as is being used for specific testing.
+A modified version of Sonata with a larger (Artix A200) FPGA is also available. This version was designed for various test environments.
+It may be available in future versions.
